@@ -37,20 +37,20 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 var _this = this;
 exports.__esModule = true;
 var node_fetch_1 = require("node-fetch");
-var pokeList = [];
+var pokeList;
 (function () { return __awaiter(_this, void 0, void 0, function () {
-    var response, json, data;
+    var response, json, data, results, _a, _b;
     var _this = this;
-    return __generator(this, function (_a) {
-        switch (_a.label) {
+    return __generator(this, function (_c) {
+        switch (_c.label) {
             case 0: return [4 /*yield*/, node_fetch_1["default"]("http://pokeapi.co/api/v2/pokemon")];
             case 1:
-                response = _a.sent();
+                response = _c.sent();
                 return [4 /*yield*/, response.json()];
             case 2:
-                json = _a.sent();
+                json = _c.sent();
                 data = json.results;
-                return [4 /*yield*/, data.map(function (p) { return __awaiter(_this, void 0, void 0, function () {
+                return [4 /*yield*/, Promise.all(data.map(function (p) { return __awaiter(_this, void 0, void 0, function () {
                         var pokemon, pRes, pJson, pData;
                         return __generator(this, function (_a) {
                             switch (_a.label) {
@@ -67,16 +67,19 @@ var pokeList = [];
                                 case 2:
                                     pJson = _a.sent();
                                     pData = pJson.types;
-                                    //console.log(pData);
+                                    console.log(pData);
                                     pokemon.types = pData.map(function (t) { return t.type.name; });
-                                    pokeList.push(pokemon);
-                                    return [2 /*return*/, null];
+                                    return [2 /*return*/, pokemon];
                             }
                         });
-                    }); })];
+                    }); }))];
             case 3:
-                _a.sent();
+                results = _c.sent();
+                _b = (_a = console).log;
+                return [4 /*yield*/, results];
+            case 4:
+                _b.apply(_a, [_c.sent()]);
                 return [2 /*return*/, null];
         }
     });
-}); })().then(function () { return console.log(pokeList); });
+}); })();
