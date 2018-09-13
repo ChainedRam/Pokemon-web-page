@@ -1,6 +1,5 @@
 import fetch from "node-fetch";
 //import * as Promise from "bluebird";
-import fs from "fs";
 
 interface Pokemon {
   name: string;
@@ -42,5 +41,6 @@ let pokeList: Pokemon[];
   }
 
   console.log(pokeList);
+
   return null;
 })();
