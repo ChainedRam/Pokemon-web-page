@@ -12,9 +12,10 @@
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
-    "pregather": "tsc -p .\\mining\\tsconfig.json",
-    "gather": "node .\\mining\\gatherPokemons.js",
-    "eject": "react-scripts-ts eject"
+    "eject": "react-scripts-ts eject",
+    "compileMining": "tsc -p .\\mining\\tsconfig.json",
+    "gather:poke": "npm run compileMining && node .\\mining\\compiled\\gatherPokemons.js",
+    "gather:type": "npm run compileMining && node .\\mining\\compiled\\gatherTypes.js"
   },
   "devDependencies": {
     "@types/jest": "^23.3.2",
