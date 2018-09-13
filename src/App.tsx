@@ -1,10 +1,16 @@
 import * as React from "react";
 import "./App.css";
 import PokemonTeam from "./Components/PokemonTeam";
+import TeamWeakness from "./Components/TeamWeakness";
 
 class App extends React.Component {
   public render() {
-    return <PokemonTeam />;
+    return (
+      <div>
+        <PokemonTeam />
+        <TeamWeakness />
+      </div>
+    );
   }
 }
 
