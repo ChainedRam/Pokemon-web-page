@@ -1,5 +1,5 @@
 import fetch from "node-fetch";
-//import * as Promise from "bluebird";
+import { writeFileSync } from "fs";
 
 interface Pokemon {
   name: string;
@@ -7,7 +7,9 @@ interface Pokemon {
   learnableMoves: string[];
 }
 
-let pokeList: Pokemon[];
+let pokeList: Pokemon[] = [];
+let pageNumber = 1;
+let parsedPokemenCount = 0;
 
 (async () => {
   let nextUrl = "http://pokeapi.co/api/v2/pokemon";
@@ -16,6 +18,9 @@ let pokeList: Pokemon[];
     let response = await fetch(nextUrl);
     let json = await response.json();
     let data = json.results as any[];
+    let count = json.count as number;
+
+    console.log(`got ${data.length} pokemens`);
 
     let results = await Promise.all(
       data.map(async p => {
@@ -31,16 +36,27 @@ let pokeList: Pokemon[];
 
         pokemon.types = pData.map(t => t.type.name);
 
+        console.log(
+          `finished %${(100 * (++parsedPokemenCount / count)).toFixed(2)}`
+        );
+
         return pokemon;
       })
     );
 
     pokeList.push(...results);
 
+    console.log("done parsing page #" + pageNumber++);
     nextUrl = json.next;
   }
+  console.log("parsing pokemen finished");
 
-  console.log(pokeList);
+  console.log("Writing to file");
+  writeFileSync("./data/pokeList.json", JSON.stringify(pokeList, null, 2));
+
+  console.log("Wrote successfully to: ./data/pokeList.json");
 
   return null;
-})();
+})().catch(e => {
+  console.log(e);
+});
