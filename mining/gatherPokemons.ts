@@ -1,5 +1,6 @@
-import fetch from "node-fetch";
+import fetch, { FetchError } from "node-fetch";
 import { writeFileSync } from "fs";
+import { join } from "path";
 
 interface Pokemon {
   name: string;
@@ -15,7 +16,27 @@ let parsedPokemenCount = 0;
   let nextUrl = "http://pokeapi.co/api/v2/pokemon";
 
   while (nextUrl) {
-    let response = await fetch(nextUrl);
+    let attempts = 5;
+    let response: any;
+
+    while (true) {
+      try {
+        response = await fetch(nextUrl);
+        break;
+      } catch (e) {
+        if (e instanceof FetchError && (e as any).code === "ETIMEDOUT") {
+          if (attempts > 0)
+            console.log("Connection Time out, reattempting #" + attempts--);
+          else {
+            console.log("Out of attempts");
+            throw e;
+          }
+        } else {
+          throw e;
+        }
+      }
+    }
+
     let json = await response.json();
     let data = json.results as any[];
     let count = json.count as number;
@@ -30,7 +51,28 @@ let parsedPokemenCount = 0;
           learnableMoves: []
         };
 
-        let pRes = await fetch(p.url);
+        let pAttempts = 5;
+        let pRes: any;
+
+        while (true) {
+          try {
+            pRes = await fetch(p.url);
+            break;
+          } catch (e) {
+            if (e instanceof FetchError && (e as any).code === "ETIMEDOUT") {
+              if (pAttempts > 0)
+                console.log(
+                  "Connection Time out, reattempting #" + pAttempts--
+                );
+              else {
+                console.log("Out of attempts");
+                throw e;
+              }
+            } else {
+              throw e;
+            }
+          }
+        }
         let pJson = await pRes.json();
         let pData = pJson.types as any[];
 
@@ -51,10 +93,24 @@ let parsedPokemenCount = 0;
   }
   console.log("parsing pokemen finished");
 
-  console.log("Writing to file");
-  writeFileSync("./data/pokeList.json", JSON.stringify(pokeList, null, 2));
+  let pokeDict: { [pokemonName: string]: Pokemon } = {};
 
-  console.log("Wrote successfully to: ./data/pokeList.json");
+  pokeList.forEach(p => {
+    pokeDict[p.name] = p;
+  });
+
+  let outputDirectory = "./data";
+  console.log("Writing to list to file...");
+  let listFileName = "pokeList.json";
+  let listFilePath = join(outputDirectory, listFileName);
+  writeFileSync(listFilePath, JSON.stringify(pokeList, null, 2));
+  console.log("Wrote successfully to: " + listFilePath);
+
+  console.log("Writing to dict to file...");
+  let dictFileName = "pokeDict.json";
+  let dictFilePath = join(outputDirectory, dictFileName);
+  writeFileSync(dictFilePath, JSON.stringify(pokeDict, null, 2));
+  console.log("Wrote successfully to: " + dictFilePath);
 
   return null;
 })().catch(e => {

@@ -1,0 +1,4747 @@
+{
+  "bulbasaur": {
+    "name": "bulbasaur",
+    "types": ["poison", "grass"],
+    "learnableMoves": []
+  },
+  "ivysaur": {
+    "name": "ivysaur",
+    "types": ["poison", "grass"],
+    "learnableMoves": []
+  },
+  "venusaur": {
+    "name": "venusaur",
+    "types": ["poison", "grass"],
+    "learnableMoves": []
+  },
+  "charmander": {
+    "name": "charmander",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "charmeleon": {
+    "name": "charmeleon",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "charizard": {
+    "name": "charizard",
+    "types": ["flying", "fire"],
+    "learnableMoves": []
+  },
+  "squirtle": {
+    "name": "squirtle",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "wartortle": {
+    "name": "wartortle",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "blastoise": {
+    "name": "blastoise",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "caterpie": {
+    "name": "caterpie",
+    "types": ["bug"],
+    "learnableMoves": []
+  },
+  "metapod": {
+    "name": "metapod",
+    "types": ["bug"],
+    "learnableMoves": []
+  },
+  "butterfree": {
+    "name": "butterfree",
+    "types": ["flying", "bug"],
+    "learnableMoves": []
+  },
+  "weedle": {
+    "name": "weedle",
+    "types": ["poison", "bug"],
+    "learnableMoves": []
+  },
+  "kakuna": {
+    "name": "kakuna",
+    "types": ["poison", "bug"],
+    "learnableMoves": []
+  },
+  "beedrill": {
+    "name": "beedrill",
+    "types": ["poison", "bug"],
+    "learnableMoves": []
+  },
+  "pidgey": {
+    "name": "pidgey",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "pidgeotto": {
+    "name": "pidgeotto",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "pidgeot": {
+    "name": "pidgeot",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "rattata": {
+    "name": "rattata",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "raticate": {
+    "name": "raticate",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "spearow": {
+    "name": "spearow",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "fearow": {
+    "name": "fearow",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "ekans": {
+    "name": "ekans",
+    "types": ["poison"],
+    "learnableMoves": []
+  },
+  "arbok": {
+    "name": "arbok",
+    "types": ["poison"],
+    "learnableMoves": []
+  },
+  "pikachu": {
+    "name": "pikachu",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "raichu": {
+    "name": "raichu",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "sandshrew": {
+    "name": "sandshrew",
+    "types": ["ground"],
+    "learnableMoves": []
+  },
+  "sandslash": {
+    "name": "sandslash",
+    "types": ["ground"],
+    "learnableMoves": []
+  },
+  "nidoran-f": {
+    "name": "nidoran-f",
+    "types": ["poison"],
+    "learnableMoves": []
+  },
+  "nidorina": {
+    "name": "nidorina",
+    "types": ["poison"],
+    "learnableMoves": []
+  },
+  "nidoqueen": {
+    "name": "nidoqueen",
+    "types": ["ground", "poison"],
+    "learnableMoves": []
+  },
+  "nidoran-m": {
+    "name": "nidoran-m",
+    "types": ["poison"],
+    "learnableMoves": []
+  },
+  "nidorino": {
+    "name": "nidorino",
+    "types": ["poison"],
+    "learnableMoves": []
+  },
+  "nidoking": {
+    "name": "nidoking",
+    "types": ["ground", "poison"],
+    "learnableMoves": []
+  },
+  "clefairy": {
+    "name": "clefairy",
+    "types": ["fairy"],
+    "learnableMoves": []
+  },
+  "clefable": {
+    "name": "clefable",
+    "types": ["fairy"],
+    "learnableMoves": []
+  },
+  "vulpix": {
+    "name": "vulpix",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "ninetales": {
+    "name": "ninetales",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "jigglypuff": {
+    "name": "jigglypuff",
+    "types": ["fairy", "normal"],
+    "learnableMoves": []
+  },
+  "wigglytuff": {
+    "name": "wigglytuff",
+    "types": ["fairy", "normal"],
+    "learnableMoves": []
+  },
+  "zubat": {
+    "name": "zubat",
+    "types": ["flying", "poison"],
+    "learnableMoves": []
+  },
+  "golbat": {
+    "name": "golbat",
+    "types": ["flying", "poison"],
+    "learnableMoves": []
+  },
+  "oddish": {
+    "name": "oddish",
+    "types": ["poison", "grass"],
+    "learnableMoves": []
+  },
+  "gloom": {
+    "name": "gloom",
+    "types": ["poison", "grass"],
+    "learnableMoves": []
+  },
+  "vileplume": {
+    "name": "vileplume",
+    "types": ["poison", "grass"],
+    "learnableMoves": []
+  },
+  "paras": {
+    "name": "paras",
+    "types": ["grass", "bug"],
+    "learnableMoves": []
+  },
+  "parasect": {
+    "name": "parasect",
+    "types": ["grass", "bug"],
+    "learnableMoves": []
+  },
+  "venonat": {
+    "name": "venonat",
+    "types": ["poison", "bug"],
+    "learnableMoves": []
+  },
+  "venomoth": {
+    "name": "venomoth",
+    "types": ["poison", "bug"],
+    "learnableMoves": []
+  },
+  "diglett": {
+    "name": "diglett",
+    "types": ["ground"],
+    "learnableMoves": []
+  },
+  "dugtrio": {
+    "name": "dugtrio",
+    "types": ["ground"],
+    "learnableMoves": []
+  },
+  "meowth": {
+    "name": "meowth",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "persian": {
+    "name": "persian",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "psyduck": {
+    "name": "psyduck",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "golduck": {
+    "name": "golduck",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "mankey": {
+    "name": "mankey",
+    "types": ["fighting"],
+    "learnableMoves": []
+  },
+  "primeape": {
+    "name": "primeape",
+    "types": ["fighting"],
+    "learnableMoves": []
+  },
+  "growlithe": {
+    "name": "growlithe",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "arcanine": {
+    "name": "arcanine",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "poliwag": {
+    "name": "poliwag",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "poliwhirl": {
+    "name": "poliwhirl",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "poliwrath": {
+    "name": "poliwrath",
+    "types": ["fighting", "water"],
+    "learnableMoves": []
+  },
+  "abra": {
+    "name": "abra",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "kadabra": {
+    "name": "kadabra",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "alakazam": {
+    "name": "alakazam",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "machop": {
+    "name": "machop",
+    "types": ["fighting"],
+    "learnableMoves": []
+  },
+  "machoke": {
+    "name": "machoke",
+    "types": ["fighting"],
+    "learnableMoves": []
+  },
+  "machamp": {
+    "name": "machamp",
+    "types": ["fighting"],
+    "learnableMoves": []
+  },
+  "bellsprout": {
+    "name": "bellsprout",
+    "types": ["poison", "grass"],
+    "learnableMoves": []
+  },
+  "weepinbell": {
+    "name": "weepinbell",
+    "types": ["poison", "grass"],
+    "learnableMoves": []
+  },
+  "victreebel": {
+    "name": "victreebel",
+    "types": ["poison", "grass"],
+    "learnableMoves": []
+  },
+  "tentacool": {
+    "name": "tentacool",
+    "types": ["poison", "water"],
+    "learnableMoves": []
+  },
+  "tentacruel": {
+    "name": "tentacruel",
+    "types": ["poison", "water"],
+    "learnableMoves": []
+  },
+  "geodude": {
+    "name": "geodude",
+    "types": ["ground", "rock"],
+    "learnableMoves": []
+  },
+  "graveler": {
+    "name": "graveler",
+    "types": ["ground", "rock"],
+    "learnableMoves": []
+  },
+  "golem": {
+    "name": "golem",
+    "types": ["ground", "rock"],
+    "learnableMoves": []
+  },
+  "ponyta": {
+    "name": "ponyta",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "rapidash": {
+    "name": "rapidash",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "slowpoke": {
+    "name": "slowpoke",
+    "types": ["psychic", "water"],
+    "learnableMoves": []
+  },
+  "slowbro": {
+    "name": "slowbro",
+    "types": ["psychic", "water"],
+    "learnableMoves": []
+  },
+  "magnemite": {
+    "name": "magnemite",
+    "types": ["steel", "electric"],
+    "learnableMoves": []
+  },
+  "magneton": {
+    "name": "magneton",
+    "types": ["steel", "electric"],
+    "learnableMoves": []
+  },
+  "farfetchd": {
+    "name": "farfetchd",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "doduo": {
+    "name": "doduo",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "dodrio": {
+    "name": "dodrio",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "seel": {
+    "name": "seel",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "dewgong": {
+    "name": "dewgong",
+    "types": ["ice", "water"],
+    "learnableMoves": []
+  },
+  "grimer": {
+    "name": "grimer",
+    "types": ["poison"],
+    "learnableMoves": []
+  },
+  "muk": {
+    "name": "muk",
+    "types": ["poison"],
+    "learnableMoves": []
+  },
+  "shellder": {
+    "name": "shellder",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "cloyster": {
+    "name": "cloyster",
+    "types": ["ice", "water"],
+    "learnableMoves": []
+  },
+  "gastly": {
+    "name": "gastly",
+    "types": ["poison", "ghost"],
+    "learnableMoves": []
+  },
+  "haunter": {
+    "name": "haunter",
+    "types": ["poison", "ghost"],
+    "learnableMoves": []
+  },
+  "gengar": {
+    "name": "gengar",
+    "types": ["poison", "ghost"],
+    "learnableMoves": []
+  },
+  "onix": {
+    "name": "onix",
+    "types": ["ground", "rock"],
+    "learnableMoves": []
+  },
+  "drowzee": {
+    "name": "drowzee",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "hypno": {
+    "name": "hypno",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "krabby": {
+    "name": "krabby",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "kingler": {
+    "name": "kingler",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "voltorb": {
+    "name": "voltorb",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "electrode": {
+    "name": "electrode",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "exeggcute": {
+    "name": "exeggcute",
+    "types": ["psychic", "grass"],
+    "learnableMoves": []
+  },
+  "exeggutor": {
+    "name": "exeggutor",
+    "types": ["psychic", "grass"],
+    "learnableMoves": []
+  },
+  "cubone": {
+    "name": "cubone",
+    "types": ["ground"],
+    "learnableMoves": []
+  },
+  "marowak": {
+    "name": "marowak",
+    "types": ["ground"],
+    "learnableMoves": []
+  },
+  "hitmonlee": {
+    "name": "hitmonlee",
+    "types": ["fighting"],
+    "learnableMoves": []
+  },
+  "hitmonchan": {
+    "name": "hitmonchan",
+    "types": ["fighting"],
+    "learnableMoves": []
+  },
+  "lickitung": {
+    "name": "lickitung",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "koffing": {
+    "name": "koffing",
+    "types": ["poison"],
+    "learnableMoves": []
+  },
+  "weezing": {
+    "name": "weezing",
+    "types": ["poison"],
+    "learnableMoves": []
+  },
+  "rhyhorn": {
+    "name": "rhyhorn",
+    "types": ["rock", "ground"],
+    "learnableMoves": []
+  },
+  "rhydon": {
+    "name": "rhydon",
+    "types": ["rock", "ground"],
+    "learnableMoves": []
+  },
+  "chansey": {
+    "name": "chansey",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "tangela": {
+    "name": "tangela",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "kangaskhan": {
+    "name": "kangaskhan",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "horsea": {
+    "name": "horsea",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "seadra": {
+    "name": "seadra",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "goldeen": {
+    "name": "goldeen",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "seaking": {
+    "name": "seaking",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "staryu": {
+    "name": "staryu",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "starmie": {
+    "name": "starmie",
+    "types": ["psychic", "water"],
+    "learnableMoves": []
+  },
+  "mr-mime": {
+    "name": "mr-mime",
+    "types": ["fairy", "psychic"],
+    "learnableMoves": []
+  },
+  "scyther": {
+    "name": "scyther",
+    "types": ["flying", "bug"],
+    "learnableMoves": []
+  },
+  "jynx": {
+    "name": "jynx",
+    "types": ["psychic", "ice"],
+    "learnableMoves": []
+  },
+  "electabuzz": {
+    "name": "electabuzz",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "magmar": {
+    "name": "magmar",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "pinsir": {
+    "name": "pinsir",
+    "types": ["bug"],
+    "learnableMoves": []
+  },
+  "tauros": {
+    "name": "tauros",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "magikarp": {
+    "name": "magikarp",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "gyarados": {
+    "name": "gyarados",
+    "types": ["flying", "water"],
+    "learnableMoves": []
+  },
+  "lapras": {
+    "name": "lapras",
+    "types": ["ice", "water"],
+    "learnableMoves": []
+  },
+  "ditto": {
+    "name": "ditto",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "eevee": {
+    "name": "eevee",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "vaporeon": {
+    "name": "vaporeon",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "jolteon": {
+    "name": "jolteon",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "flareon": {
+    "name": "flareon",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "porygon": {
+    "name": "porygon",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "omanyte": {
+    "name": "omanyte",
+    "types": ["water", "rock"],
+    "learnableMoves": []
+  },
+  "omastar": {
+    "name": "omastar",
+    "types": ["water", "rock"],
+    "learnableMoves": []
+  },
+  "kabuto": {
+    "name": "kabuto",
+    "types": ["water", "rock"],
+    "learnableMoves": []
+  },
+  "kabutops": {
+    "name": "kabutops",
+    "types": ["water", "rock"],
+    "learnableMoves": []
+  },
+  "aerodactyl": {
+    "name": "aerodactyl",
+    "types": ["flying", "rock"],
+    "learnableMoves": []
+  },
+  "snorlax": {
+    "name": "snorlax",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "articuno": {
+    "name": "articuno",
+    "types": ["flying", "ice"],
+    "learnableMoves": []
+  },
+  "zapdos": {
+    "name": "zapdos",
+    "types": ["flying", "electric"],
+    "learnableMoves": []
+  },
+  "moltres": {
+    "name": "moltres",
+    "types": ["flying", "fire"],
+    "learnableMoves": []
+  },
+  "dratini": {
+    "name": "dratini",
+    "types": ["dragon"],
+    "learnableMoves": []
+  },
+  "dragonair": {
+    "name": "dragonair",
+    "types": ["dragon"],
+    "learnableMoves": []
+  },
+  "dragonite": {
+    "name": "dragonite",
+    "types": ["flying", "dragon"],
+    "learnableMoves": []
+  },
+  "mewtwo": {
+    "name": "mewtwo",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "mew": {
+    "name": "mew",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "chikorita": {
+    "name": "chikorita",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "bayleef": {
+    "name": "bayleef",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "meganium": {
+    "name": "meganium",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "cyndaquil": {
+    "name": "cyndaquil",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "quilava": {
+    "name": "quilava",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "typhlosion": {
+    "name": "typhlosion",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "totodile": {
+    "name": "totodile",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "croconaw": {
+    "name": "croconaw",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "feraligatr": {
+    "name": "feraligatr",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "sentret": {
+    "name": "sentret",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "furret": {
+    "name": "furret",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "hoothoot": {
+    "name": "hoothoot",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "noctowl": {
+    "name": "noctowl",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "ledyba": {
+    "name": "ledyba",
+    "types": ["flying", "bug"],
+    "learnableMoves": []
+  },
+  "ledian": {
+    "name": "ledian",
+    "types": ["flying", "bug"],
+    "learnableMoves": []
+  },
+  "spinarak": {
+    "name": "spinarak",
+    "types": ["poison", "bug"],
+    "learnableMoves": []
+  },
+  "ariados": {
+    "name": "ariados",
+    "types": ["poison", "bug"],
+    "learnableMoves": []
+  },
+  "crobat": {
+    "name": "crobat",
+    "types": ["flying", "poison"],
+    "learnableMoves": []
+  },
+  "chinchou": {
+    "name": "chinchou",
+    "types": ["electric", "water"],
+    "learnableMoves": []
+  },
+  "lanturn": {
+    "name": "lanturn",
+    "types": ["electric", "water"],
+    "learnableMoves": []
+  },
+  "pichu": {
+    "name": "pichu",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "cleffa": {
+    "name": "cleffa",
+    "types": ["fairy"],
+    "learnableMoves": []
+  },
+  "igglybuff": {
+    "name": "igglybuff",
+    "types": ["fairy", "normal"],
+    "learnableMoves": []
+  },
+  "togepi": {
+    "name": "togepi",
+    "types": ["fairy"],
+    "learnableMoves": []
+  },
+  "togetic": {
+    "name": "togetic",
+    "types": ["flying", "fairy"],
+    "learnableMoves": []
+  },
+  "natu": {
+    "name": "natu",
+    "types": ["flying", "psychic"],
+    "learnableMoves": []
+  },
+  "xatu": {
+    "name": "xatu",
+    "types": ["flying", "psychic"],
+    "learnableMoves": []
+  },
+  "mareep": {
+    "name": "mareep",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "flaaffy": {
+    "name": "flaaffy",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "ampharos": {
+    "name": "ampharos",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "bellossom": {
+    "name": "bellossom",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "marill": {
+    "name": "marill",
+    "types": ["fairy", "water"],
+    "learnableMoves": []
+  },
+  "azumarill": {
+    "name": "azumarill",
+    "types": ["fairy", "water"],
+    "learnableMoves": []
+  },
+  "sudowoodo": {
+    "name": "sudowoodo",
+    "types": ["rock"],
+    "learnableMoves": []
+  },
+  "politoed": {
+    "name": "politoed",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "hoppip": {
+    "name": "hoppip",
+    "types": ["flying", "grass"],
+    "learnableMoves": []
+  },
+  "skiploom": {
+    "name": "skiploom",
+    "types": ["flying", "grass"],
+    "learnableMoves": []
+  },
+  "jumpluff": {
+    "name": "jumpluff",
+    "types": ["flying", "grass"],
+    "learnableMoves": []
+  },
+  "aipom": {
+    "name": "aipom",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "sunkern": {
+    "name": "sunkern",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "sunflora": {
+    "name": "sunflora",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "yanma": {
+    "name": "yanma",
+    "types": ["flying", "bug"],
+    "learnableMoves": []
+  },
+  "wooper": {
+    "name": "wooper",
+    "types": ["ground", "water"],
+    "learnableMoves": []
+  },
+  "quagsire": {
+    "name": "quagsire",
+    "types": ["ground", "water"],
+    "learnableMoves": []
+  },
+  "espeon": {
+    "name": "espeon",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "umbreon": {
+    "name": "umbreon",
+    "types": ["dark"],
+    "learnableMoves": []
+  },
+  "murkrow": {
+    "name": "murkrow",
+    "types": ["flying", "dark"],
+    "learnableMoves": []
+  },
+  "slowking": {
+    "name": "slowking",
+    "types": ["psychic", "water"],
+    "learnableMoves": []
+  },
+  "misdreavus": {
+    "name": "misdreavus",
+    "types": ["ghost"],
+    "learnableMoves": []
+  },
+  "unown": {
+    "name": "unown",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "wobbuffet": {
+    "name": "wobbuffet",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "girafarig": {
+    "name": "girafarig",
+    "types": ["psychic", "normal"],
+    "learnableMoves": []
+  },
+  "pineco": {
+    "name": "pineco",
+    "types": ["bug"],
+    "learnableMoves": []
+  },
+  "forretress": {
+    "name": "forretress",
+    "types": ["steel", "bug"],
+    "learnableMoves": []
+  },
+  "dunsparce": {
+    "name": "dunsparce",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "gligar": {
+    "name": "gligar",
+    "types": ["flying", "ground"],
+    "learnableMoves": []
+  },
+  "steelix": {
+    "name": "steelix",
+    "types": ["ground", "steel"],
+    "learnableMoves": []
+  },
+  "snubbull": {
+    "name": "snubbull",
+    "types": ["fairy"],
+    "learnableMoves": []
+  },
+  "granbull": {
+    "name": "granbull",
+    "types": ["fairy"],
+    "learnableMoves": []
+  },
+  "qwilfish": {
+    "name": "qwilfish",
+    "types": ["poison", "water"],
+    "learnableMoves": []
+  },
+  "scizor": {
+    "name": "scizor",
+    "types": ["steel", "bug"],
+    "learnableMoves": []
+  },
+  "shuckle": {
+    "name": "shuckle",
+    "types": ["rock", "bug"],
+    "learnableMoves": []
+  },
+  "heracross": {
+    "name": "heracross",
+    "types": ["fighting", "bug"],
+    "learnableMoves": []
+  },
+  "sneasel": {
+    "name": "sneasel",
+    "types": ["ice", "dark"],
+    "learnableMoves": []
+  },
+  "teddiursa": {
+    "name": "teddiursa",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "ursaring": {
+    "name": "ursaring",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "slugma": {
+    "name": "slugma",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "magcargo": {
+    "name": "magcargo",
+    "types": ["rock", "fire"],
+    "learnableMoves": []
+  },
+  "swinub": {
+    "name": "swinub",
+    "types": ["ground", "ice"],
+    "learnableMoves": []
+  },
+  "piloswine": {
+    "name": "piloswine",
+    "types": ["ground", "ice"],
+    "learnableMoves": []
+  },
+  "corsola": {
+    "name": "corsola",
+    "types": ["rock", "water"],
+    "learnableMoves": []
+  },
+  "remoraid": {
+    "name": "remoraid",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "octillery": {
+    "name": "octillery",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "delibird": {
+    "name": "delibird",
+    "types": ["flying", "ice"],
+    "learnableMoves": []
+  },
+  "mantine": {
+    "name": "mantine",
+    "types": ["flying", "water"],
+    "learnableMoves": []
+  },
+  "skarmory": {
+    "name": "skarmory",
+    "types": ["flying", "steel"],
+    "learnableMoves": []
+  },
+  "houndour": {
+    "name": "houndour",
+    "types": ["fire", "dark"],
+    "learnableMoves": []
+  },
+  "houndoom": {
+    "name": "houndoom",
+    "types": ["fire", "dark"],
+    "learnableMoves": []
+  },
+  "kingdra": {
+    "name": "kingdra",
+    "types": ["dragon", "water"],
+    "learnableMoves": []
+  },
+  "phanpy": {
+    "name": "phanpy",
+    "types": ["ground"],
+    "learnableMoves": []
+  },
+  "donphan": {
+    "name": "donphan",
+    "types": ["ground"],
+    "learnableMoves": []
+  },
+  "porygon2": {
+    "name": "porygon2",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "stantler": {
+    "name": "stantler",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "smeargle": {
+    "name": "smeargle",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "tyrogue": {
+    "name": "tyrogue",
+    "types": ["fighting"],
+    "learnableMoves": []
+  },
+  "hitmontop": {
+    "name": "hitmontop",
+    "types": ["fighting"],
+    "learnableMoves": []
+  },
+  "smoochum": {
+    "name": "smoochum",
+    "types": ["psychic", "ice"],
+    "learnableMoves": []
+  },
+  "elekid": {
+    "name": "elekid",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "magby": {
+    "name": "magby",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "miltank": {
+    "name": "miltank",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "blissey": {
+    "name": "blissey",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "raikou": {
+    "name": "raikou",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "entei": {
+    "name": "entei",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "suicune": {
+    "name": "suicune",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "larvitar": {
+    "name": "larvitar",
+    "types": ["ground", "rock"],
+    "learnableMoves": []
+  },
+  "pupitar": {
+    "name": "pupitar",
+    "types": ["ground", "rock"],
+    "learnableMoves": []
+  },
+  "tyranitar": {
+    "name": "tyranitar",
+    "types": ["dark", "rock"],
+    "learnableMoves": []
+  },
+  "lugia": {
+    "name": "lugia",
+    "types": ["flying", "psychic"],
+    "learnableMoves": []
+  },
+  "ho-oh": {
+    "name": "ho-oh",
+    "types": ["flying", "fire"],
+    "learnableMoves": []
+  },
+  "celebi": {
+    "name": "celebi",
+    "types": ["grass", "psychic"],
+    "learnableMoves": []
+  },
+  "treecko": {
+    "name": "treecko",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "grovyle": {
+    "name": "grovyle",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "sceptile": {
+    "name": "sceptile",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "torchic": {
+    "name": "torchic",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "combusken": {
+    "name": "combusken",
+    "types": ["fighting", "fire"],
+    "learnableMoves": []
+  },
+  "blaziken": {
+    "name": "blaziken",
+    "types": ["fighting", "fire"],
+    "learnableMoves": []
+  },
+  "mudkip": {
+    "name": "mudkip",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "marshtomp": {
+    "name": "marshtomp",
+    "types": ["ground", "water"],
+    "learnableMoves": []
+  },
+  "swampert": {
+    "name": "swampert",
+    "types": ["ground", "water"],
+    "learnableMoves": []
+  },
+  "poochyena": {
+    "name": "poochyena",
+    "types": ["dark"],
+    "learnableMoves": []
+  },
+  "mightyena": {
+    "name": "mightyena",
+    "types": ["dark"],
+    "learnableMoves": []
+  },
+  "zigzagoon": {
+    "name": "zigzagoon",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "linoone": {
+    "name": "linoone",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "wurmple": {
+    "name": "wurmple",
+    "types": ["bug"],
+    "learnableMoves": []
+  },
+  "silcoon": {
+    "name": "silcoon",
+    "types": ["bug"],
+    "learnableMoves": []
+  },
+  "beautifly": {
+    "name": "beautifly",
+    "types": ["flying", "bug"],
+    "learnableMoves": []
+  },
+  "cascoon": {
+    "name": "cascoon",
+    "types": ["bug"],
+    "learnableMoves": []
+  },
+  "dustox": {
+    "name": "dustox",
+    "types": ["poison", "bug"],
+    "learnableMoves": []
+  },
+  "lotad": {
+    "name": "lotad",
+    "types": ["grass", "water"],
+    "learnableMoves": []
+  },
+  "lombre": {
+    "name": "lombre",
+    "types": ["grass", "water"],
+    "learnableMoves": []
+  },
+  "ludicolo": {
+    "name": "ludicolo",
+    "types": ["grass", "water"],
+    "learnableMoves": []
+  },
+  "seedot": {
+    "name": "seedot",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "nuzleaf": {
+    "name": "nuzleaf",
+    "types": ["dark", "grass"],
+    "learnableMoves": []
+  },
+  "shiftry": {
+    "name": "shiftry",
+    "types": ["dark", "grass"],
+    "learnableMoves": []
+  },
+  "taillow": {
+    "name": "taillow",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "swellow": {
+    "name": "swellow",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "wingull": {
+    "name": "wingull",
+    "types": ["flying", "water"],
+    "learnableMoves": []
+  },
+  "pelipper": {
+    "name": "pelipper",
+    "types": ["flying", "water"],
+    "learnableMoves": []
+  },
+  "ralts": {
+    "name": "ralts",
+    "types": ["fairy", "psychic"],
+    "learnableMoves": []
+  },
+  "kirlia": {
+    "name": "kirlia",
+    "types": ["fairy", "psychic"],
+    "learnableMoves": []
+  },
+  "gardevoir": {
+    "name": "gardevoir",
+    "types": ["fairy", "psychic"],
+    "learnableMoves": []
+  },
+  "surskit": {
+    "name": "surskit",
+    "types": ["water", "bug"],
+    "learnableMoves": []
+  },
+  "masquerain": {
+    "name": "masquerain",
+    "types": ["flying", "bug"],
+    "learnableMoves": []
+  },
+  "shroomish": {
+    "name": "shroomish",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "breloom": {
+    "name": "breloom",
+    "types": ["fighting", "grass"],
+    "learnableMoves": []
+  },
+  "slakoth": {
+    "name": "slakoth",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "vigoroth": {
+    "name": "vigoroth",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "slaking": {
+    "name": "slaking",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "nincada": {
+    "name": "nincada",
+    "types": ["ground", "bug"],
+    "learnableMoves": []
+  },
+  "ninjask": {
+    "name": "ninjask",
+    "types": ["flying", "bug"],
+    "learnableMoves": []
+  },
+  "shedinja": {
+    "name": "shedinja",
+    "types": ["ghost", "bug"],
+    "learnableMoves": []
+  },
+  "whismur": {
+    "name": "whismur",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "loudred": {
+    "name": "loudred",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "exploud": {
+    "name": "exploud",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "makuhita": {
+    "name": "makuhita",
+    "types": ["fighting"],
+    "learnableMoves": []
+  },
+  "hariyama": {
+    "name": "hariyama",
+    "types": ["fighting"],
+    "learnableMoves": []
+  },
+  "azurill": {
+    "name": "azurill",
+    "types": ["fairy", "normal"],
+    "learnableMoves": []
+  },
+  "nosepass": {
+    "name": "nosepass",
+    "types": ["rock"],
+    "learnableMoves": []
+  },
+  "skitty": {
+    "name": "skitty",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "delcatty": {
+    "name": "delcatty",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "sableye": {
+    "name": "sableye",
+    "types": ["ghost", "dark"],
+    "learnableMoves": []
+  },
+  "mawile": {
+    "name": "mawile",
+    "types": ["fairy", "steel"],
+    "learnableMoves": []
+  },
+  "aron": {
+    "name": "aron",
+    "types": ["rock", "steel"],
+    "learnableMoves": []
+  },
+  "lairon": {
+    "name": "lairon",
+    "types": ["rock", "steel"],
+    "learnableMoves": []
+  },
+  "aggron": {
+    "name": "aggron",
+    "types": ["rock", "steel"],
+    "learnableMoves": []
+  },
+  "meditite": {
+    "name": "meditite",
+    "types": ["psychic", "fighting"],
+    "learnableMoves": []
+  },
+  "medicham": {
+    "name": "medicham",
+    "types": ["psychic", "fighting"],
+    "learnableMoves": []
+  },
+  "electrike": {
+    "name": "electrike",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "manectric": {
+    "name": "manectric",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "plusle": {
+    "name": "plusle",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "minun": {
+    "name": "minun",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "volbeat": {
+    "name": "volbeat",
+    "types": ["bug"],
+    "learnableMoves": []
+  },
+  "illumise": {
+    "name": "illumise",
+    "types": ["bug"],
+    "learnableMoves": []
+  },
+  "roselia": {
+    "name": "roselia",
+    "types": ["poison", "grass"],
+    "learnableMoves": []
+  },
+  "gulpin": {
+    "name": "gulpin",
+    "types": ["poison"],
+    "learnableMoves": []
+  },
+  "swalot": {
+    "name": "swalot",
+    "types": ["poison"],
+    "learnableMoves": []
+  },
+  "carvanha": {
+    "name": "carvanha",
+    "types": ["dark", "water"],
+    "learnableMoves": []
+  },
+  "sharpedo": {
+    "name": "sharpedo",
+    "types": ["dark", "water"],
+    "learnableMoves": []
+  },
+  "wailmer": {
+    "name": "wailmer",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "wailord": {
+    "name": "wailord",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "numel": {
+    "name": "numel",
+    "types": ["ground", "fire"],
+    "learnableMoves": []
+  },
+  "camerupt": {
+    "name": "camerupt",
+    "types": ["ground", "fire"],
+    "learnableMoves": []
+  },
+  "torkoal": {
+    "name": "torkoal",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "spoink": {
+    "name": "spoink",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "grumpig": {
+    "name": "grumpig",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "spinda": {
+    "name": "spinda",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "trapinch": {
+    "name": "trapinch",
+    "types": ["ground"],
+    "learnableMoves": []
+  },
+  "vibrava": {
+    "name": "vibrava",
+    "types": ["dragon", "ground"],
+    "learnableMoves": []
+  },
+  "flygon": {
+    "name": "flygon",
+    "types": ["dragon", "ground"],
+    "learnableMoves": []
+  },
+  "cacnea": {
+    "name": "cacnea",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "cacturne": {
+    "name": "cacturne",
+    "types": ["dark", "grass"],
+    "learnableMoves": []
+  },
+  "swablu": {
+    "name": "swablu",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "altaria": {
+    "name": "altaria",
+    "types": ["flying", "dragon"],
+    "learnableMoves": []
+  },
+  "zangoose": {
+    "name": "zangoose",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "seviper": {
+    "name": "seviper",
+    "types": ["poison"],
+    "learnableMoves": []
+  },
+  "lunatone": {
+    "name": "lunatone",
+    "types": ["psychic", "rock"],
+    "learnableMoves": []
+  },
+  "solrock": {
+    "name": "solrock",
+    "types": ["psychic", "rock"],
+    "learnableMoves": []
+  },
+  "barboach": {
+    "name": "barboach",
+    "types": ["ground", "water"],
+    "learnableMoves": []
+  },
+  "whiscash": {
+    "name": "whiscash",
+    "types": ["ground", "water"],
+    "learnableMoves": []
+  },
+  "corphish": {
+    "name": "corphish",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "crawdaunt": {
+    "name": "crawdaunt",
+    "types": ["dark", "water"],
+    "learnableMoves": []
+  },
+  "baltoy": {
+    "name": "baltoy",
+    "types": ["psychic", "ground"],
+    "learnableMoves": []
+  },
+  "claydol": {
+    "name": "claydol",
+    "types": ["psychic", "ground"],
+    "learnableMoves": []
+  },
+  "lileep": {
+    "name": "lileep",
+    "types": ["grass", "rock"],
+    "learnableMoves": []
+  },
+  "cradily": {
+    "name": "cradily",
+    "types": ["grass", "rock"],
+    "learnableMoves": []
+  },
+  "anorith": {
+    "name": "anorith",
+    "types": ["bug", "rock"],
+    "learnableMoves": []
+  },
+  "armaldo": {
+    "name": "armaldo",
+    "types": ["bug", "rock"],
+    "learnableMoves": []
+  },
+  "feebas": {
+    "name": "feebas",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "milotic": {
+    "name": "milotic",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "castform": {
+    "name": "castform",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "kecleon": {
+    "name": "kecleon",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "shuppet": {
+    "name": "shuppet",
+    "types": ["ghost"],
+    "learnableMoves": []
+  },
+  "banette": {
+    "name": "banette",
+    "types": ["ghost"],
+    "learnableMoves": []
+  },
+  "duskull": {
+    "name": "duskull",
+    "types": ["ghost"],
+    "learnableMoves": []
+  },
+  "dusclops": {
+    "name": "dusclops",
+    "types": ["ghost"],
+    "learnableMoves": []
+  },
+  "tropius": {
+    "name": "tropius",
+    "types": ["flying", "grass"],
+    "learnableMoves": []
+  },
+  "chimecho": {
+    "name": "chimecho",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "absol": {
+    "name": "absol",
+    "types": ["dark"],
+    "learnableMoves": []
+  },
+  "wynaut": {
+    "name": "wynaut",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "snorunt": {
+    "name": "snorunt",
+    "types": ["ice"],
+    "learnableMoves": []
+  },
+  "glalie": {
+    "name": "glalie",
+    "types": ["ice"],
+    "learnableMoves": []
+  },
+  "spheal": {
+    "name": "spheal",
+    "types": ["water", "ice"],
+    "learnableMoves": []
+  },
+  "sealeo": {
+    "name": "sealeo",
+    "types": ["water", "ice"],
+    "learnableMoves": []
+  },
+  "walrein": {
+    "name": "walrein",
+    "types": ["water", "ice"],
+    "learnableMoves": []
+  },
+  "clamperl": {
+    "name": "clamperl",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "huntail": {
+    "name": "huntail",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "gorebyss": {
+    "name": "gorebyss",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "relicanth": {
+    "name": "relicanth",
+    "types": ["rock", "water"],
+    "learnableMoves": []
+  },
+  "luvdisc": {
+    "name": "luvdisc",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "bagon": {
+    "name": "bagon",
+    "types": ["dragon"],
+    "learnableMoves": []
+  },
+  "shelgon": {
+    "name": "shelgon",
+    "types": ["dragon"],
+    "learnableMoves": []
+  },
+  "salamence": {
+    "name": "salamence",
+    "types": ["flying", "dragon"],
+    "learnableMoves": []
+  },
+  "beldum": {
+    "name": "beldum",
+    "types": ["psychic", "steel"],
+    "learnableMoves": []
+  },
+  "metang": {
+    "name": "metang",
+    "types": ["psychic", "steel"],
+    "learnableMoves": []
+  },
+  "metagross": {
+    "name": "metagross",
+    "types": ["psychic", "steel"],
+    "learnableMoves": []
+  },
+  "regirock": {
+    "name": "regirock",
+    "types": ["rock"],
+    "learnableMoves": []
+  },
+  "regice": {
+    "name": "regice",
+    "types": ["ice"],
+    "learnableMoves": []
+  },
+  "registeel": {
+    "name": "registeel",
+    "types": ["steel"],
+    "learnableMoves": []
+  },
+  "latias": {
+    "name": "latias",
+    "types": ["psychic", "dragon"],
+    "learnableMoves": []
+  },
+  "latios": {
+    "name": "latios",
+    "types": ["psychic", "dragon"],
+    "learnableMoves": []
+  },
+  "kyogre": {
+    "name": "kyogre",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "groudon": {
+    "name": "groudon",
+    "types": ["ground"],
+    "learnableMoves": []
+  },
+  "rayquaza": {
+    "name": "rayquaza",
+    "types": ["flying", "dragon"],
+    "learnableMoves": []
+  },
+  "jirachi": {
+    "name": "jirachi",
+    "types": ["psychic", "steel"],
+    "learnableMoves": []
+  },
+  "deoxys-normal": {
+    "name": "deoxys-normal",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "turtwig": {
+    "name": "turtwig",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "grotle": {
+    "name": "grotle",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "torterra": {
+    "name": "torterra",
+    "types": ["ground", "grass"],
+    "learnableMoves": []
+  },
+  "chimchar": {
+    "name": "chimchar",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "monferno": {
+    "name": "monferno",
+    "types": ["fighting", "fire"],
+    "learnableMoves": []
+  },
+  "infernape": {
+    "name": "infernape",
+    "types": ["fighting", "fire"],
+    "learnableMoves": []
+  },
+  "piplup": {
+    "name": "piplup",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "prinplup": {
+    "name": "prinplup",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "empoleon": {
+    "name": "empoleon",
+    "types": ["steel", "water"],
+    "learnableMoves": []
+  },
+  "starly": {
+    "name": "starly",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "staravia": {
+    "name": "staravia",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "staraptor": {
+    "name": "staraptor",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "bidoof": {
+    "name": "bidoof",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "bibarel": {
+    "name": "bibarel",
+    "types": ["water", "normal"],
+    "learnableMoves": []
+  },
+  "kricketot": {
+    "name": "kricketot",
+    "types": ["bug"],
+    "learnableMoves": []
+  },
+  "kricketune": {
+    "name": "kricketune",
+    "types": ["bug"],
+    "learnableMoves": []
+  },
+  "shinx": {
+    "name": "shinx",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "luxio": {
+    "name": "luxio",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "luxray": {
+    "name": "luxray",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "budew": {
+    "name": "budew",
+    "types": ["poison", "grass"],
+    "learnableMoves": []
+  },
+  "roserade": {
+    "name": "roserade",
+    "types": ["poison", "grass"],
+    "learnableMoves": []
+  },
+  "cranidos": {
+    "name": "cranidos",
+    "types": ["rock"],
+    "learnableMoves": []
+  },
+  "rampardos": {
+    "name": "rampardos",
+    "types": ["rock"],
+    "learnableMoves": []
+  },
+  "shieldon": {
+    "name": "shieldon",
+    "types": ["steel", "rock"],
+    "learnableMoves": []
+  },
+  "bastiodon": {
+    "name": "bastiodon",
+    "types": ["steel", "rock"],
+    "learnableMoves": []
+  },
+  "burmy": {
+    "name": "burmy",
+    "types": ["bug"],
+    "learnableMoves": []
+  },
+  "wormadam-plant": {
+    "name": "wormadam-plant",
+    "types": ["grass", "bug"],
+    "learnableMoves": []
+  },
+  "mothim": {
+    "name": "mothim",
+    "types": ["flying", "bug"],
+    "learnableMoves": []
+  },
+  "combee": {
+    "name": "combee",
+    "types": ["flying", "bug"],
+    "learnableMoves": []
+  },
+  "vespiquen": {
+    "name": "vespiquen",
+    "types": ["flying", "bug"],
+    "learnableMoves": []
+  },
+  "pachirisu": {
+    "name": "pachirisu",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "buizel": {
+    "name": "buizel",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "floatzel": {
+    "name": "floatzel",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "cherubi": {
+    "name": "cherubi",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "cherrim": {
+    "name": "cherrim",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "shellos": {
+    "name": "shellos",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "gastrodon": {
+    "name": "gastrodon",
+    "types": ["ground", "water"],
+    "learnableMoves": []
+  },
+  "ambipom": {
+    "name": "ambipom",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "drifloon": {
+    "name": "drifloon",
+    "types": ["flying", "ghost"],
+    "learnableMoves": []
+  },
+  "drifblim": {
+    "name": "drifblim",
+    "types": ["flying", "ghost"],
+    "learnableMoves": []
+  },
+  "buneary": {
+    "name": "buneary",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "lopunny": {
+    "name": "lopunny",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "mismagius": {
+    "name": "mismagius",
+    "types": ["ghost"],
+    "learnableMoves": []
+  },
+  "honchkrow": {
+    "name": "honchkrow",
+    "types": ["flying", "dark"],
+    "learnableMoves": []
+  },
+  "glameow": {
+    "name": "glameow",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "purugly": {
+    "name": "purugly",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "chingling": {
+    "name": "chingling",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "stunky": {
+    "name": "stunky",
+    "types": ["dark", "poison"],
+    "learnableMoves": []
+  },
+  "skuntank": {
+    "name": "skuntank",
+    "types": ["dark", "poison"],
+    "learnableMoves": []
+  },
+  "bronzor": {
+    "name": "bronzor",
+    "types": ["psychic", "steel"],
+    "learnableMoves": []
+  },
+  "bronzong": {
+    "name": "bronzong",
+    "types": ["psychic", "steel"],
+    "learnableMoves": []
+  },
+  "bonsly": {
+    "name": "bonsly",
+    "types": ["rock"],
+    "learnableMoves": []
+  },
+  "mime-jr": {
+    "name": "mime-jr",
+    "types": ["fairy", "psychic"],
+    "learnableMoves": []
+  },
+  "happiny": {
+    "name": "happiny",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "chatot": {
+    "name": "chatot",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "spiritomb": {
+    "name": "spiritomb",
+    "types": ["dark", "ghost"],
+    "learnableMoves": []
+  },
+  "gible": {
+    "name": "gible",
+    "types": ["ground", "dragon"],
+    "learnableMoves": []
+  },
+  "gabite": {
+    "name": "gabite",
+    "types": ["ground", "dragon"],
+    "learnableMoves": []
+  },
+  "garchomp": {
+    "name": "garchomp",
+    "types": ["ground", "dragon"],
+    "learnableMoves": []
+  },
+  "munchlax": {
+    "name": "munchlax",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "riolu": {
+    "name": "riolu",
+    "types": ["fighting"],
+    "learnableMoves": []
+  },
+  "lucario": {
+    "name": "lucario",
+    "types": ["steel", "fighting"],
+    "learnableMoves": []
+  },
+  "hippopotas": {
+    "name": "hippopotas",
+    "types": ["ground"],
+    "learnableMoves": []
+  },
+  "hippowdon": {
+    "name": "hippowdon",
+    "types": ["ground"],
+    "learnableMoves": []
+  },
+  "skorupi": {
+    "name": "skorupi",
+    "types": ["bug", "poison"],
+    "learnableMoves": []
+  },
+  "drapion": {
+    "name": "drapion",
+    "types": ["dark", "poison"],
+    "learnableMoves": []
+  },
+  "croagunk": {
+    "name": "croagunk",
+    "types": ["fighting", "poison"],
+    "learnableMoves": []
+  },
+  "toxicroak": {
+    "name": "toxicroak",
+    "types": ["fighting", "poison"],
+    "learnableMoves": []
+  },
+  "carnivine": {
+    "name": "carnivine",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "finneon": {
+    "name": "finneon",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "lumineon": {
+    "name": "lumineon",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "mantyke": {
+    "name": "mantyke",
+    "types": ["flying", "water"],
+    "learnableMoves": []
+  },
+  "snover": {
+    "name": "snover",
+    "types": ["ice", "grass"],
+    "learnableMoves": []
+  },
+  "abomasnow": {
+    "name": "abomasnow",
+    "types": ["ice", "grass"],
+    "learnableMoves": []
+  },
+  "weavile": {
+    "name": "weavile",
+    "types": ["ice", "dark"],
+    "learnableMoves": []
+  },
+  "magnezone": {
+    "name": "magnezone",
+    "types": ["steel", "electric"],
+    "learnableMoves": []
+  },
+  "lickilicky": {
+    "name": "lickilicky",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "rhyperior": {
+    "name": "rhyperior",
+    "types": ["rock", "ground"],
+    "learnableMoves": []
+  },
+  "tangrowth": {
+    "name": "tangrowth",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "electivire": {
+    "name": "electivire",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "magmortar": {
+    "name": "magmortar",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "togekiss": {
+    "name": "togekiss",
+    "types": ["flying", "fairy"],
+    "learnableMoves": []
+  },
+  "yanmega": {
+    "name": "yanmega",
+    "types": ["flying", "bug"],
+    "learnableMoves": []
+  },
+  "leafeon": {
+    "name": "leafeon",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "glaceon": {
+    "name": "glaceon",
+    "types": ["ice"],
+    "learnableMoves": []
+  },
+  "gliscor": {
+    "name": "gliscor",
+    "types": ["flying", "ground"],
+    "learnableMoves": []
+  },
+  "mamoswine": {
+    "name": "mamoswine",
+    "types": ["ground", "ice"],
+    "learnableMoves": []
+  },
+  "porygon-z": {
+    "name": "porygon-z",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "gallade": {
+    "name": "gallade",
+    "types": ["fighting", "psychic"],
+    "learnableMoves": []
+  },
+  "probopass": {
+    "name": "probopass",
+    "types": ["steel", "rock"],
+    "learnableMoves": []
+  },
+  "dusknoir": {
+    "name": "dusknoir",
+    "types": ["ghost"],
+    "learnableMoves": []
+  },
+  "froslass": {
+    "name": "froslass",
+    "types": ["ghost", "ice"],
+    "learnableMoves": []
+  },
+  "rotom": {
+    "name": "rotom",
+    "types": ["ghost", "electric"],
+    "learnableMoves": []
+  },
+  "uxie": {
+    "name": "uxie",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "mesprit": {
+    "name": "mesprit",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "azelf": {
+    "name": "azelf",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "dialga": {
+    "name": "dialga",
+    "types": ["dragon", "steel"],
+    "learnableMoves": []
+  },
+  "palkia": {
+    "name": "palkia",
+    "types": ["dragon", "water"],
+    "learnableMoves": []
+  },
+  "heatran": {
+    "name": "heatran",
+    "types": ["steel", "fire"],
+    "learnableMoves": []
+  },
+  "regigigas": {
+    "name": "regigigas",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "giratina-altered": {
+    "name": "giratina-altered",
+    "types": ["dragon", "ghost"],
+    "learnableMoves": []
+  },
+  "cresselia": {
+    "name": "cresselia",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "phione": {
+    "name": "phione",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "manaphy": {
+    "name": "manaphy",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "darkrai": {
+    "name": "darkrai",
+    "types": ["dark"],
+    "learnableMoves": []
+  },
+  "shaymin-land": {
+    "name": "shaymin-land",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "arceus": {
+    "name": "arceus",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "victini": {
+    "name": "victini",
+    "types": ["fire", "psychic"],
+    "learnableMoves": []
+  },
+  "snivy": {
+    "name": "snivy",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "servine": {
+    "name": "servine",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "serperior": {
+    "name": "serperior",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "tepig": {
+    "name": "tepig",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "pignite": {
+    "name": "pignite",
+    "types": ["fighting", "fire"],
+    "learnableMoves": []
+  },
+  "emboar": {
+    "name": "emboar",
+    "types": ["fighting", "fire"],
+    "learnableMoves": []
+  },
+  "oshawott": {
+    "name": "oshawott",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "dewott": {
+    "name": "dewott",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "samurott": {
+    "name": "samurott",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "patrat": {
+    "name": "patrat",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "watchog": {
+    "name": "watchog",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "lillipup": {
+    "name": "lillipup",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "herdier": {
+    "name": "herdier",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "stoutland": {
+    "name": "stoutland",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "purrloin": {
+    "name": "purrloin",
+    "types": ["dark"],
+    "learnableMoves": []
+  },
+  "liepard": {
+    "name": "liepard",
+    "types": ["dark"],
+    "learnableMoves": []
+  },
+  "pansage": {
+    "name": "pansage",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "simisage": {
+    "name": "simisage",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "pansear": {
+    "name": "pansear",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "simisear": {
+    "name": "simisear",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "panpour": {
+    "name": "panpour",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "simipour": {
+    "name": "simipour",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "munna": {
+    "name": "munna",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "musharna": {
+    "name": "musharna",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "pidove": {
+    "name": "pidove",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "tranquill": {
+    "name": "tranquill",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "unfezant": {
+    "name": "unfezant",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "blitzle": {
+    "name": "blitzle",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "zebstrika": {
+    "name": "zebstrika",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "roggenrola": {
+    "name": "roggenrola",
+    "types": ["rock"],
+    "learnableMoves": []
+  },
+  "boldore": {
+    "name": "boldore",
+    "types": ["rock"],
+    "learnableMoves": []
+  },
+  "gigalith": {
+    "name": "gigalith",
+    "types": ["rock"],
+    "learnableMoves": []
+  },
+  "woobat": {
+    "name": "woobat",
+    "types": ["flying", "psychic"],
+    "learnableMoves": []
+  },
+  "swoobat": {
+    "name": "swoobat",
+    "types": ["flying", "psychic"],
+    "learnableMoves": []
+  },
+  "drilbur": {
+    "name": "drilbur",
+    "types": ["ground"],
+    "learnableMoves": []
+  },
+  "excadrill": {
+    "name": "excadrill",
+    "types": ["steel", "ground"],
+    "learnableMoves": []
+  },
+  "audino": {
+    "name": "audino",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "timburr": {
+    "name": "timburr",
+    "types": ["fighting"],
+    "learnableMoves": []
+  },
+  "gurdurr": {
+    "name": "gurdurr",
+    "types": ["fighting"],
+    "learnableMoves": []
+  },
+  "conkeldurr": {
+    "name": "conkeldurr",
+    "types": ["fighting"],
+    "learnableMoves": []
+  },
+  "tympole": {
+    "name": "tympole",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "palpitoad": {
+    "name": "palpitoad",
+    "types": ["ground", "water"],
+    "learnableMoves": []
+  },
+  "seismitoad": {
+    "name": "seismitoad",
+    "types": ["ground", "water"],
+    "learnableMoves": []
+  },
+  "throh": {
+    "name": "throh",
+    "types": ["fighting"],
+    "learnableMoves": []
+  },
+  "sawk": {
+    "name": "sawk",
+    "types": ["fighting"],
+    "learnableMoves": []
+  },
+  "sewaddle": {
+    "name": "sewaddle",
+    "types": ["grass", "bug"],
+    "learnableMoves": []
+  },
+  "swadloon": {
+    "name": "swadloon",
+    "types": ["grass", "bug"],
+    "learnableMoves": []
+  },
+  "leavanny": {
+    "name": "leavanny",
+    "types": ["grass", "bug"],
+    "learnableMoves": []
+  },
+  "venipede": {
+    "name": "venipede",
+    "types": ["poison", "bug"],
+    "learnableMoves": []
+  },
+  "whirlipede": {
+    "name": "whirlipede",
+    "types": ["poison", "bug"],
+    "learnableMoves": []
+  },
+  "scolipede": {
+    "name": "scolipede",
+    "types": ["poison", "bug"],
+    "learnableMoves": []
+  },
+  "cottonee": {
+    "name": "cottonee",
+    "types": ["fairy", "grass"],
+    "learnableMoves": []
+  },
+  "whimsicott": {
+    "name": "whimsicott",
+    "types": ["fairy", "grass"],
+    "learnableMoves": []
+  },
+  "petilil": {
+    "name": "petilil",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "lilligant": {
+    "name": "lilligant",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "basculin-red-striped": {
+    "name": "basculin-red-striped",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "sandile": {
+    "name": "sandile",
+    "types": ["dark", "ground"],
+    "learnableMoves": []
+  },
+  "krokorok": {
+    "name": "krokorok",
+    "types": ["dark", "ground"],
+    "learnableMoves": []
+  },
+  "krookodile": {
+    "name": "krookodile",
+    "types": ["dark", "ground"],
+    "learnableMoves": []
+  },
+  "darumaka": {
+    "name": "darumaka",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "darmanitan-standard": {
+    "name": "darmanitan-standard",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "maractus": {
+    "name": "maractus",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "dwebble": {
+    "name": "dwebble",
+    "types": ["rock", "bug"],
+    "learnableMoves": []
+  },
+  "crustle": {
+    "name": "crustle",
+    "types": ["rock", "bug"],
+    "learnableMoves": []
+  },
+  "scraggy": {
+    "name": "scraggy",
+    "types": ["fighting", "dark"],
+    "learnableMoves": []
+  },
+  "scrafty": {
+    "name": "scrafty",
+    "types": ["fighting", "dark"],
+    "learnableMoves": []
+  },
+  "sigilyph": {
+    "name": "sigilyph",
+    "types": ["flying", "psychic"],
+    "learnableMoves": []
+  },
+  "yamask": {
+    "name": "yamask",
+    "types": ["ghost"],
+    "learnableMoves": []
+  },
+  "cofagrigus": {
+    "name": "cofagrigus",
+    "types": ["ghost"],
+    "learnableMoves": []
+  },
+  "tirtouga": {
+    "name": "tirtouga",
+    "types": ["rock", "water"],
+    "learnableMoves": []
+  },
+  "carracosta": {
+    "name": "carracosta",
+    "types": ["rock", "water"],
+    "learnableMoves": []
+  },
+  "archen": {
+    "name": "archen",
+    "types": ["flying", "rock"],
+    "learnableMoves": []
+  },
+  "archeops": {
+    "name": "archeops",
+    "types": ["flying", "rock"],
+    "learnableMoves": []
+  },
+  "trubbish": {
+    "name": "trubbish",
+    "types": ["poison"],
+    "learnableMoves": []
+  },
+  "garbodor": {
+    "name": "garbodor",
+    "types": ["poison"],
+    "learnableMoves": []
+  },
+  "zorua": {
+    "name": "zorua",
+    "types": ["dark"],
+    "learnableMoves": []
+  },
+  "zoroark": {
+    "name": "zoroark",
+    "types": ["dark"],
+    "learnableMoves": []
+  },
+  "minccino": {
+    "name": "minccino",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "cinccino": {
+    "name": "cinccino",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "gothita": {
+    "name": "gothita",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "gothorita": {
+    "name": "gothorita",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "gothitelle": {
+    "name": "gothitelle",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "solosis": {
+    "name": "solosis",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "duosion": {
+    "name": "duosion",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "reuniclus": {
+    "name": "reuniclus",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "ducklett": {
+    "name": "ducklett",
+    "types": ["flying", "water"],
+    "learnableMoves": []
+  },
+  "swanna": {
+    "name": "swanna",
+    "types": ["flying", "water"],
+    "learnableMoves": []
+  },
+  "vanillite": {
+    "name": "vanillite",
+    "types": ["ice"],
+    "learnableMoves": []
+  },
+  "vanillish": {
+    "name": "vanillish",
+    "types": ["ice"],
+    "learnableMoves": []
+  },
+  "vanilluxe": {
+    "name": "vanilluxe",
+    "types": ["ice"],
+    "learnableMoves": []
+  },
+  "deerling": {
+    "name": "deerling",
+    "types": ["grass", "normal"],
+    "learnableMoves": []
+  },
+  "sawsbuck": {
+    "name": "sawsbuck",
+    "types": ["grass", "normal"],
+    "learnableMoves": []
+  },
+  "emolga": {
+    "name": "emolga",
+    "types": ["flying", "electric"],
+    "learnableMoves": []
+  },
+  "karrablast": {
+    "name": "karrablast",
+    "types": ["bug"],
+    "learnableMoves": []
+  },
+  "escavalier": {
+    "name": "escavalier",
+    "types": ["steel", "bug"],
+    "learnableMoves": []
+  },
+  "foongus": {
+    "name": "foongus",
+    "types": ["poison", "grass"],
+    "learnableMoves": []
+  },
+  "amoonguss": {
+    "name": "amoonguss",
+    "types": ["poison", "grass"],
+    "learnableMoves": []
+  },
+  "frillish": {
+    "name": "frillish",
+    "types": ["ghost", "water"],
+    "learnableMoves": []
+  },
+  "jellicent": {
+    "name": "jellicent",
+    "types": ["ghost", "water"],
+    "learnableMoves": []
+  },
+  "alomomola": {
+    "name": "alomomola",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "joltik": {
+    "name": "joltik",
+    "types": ["electric", "bug"],
+    "learnableMoves": []
+  },
+  "galvantula": {
+    "name": "galvantula",
+    "types": ["electric", "bug"],
+    "learnableMoves": []
+  },
+  "ferroseed": {
+    "name": "ferroseed",
+    "types": ["steel", "grass"],
+    "learnableMoves": []
+  },
+  "ferrothorn": {
+    "name": "ferrothorn",
+    "types": ["steel", "grass"],
+    "learnableMoves": []
+  },
+  "klink": {
+    "name": "klink",
+    "types": ["steel"],
+    "learnableMoves": []
+  },
+  "klang": {
+    "name": "klang",
+    "types": ["steel"],
+    "learnableMoves": []
+  },
+  "klinklang": {
+    "name": "klinklang",
+    "types": ["steel"],
+    "learnableMoves": []
+  },
+  "tynamo": {
+    "name": "tynamo",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "eelektrik": {
+    "name": "eelektrik",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "eelektross": {
+    "name": "eelektross",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "elgyem": {
+    "name": "elgyem",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "beheeyem": {
+    "name": "beheeyem",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "litwick": {
+    "name": "litwick",
+    "types": ["fire", "ghost"],
+    "learnableMoves": []
+  },
+  "lampent": {
+    "name": "lampent",
+    "types": ["fire", "ghost"],
+    "learnableMoves": []
+  },
+  "chandelure": {
+    "name": "chandelure",
+    "types": ["fire", "ghost"],
+    "learnableMoves": []
+  },
+  "axew": {
+    "name": "axew",
+    "types": ["dragon"],
+    "learnableMoves": []
+  },
+  "fraxure": {
+    "name": "fraxure",
+    "types": ["dragon"],
+    "learnableMoves": []
+  },
+  "haxorus": {
+    "name": "haxorus",
+    "types": ["dragon"],
+    "learnableMoves": []
+  },
+  "cubchoo": {
+    "name": "cubchoo",
+    "types": ["ice"],
+    "learnableMoves": []
+  },
+  "beartic": {
+    "name": "beartic",
+    "types": ["ice"],
+    "learnableMoves": []
+  },
+  "cryogonal": {
+    "name": "cryogonal",
+    "types": ["ice"],
+    "learnableMoves": []
+  },
+  "shelmet": {
+    "name": "shelmet",
+    "types": ["bug"],
+    "learnableMoves": []
+  },
+  "accelgor": {
+    "name": "accelgor",
+    "types": ["bug"],
+    "learnableMoves": []
+  },
+  "stunfisk": {
+    "name": "stunfisk",
+    "types": ["electric", "ground"],
+    "learnableMoves": []
+  },
+  "mienfoo": {
+    "name": "mienfoo",
+    "types": ["fighting"],
+    "learnableMoves": []
+  },
+  "mienshao": {
+    "name": "mienshao",
+    "types": ["fighting"],
+    "learnableMoves": []
+  },
+  "druddigon": {
+    "name": "druddigon",
+    "types": ["dragon"],
+    "learnableMoves": []
+  },
+  "golett": {
+    "name": "golett",
+    "types": ["ghost", "ground"],
+    "learnableMoves": []
+  },
+  "golurk": {
+    "name": "golurk",
+    "types": ["ghost", "ground"],
+    "learnableMoves": []
+  },
+  "pawniard": {
+    "name": "pawniard",
+    "types": ["steel", "dark"],
+    "learnableMoves": []
+  },
+  "bisharp": {
+    "name": "bisharp",
+    "types": ["steel", "dark"],
+    "learnableMoves": []
+  },
+  "bouffalant": {
+    "name": "bouffalant",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "rufflet": {
+    "name": "rufflet",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "braviary": {
+    "name": "braviary",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "vullaby": {
+    "name": "vullaby",
+    "types": ["flying", "dark"],
+    "learnableMoves": []
+  },
+  "mandibuzz": {
+    "name": "mandibuzz",
+    "types": ["flying", "dark"],
+    "learnableMoves": []
+  },
+  "heatmor": {
+    "name": "heatmor",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "durant": {
+    "name": "durant",
+    "types": ["steel", "bug"],
+    "learnableMoves": []
+  },
+  "deino": {
+    "name": "deino",
+    "types": ["dragon", "dark"],
+    "learnableMoves": []
+  },
+  "zweilous": {
+    "name": "zweilous",
+    "types": ["dragon", "dark"],
+    "learnableMoves": []
+  },
+  "hydreigon": {
+    "name": "hydreigon",
+    "types": ["dragon", "dark"],
+    "learnableMoves": []
+  },
+  "larvesta": {
+    "name": "larvesta",
+    "types": ["fire", "bug"],
+    "learnableMoves": []
+  },
+  "volcarona": {
+    "name": "volcarona",
+    "types": ["fire", "bug"],
+    "learnableMoves": []
+  },
+  "cobalion": {
+    "name": "cobalion",
+    "types": ["fighting", "steel"],
+    "learnableMoves": []
+  },
+  "terrakion": {
+    "name": "terrakion",
+    "types": ["fighting", "rock"],
+    "learnableMoves": []
+  },
+  "virizion": {
+    "name": "virizion",
+    "types": ["fighting", "grass"],
+    "learnableMoves": []
+  },
+  "tornadus-incarnate": {
+    "name": "tornadus-incarnate",
+    "types": ["flying"],
+    "learnableMoves": []
+  },
+  "thundurus-incarnate": {
+    "name": "thundurus-incarnate",
+    "types": ["flying", "electric"],
+    "learnableMoves": []
+  },
+  "reshiram": {
+    "name": "reshiram",
+    "types": ["fire", "dragon"],
+    "learnableMoves": []
+  },
+  "zekrom": {
+    "name": "zekrom",
+    "types": ["electric", "dragon"],
+    "learnableMoves": []
+  },
+  "landorus-incarnate": {
+    "name": "landorus-incarnate",
+    "types": ["flying", "ground"],
+    "learnableMoves": []
+  },
+  "kyurem": {
+    "name": "kyurem",
+    "types": ["ice", "dragon"],
+    "learnableMoves": []
+  },
+  "keldeo-ordinary": {
+    "name": "keldeo-ordinary",
+    "types": ["fighting", "water"],
+    "learnableMoves": []
+  },
+  "meloetta-aria": {
+    "name": "meloetta-aria",
+    "types": ["psychic", "normal"],
+    "learnableMoves": []
+  },
+  "genesect": {
+    "name": "genesect",
+    "types": ["steel", "bug"],
+    "learnableMoves": []
+  },
+  "chespin": {
+    "name": "chespin",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "quilladin": {
+    "name": "quilladin",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "chesnaught": {
+    "name": "chesnaught",
+    "types": ["fighting", "grass"],
+    "learnableMoves": []
+  },
+  "fennekin": {
+    "name": "fennekin",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "braixen": {
+    "name": "braixen",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "delphox": {
+    "name": "delphox",
+    "types": ["psychic", "fire"],
+    "learnableMoves": []
+  },
+  "froakie": {
+    "name": "froakie",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "frogadier": {
+    "name": "frogadier",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "greninja": {
+    "name": "greninja",
+    "types": ["dark", "water"],
+    "learnableMoves": []
+  },
+  "bunnelby": {
+    "name": "bunnelby",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "diggersby": {
+    "name": "diggersby",
+    "types": ["ground", "normal"],
+    "learnableMoves": []
+  },
+  "fletchling": {
+    "name": "fletchling",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "fletchinder": {
+    "name": "fletchinder",
+    "types": ["flying", "fire"],
+    "learnableMoves": []
+  },
+  "talonflame": {
+    "name": "talonflame",
+    "types": ["flying", "fire"],
+    "learnableMoves": []
+  },
+  "scatterbug": {
+    "name": "scatterbug",
+    "types": ["bug"],
+    "learnableMoves": []
+  },
+  "spewpa": {
+    "name": "spewpa",
+    "types": ["bug"],
+    "learnableMoves": []
+  },
+  "vivillon": {
+    "name": "vivillon",
+    "types": ["flying", "bug"],
+    "learnableMoves": []
+  },
+  "litleo": {
+    "name": "litleo",
+    "types": ["normal", "fire"],
+    "learnableMoves": []
+  },
+  "pyroar": {
+    "name": "pyroar",
+    "types": ["normal", "fire"],
+    "learnableMoves": []
+  },
+  "flabebe": {
+    "name": "flabebe",
+    "types": ["fairy"],
+    "learnableMoves": []
+  },
+  "floette": {
+    "name": "floette",
+    "types": ["fairy"],
+    "learnableMoves": []
+  },
+  "florges": {
+    "name": "florges",
+    "types": ["fairy"],
+    "learnableMoves": []
+  },
+  "skiddo": {
+    "name": "skiddo",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "gogoat": {
+    "name": "gogoat",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "pancham": {
+    "name": "pancham",
+    "types": ["fighting"],
+    "learnableMoves": []
+  },
+  "pangoro": {
+    "name": "pangoro",
+    "types": ["dark", "fighting"],
+    "learnableMoves": []
+  },
+  "furfrou": {
+    "name": "furfrou",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "espurr": {
+    "name": "espurr",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "meowstic-male": {
+    "name": "meowstic-male",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "honedge": {
+    "name": "honedge",
+    "types": ["ghost", "steel"],
+    "learnableMoves": []
+  },
+  "doublade": {
+    "name": "doublade",
+    "types": ["ghost", "steel"],
+    "learnableMoves": []
+  },
+  "aegislash-shield": {
+    "name": "aegislash-shield",
+    "types": ["ghost", "steel"],
+    "learnableMoves": []
+  },
+  "spritzee": {
+    "name": "spritzee",
+    "types": ["fairy"],
+    "learnableMoves": []
+  },
+  "aromatisse": {
+    "name": "aromatisse",
+    "types": ["fairy"],
+    "learnableMoves": []
+  },
+  "swirlix": {
+    "name": "swirlix",
+    "types": ["fairy"],
+    "learnableMoves": []
+  },
+  "slurpuff": {
+    "name": "slurpuff",
+    "types": ["fairy"],
+    "learnableMoves": []
+  },
+  "inkay": {
+    "name": "inkay",
+    "types": ["psychic", "dark"],
+    "learnableMoves": []
+  },
+  "malamar": {
+    "name": "malamar",
+    "types": ["psychic", "dark"],
+    "learnableMoves": []
+  },
+  "binacle": {
+    "name": "binacle",
+    "types": ["water", "rock"],
+    "learnableMoves": []
+  },
+  "barbaracle": {
+    "name": "barbaracle",
+    "types": ["water", "rock"],
+    "learnableMoves": []
+  },
+  "skrelp": {
+    "name": "skrelp",
+    "types": ["water", "poison"],
+    "learnableMoves": []
+  },
+  "dragalge": {
+    "name": "dragalge",
+    "types": ["dragon", "poison"],
+    "learnableMoves": []
+  },
+  "clauncher": {
+    "name": "clauncher",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "clawitzer": {
+    "name": "clawitzer",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "helioptile": {
+    "name": "helioptile",
+    "types": ["normal", "electric"],
+    "learnableMoves": []
+  },
+  "heliolisk": {
+    "name": "heliolisk",
+    "types": ["normal", "electric"],
+    "learnableMoves": []
+  },
+  "tyrunt": {
+    "name": "tyrunt",
+    "types": ["dragon", "rock"],
+    "learnableMoves": []
+  },
+  "tyrantrum": {
+    "name": "tyrantrum",
+    "types": ["dragon", "rock"],
+    "learnableMoves": []
+  },
+  "amaura": {
+    "name": "amaura",
+    "types": ["ice", "rock"],
+    "learnableMoves": []
+  },
+  "aurorus": {
+    "name": "aurorus",
+    "types": ["ice", "rock"],
+    "learnableMoves": []
+  },
+  "sylveon": {
+    "name": "sylveon",
+    "types": ["fairy"],
+    "learnableMoves": []
+  },
+  "hawlucha": {
+    "name": "hawlucha",
+    "types": ["flying", "fighting"],
+    "learnableMoves": []
+  },
+  "dedenne": {
+    "name": "dedenne",
+    "types": ["fairy", "electric"],
+    "learnableMoves": []
+  },
+  "carbink": {
+    "name": "carbink",
+    "types": ["fairy", "rock"],
+    "learnableMoves": []
+  },
+  "goomy": {
+    "name": "goomy",
+    "types": ["dragon"],
+    "learnableMoves": []
+  },
+  "sliggoo": {
+    "name": "sliggoo",
+    "types": ["dragon"],
+    "learnableMoves": []
+  },
+  "goodra": {
+    "name": "goodra",
+    "types": ["dragon"],
+    "learnableMoves": []
+  },
+  "klefki": {
+    "name": "klefki",
+    "types": ["fairy", "steel"],
+    "learnableMoves": []
+  },
+  "phantump": {
+    "name": "phantump",
+    "types": ["grass", "ghost"],
+    "learnableMoves": []
+  },
+  "trevenant": {
+    "name": "trevenant",
+    "types": ["grass", "ghost"],
+    "learnableMoves": []
+  },
+  "pumpkaboo-average": {
+    "name": "pumpkaboo-average",
+    "types": ["grass", "ghost"],
+    "learnableMoves": []
+  },
+  "gourgeist-average": {
+    "name": "gourgeist-average",
+    "types": ["grass", "ghost"],
+    "learnableMoves": []
+  },
+  "bergmite": {
+    "name": "bergmite",
+    "types": ["ice"],
+    "learnableMoves": []
+  },
+  "avalugg": {
+    "name": "avalugg",
+    "types": ["ice"],
+    "learnableMoves": []
+  },
+  "noibat": {
+    "name": "noibat",
+    "types": ["dragon", "flying"],
+    "learnableMoves": []
+  },
+  "noivern": {
+    "name": "noivern",
+    "types": ["dragon", "flying"],
+    "learnableMoves": []
+  },
+  "xerneas": {
+    "name": "xerneas",
+    "types": ["fairy"],
+    "learnableMoves": []
+  },
+  "yveltal": {
+    "name": "yveltal",
+    "types": ["flying", "dark"],
+    "learnableMoves": []
+  },
+  "zygarde": {
+    "name": "zygarde",
+    "types": ["ground", "dragon"],
+    "learnableMoves": []
+  },
+  "diancie": {
+    "name": "diancie",
+    "types": ["fairy", "rock"],
+    "learnableMoves": []
+  },
+  "hoopa": {
+    "name": "hoopa",
+    "types": ["ghost", "psychic"],
+    "learnableMoves": []
+  },
+  "volcanion": {
+    "name": "volcanion",
+    "types": ["water", "fire"],
+    "learnableMoves": []
+  },
+  "rowlet": {
+    "name": "rowlet",
+    "types": ["flying", "grass"],
+    "learnableMoves": []
+  },
+  "dartrix": {
+    "name": "dartrix",
+    "types": ["flying", "grass"],
+    "learnableMoves": []
+  },
+  "decidueye": {
+    "name": "decidueye",
+    "types": ["ghost", "grass"],
+    "learnableMoves": []
+  },
+  "litten": {
+    "name": "litten",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "torracat": {
+    "name": "torracat",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "incineroar": {
+    "name": "incineroar",
+    "types": ["dark", "fire"],
+    "learnableMoves": []
+  },
+  "popplio": {
+    "name": "popplio",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "brionne": {
+    "name": "brionne",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "primarina": {
+    "name": "primarina",
+    "types": ["fairy", "water"],
+    "learnableMoves": []
+  },
+  "pikipek": {
+    "name": "pikipek",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "trumbeak": {
+    "name": "trumbeak",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "toucannon": {
+    "name": "toucannon",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "yungoos": {
+    "name": "yungoos",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "gumshoos": {
+    "name": "gumshoos",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "grubbin": {
+    "name": "grubbin",
+    "types": ["bug"],
+    "learnableMoves": []
+  },
+  "charjabug": {
+    "name": "charjabug",
+    "types": ["electric", "bug"],
+    "learnableMoves": []
+  },
+  "vikavolt": {
+    "name": "vikavolt",
+    "types": ["electric", "bug"],
+    "learnableMoves": []
+  },
+  "crabrawler": {
+    "name": "crabrawler",
+    "types": ["fighting"],
+    "learnableMoves": []
+  },
+  "crabominable": {
+    "name": "crabominable",
+    "types": ["ice", "fighting"],
+    "learnableMoves": []
+  },
+  "oricorio-baile": {
+    "name": "oricorio-baile",
+    "types": ["flying", "fire"],
+    "learnableMoves": []
+  },
+  "cutiefly": {
+    "name": "cutiefly",
+    "types": ["fairy", "bug"],
+    "learnableMoves": []
+  },
+  "ribombee": {
+    "name": "ribombee",
+    "types": ["fairy", "bug"],
+    "learnableMoves": []
+  },
+  "rockruff": {
+    "name": "rockruff",
+    "types": ["rock"],
+    "learnableMoves": []
+  },
+  "lycanroc-midday": {
+    "name": "lycanroc-midday",
+    "types": ["rock"],
+    "learnableMoves": []
+  },
+  "wishiwashi-solo": {
+    "name": "wishiwashi-solo",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "mareanie": {
+    "name": "mareanie",
+    "types": ["water", "poison"],
+    "learnableMoves": []
+  },
+  "toxapex": {
+    "name": "toxapex",
+    "types": ["water", "poison"],
+    "learnableMoves": []
+  },
+  "mudbray": {
+    "name": "mudbray",
+    "types": ["ground"],
+    "learnableMoves": []
+  },
+  "mudsdale": {
+    "name": "mudsdale",
+    "types": ["ground"],
+    "learnableMoves": []
+  },
+  "dewpider": {
+    "name": "dewpider",
+    "types": ["bug", "water"],
+    "learnableMoves": []
+  },
+  "araquanid": {
+    "name": "araquanid",
+    "types": ["bug", "water"],
+    "learnableMoves": []
+  },
+  "fomantis": {
+    "name": "fomantis",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "lurantis": {
+    "name": "lurantis",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "morelull": {
+    "name": "morelull",
+    "types": ["fairy", "grass"],
+    "learnableMoves": []
+  },
+  "shiinotic": {
+    "name": "shiinotic",
+    "types": ["fairy", "grass"],
+    "learnableMoves": []
+  },
+  "salandit": {
+    "name": "salandit",
+    "types": ["fire", "poison"],
+    "learnableMoves": []
+  },
+  "salazzle": {
+    "name": "salazzle",
+    "types": ["fire", "poison"],
+    "learnableMoves": []
+  },
+  "stufful": {
+    "name": "stufful",
+    "types": ["fighting", "normal"],
+    "learnableMoves": []
+  },
+  "bewear": {
+    "name": "bewear",
+    "types": ["fighting", "normal"],
+    "learnableMoves": []
+  },
+  "bounsweet": {
+    "name": "bounsweet",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "steenee": {
+    "name": "steenee",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "tsareena": {
+    "name": "tsareena",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "comfey": {
+    "name": "comfey",
+    "types": ["fairy"],
+    "learnableMoves": []
+  },
+  "oranguru": {
+    "name": "oranguru",
+    "types": ["psychic", "normal"],
+    "learnableMoves": []
+  },
+  "passimian": {
+    "name": "passimian",
+    "types": ["fighting"],
+    "learnableMoves": []
+  },
+  "wimpod": {
+    "name": "wimpod",
+    "types": ["water", "bug"],
+    "learnableMoves": []
+  },
+  "golisopod": {
+    "name": "golisopod",
+    "types": ["water", "bug"],
+    "learnableMoves": []
+  },
+  "sandygast": {
+    "name": "sandygast",
+    "types": ["ground", "ghost"],
+    "learnableMoves": []
+  },
+  "palossand": {
+    "name": "palossand",
+    "types": ["ground", "ghost"],
+    "learnableMoves": []
+  },
+  "pyukumuku": {
+    "name": "pyukumuku",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "type-null": {
+    "name": "type-null",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "silvally": {
+    "name": "silvally",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "minior-red-meteor": {
+    "name": "minior-red-meteor",
+    "types": ["flying", "rock"],
+    "learnableMoves": []
+  },
+  "komala": {
+    "name": "komala",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "turtonator": {
+    "name": "turtonator",
+    "types": ["dragon", "fire"],
+    "learnableMoves": []
+  },
+  "togedemaru": {
+    "name": "togedemaru",
+    "types": ["steel", "electric"],
+    "learnableMoves": []
+  },
+  "mimikyu-disguised": {
+    "name": "mimikyu-disguised",
+    "types": ["fairy", "ghost"],
+    "learnableMoves": []
+  },
+  "bruxish": {
+    "name": "bruxish",
+    "types": ["psychic", "water"],
+    "learnableMoves": []
+  },
+  "drampa": {
+    "name": "drampa",
+    "types": ["dragon", "normal"],
+    "learnableMoves": []
+  },
+  "dhelmise": {
+    "name": "dhelmise",
+    "types": ["grass", "ghost"],
+    "learnableMoves": []
+  },
+  "jangmo-o": {
+    "name": "jangmo-o",
+    "types": ["dragon"],
+    "learnableMoves": []
+  },
+  "hakamo-o": {
+    "name": "hakamo-o",
+    "types": ["fighting", "dragon"],
+    "learnableMoves": []
+  },
+  "kommo-o": {
+    "name": "kommo-o",
+    "types": ["fighting", "dragon"],
+    "learnableMoves": []
+  },
+  "tapu-koko": {
+    "name": "tapu-koko",
+    "types": ["fairy", "electric"],
+    "learnableMoves": []
+  },
+  "tapu-lele": {
+    "name": "tapu-lele",
+    "types": ["fairy", "psychic"],
+    "learnableMoves": []
+  },
+  "tapu-bulu": {
+    "name": "tapu-bulu",
+    "types": ["fairy", "grass"],
+    "learnableMoves": []
+  },
+  "tapu-fini": {
+    "name": "tapu-fini",
+    "types": ["fairy", "water"],
+    "learnableMoves": []
+  },
+  "cosmog": {
+    "name": "cosmog",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "cosmoem": {
+    "name": "cosmoem",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "solgaleo": {
+    "name": "solgaleo",
+    "types": ["steel", "psychic"],
+    "learnableMoves": []
+  },
+  "lunala": {
+    "name": "lunala",
+    "types": ["ghost", "psychic"],
+    "learnableMoves": []
+  },
+  "nihilego": {
+    "name": "nihilego",
+    "types": ["poison", "rock"],
+    "learnableMoves": []
+  },
+  "buzzwole": {
+    "name": "buzzwole",
+    "types": ["fighting", "bug"],
+    "learnableMoves": []
+  },
+  "pheromosa": {
+    "name": "pheromosa",
+    "types": ["fighting", "bug"],
+    "learnableMoves": []
+  },
+  "xurkitree": {
+    "name": "xurkitree",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "celesteela": {
+    "name": "celesteela",
+    "types": ["flying", "steel"],
+    "learnableMoves": []
+  },
+  "kartana": {
+    "name": "kartana",
+    "types": ["steel", "grass"],
+    "learnableMoves": []
+  },
+  "guzzlord": {
+    "name": "guzzlord",
+    "types": ["dragon", "dark"],
+    "learnableMoves": []
+  },
+  "necrozma": {
+    "name": "necrozma",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "magearna": {
+    "name": "magearna",
+    "types": ["fairy", "steel"],
+    "learnableMoves": []
+  },
+  "marshadow": {
+    "name": "marshadow",
+    "types": ["ghost", "fighting"],
+    "learnableMoves": []
+  },
+  "deoxys-attack": {
+    "name": "deoxys-attack",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "deoxys-defense": {
+    "name": "deoxys-defense",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "deoxys-speed": {
+    "name": "deoxys-speed",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "wormadam-sandy": {
+    "name": "wormadam-sandy",
+    "types": ["ground", "bug"],
+    "learnableMoves": []
+  },
+  "wormadam-trash": {
+    "name": "wormadam-trash",
+    "types": ["steel", "bug"],
+    "learnableMoves": []
+  },
+  "shaymin-sky": {
+    "name": "shaymin-sky",
+    "types": ["flying", "grass"],
+    "learnableMoves": []
+  },
+  "giratina-origin": {
+    "name": "giratina-origin",
+    "types": ["dragon", "ghost"],
+    "learnableMoves": []
+  },
+  "rotom-heat": {
+    "name": "rotom-heat",
+    "types": ["fire", "electric"],
+    "learnableMoves": []
+  },
+  "rotom-wash": {
+    "name": "rotom-wash",
+    "types": ["water", "electric"],
+    "learnableMoves": []
+  },
+  "rotom-frost": {
+    "name": "rotom-frost",
+    "types": ["ice", "electric"],
+    "learnableMoves": []
+  },
+  "rotom-fan": {
+    "name": "rotom-fan",
+    "types": ["flying", "electric"],
+    "learnableMoves": []
+  },
+  "rotom-mow": {
+    "name": "rotom-mow",
+    "types": ["grass", "electric"],
+    "learnableMoves": []
+  },
+  "castform-sunny": {
+    "name": "castform-sunny",
+    "types": ["fire"],
+    "learnableMoves": []
+  },
+  "castform-rainy": {
+    "name": "castform-rainy",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "castform-snowy": {
+    "name": "castform-snowy",
+    "types": ["ice"],
+    "learnableMoves": []
+  },
+  "basculin-blue-striped": {
+    "name": "basculin-blue-striped",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "darmanitan-zen": {
+    "name": "darmanitan-zen",
+    "types": ["psychic", "fire"],
+    "learnableMoves": []
+  },
+  "meloetta-pirouette": {
+    "name": "meloetta-pirouette",
+    "types": ["fighting", "normal"],
+    "learnableMoves": []
+  },
+  "tornadus-therian": {
+    "name": "tornadus-therian",
+    "types": ["flying"],
+    "learnableMoves": []
+  },
+  "thundurus-therian": {
+    "name": "thundurus-therian",
+    "types": ["flying", "electric"],
+    "learnableMoves": []
+  },
+  "landorus-therian": {
+    "name": "landorus-therian",
+    "types": ["flying", "ground"],
+    "learnableMoves": []
+  },
+  "kyurem-black": {
+    "name": "kyurem-black",
+    "types": ["ice", "dragon"],
+    "learnableMoves": []
+  },
+  "kyurem-white": {
+    "name": "kyurem-white",
+    "types": ["ice", "dragon"],
+    "learnableMoves": []
+  },
+  "keldeo-resolute": {
+    "name": "keldeo-resolute",
+    "types": ["fighting", "water"],
+    "learnableMoves": []
+  },
+  "meowstic-female": {
+    "name": "meowstic-female",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "aegislash-blade": {
+    "name": "aegislash-blade",
+    "types": ["ghost", "steel"],
+    "learnableMoves": []
+  },
+  "pumpkaboo-small": {
+    "name": "pumpkaboo-small",
+    "types": ["grass", "ghost"],
+    "learnableMoves": []
+  },
+  "pumpkaboo-large": {
+    "name": "pumpkaboo-large",
+    "types": ["grass", "ghost"],
+    "learnableMoves": []
+  },
+  "pumpkaboo-super": {
+    "name": "pumpkaboo-super",
+    "types": ["grass", "ghost"],
+    "learnableMoves": []
+  },
+  "gourgeist-small": {
+    "name": "gourgeist-small",
+    "types": ["grass", "ghost"],
+    "learnableMoves": []
+  },
+  "gourgeist-large": {
+    "name": "gourgeist-large",
+    "types": ["grass", "ghost"],
+    "learnableMoves": []
+  },
+  "gourgeist-super": {
+    "name": "gourgeist-super",
+    "types": ["grass", "ghost"],
+    "learnableMoves": []
+  },
+  "venusaur-mega": {
+    "name": "venusaur-mega",
+    "types": ["poison", "grass"],
+    "learnableMoves": []
+  },
+  "charizard-mega-x": {
+    "name": "charizard-mega-x",
+    "types": ["dragon", "fire"],
+    "learnableMoves": []
+  },
+  "charizard-mega-y": {
+    "name": "charizard-mega-y",
+    "types": ["flying", "fire"],
+    "learnableMoves": []
+  },
+  "blastoise-mega": {
+    "name": "blastoise-mega",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "alakazam-mega": {
+    "name": "alakazam-mega",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "gengar-mega": {
+    "name": "gengar-mega",
+    "types": ["poison", "ghost"],
+    "learnableMoves": []
+  },
+  "kangaskhan-mega": {
+    "name": "kangaskhan-mega",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "pinsir-mega": {
+    "name": "pinsir-mega",
+    "types": ["flying", "bug"],
+    "learnableMoves": []
+  },
+  "gyarados-mega": {
+    "name": "gyarados-mega",
+    "types": ["dark", "water"],
+    "learnableMoves": []
+  },
+  "aerodactyl-mega": {
+    "name": "aerodactyl-mega",
+    "types": ["flying", "rock"],
+    "learnableMoves": []
+  },
+  "mewtwo-mega-x": {
+    "name": "mewtwo-mega-x",
+    "types": ["fighting", "psychic"],
+    "learnableMoves": []
+  },
+  "mewtwo-mega-y": {
+    "name": "mewtwo-mega-y",
+    "types": ["psychic"],
+    "learnableMoves": []
+  },
+  "ampharos-mega": {
+    "name": "ampharos-mega",
+    "types": ["dragon", "electric"],
+    "learnableMoves": []
+  },
+  "scizor-mega": {
+    "name": "scizor-mega",
+    "types": ["steel", "bug"],
+    "learnableMoves": []
+  },
+  "heracross-mega": {
+    "name": "heracross-mega",
+    "types": ["fighting", "bug"],
+    "learnableMoves": []
+  },
+  "houndoom-mega": {
+    "name": "houndoom-mega",
+    "types": ["fire", "dark"],
+    "learnableMoves": []
+  },
+  "tyranitar-mega": {
+    "name": "tyranitar-mega",
+    "types": ["dark", "rock"],
+    "learnableMoves": []
+  },
+  "blaziken-mega": {
+    "name": "blaziken-mega",
+    "types": ["fighting", "fire"],
+    "learnableMoves": []
+  },
+  "gardevoir-mega": {
+    "name": "gardevoir-mega",
+    "types": ["fairy", "psychic"],
+    "learnableMoves": []
+  },
+  "mawile-mega": {
+    "name": "mawile-mega",
+    "types": ["fairy", "steel"],
+    "learnableMoves": []
+  },
+  "aggron-mega": {
+    "name": "aggron-mega",
+    "types": ["steel"],
+    "learnableMoves": []
+  },
+  "medicham-mega": {
+    "name": "medicham-mega",
+    "types": ["psychic", "fighting"],
+    "learnableMoves": []
+  },
+  "manectric-mega": {
+    "name": "manectric-mega",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "banette-mega": {
+    "name": "banette-mega",
+    "types": ["ghost"],
+    "learnableMoves": []
+  },
+  "absol-mega": {
+    "name": "absol-mega",
+    "types": ["dark"],
+    "learnableMoves": []
+  },
+  "garchomp-mega": {
+    "name": "garchomp-mega",
+    "types": ["ground", "dragon"],
+    "learnableMoves": []
+  },
+  "lucario-mega": {
+    "name": "lucario-mega",
+    "types": ["steel", "fighting"],
+    "learnableMoves": []
+  },
+  "abomasnow-mega": {
+    "name": "abomasnow-mega",
+    "types": ["ice", "grass"],
+    "learnableMoves": []
+  },
+  "floette-eternal": {
+    "name": "floette-eternal",
+    "types": ["fairy"],
+    "learnableMoves": []
+  },
+  "latias-mega": {
+    "name": "latias-mega",
+    "types": ["psychic", "dragon"],
+    "learnableMoves": []
+  },
+  "latios-mega": {
+    "name": "latios-mega",
+    "types": ["psychic", "dragon"],
+    "learnableMoves": []
+  },
+  "swampert-mega": {
+    "name": "swampert-mega",
+    "types": ["ground", "water"],
+    "learnableMoves": []
+  },
+  "sceptile-mega": {
+    "name": "sceptile-mega",
+    "types": ["dragon", "grass"],
+    "learnableMoves": []
+  },
+  "sableye-mega": {
+    "name": "sableye-mega",
+    "types": ["ghost", "dark"],
+    "learnableMoves": []
+  },
+  "altaria-mega": {
+    "name": "altaria-mega",
+    "types": ["fairy", "dragon"],
+    "learnableMoves": []
+  },
+  "gallade-mega": {
+    "name": "gallade-mega",
+    "types": ["fighting", "psychic"],
+    "learnableMoves": []
+  },
+  "audino-mega": {
+    "name": "audino-mega",
+    "types": ["fairy", "normal"],
+    "learnableMoves": []
+  },
+  "sharpedo-mega": {
+    "name": "sharpedo-mega",
+    "types": ["dark", "water"],
+    "learnableMoves": []
+  },
+  "slowbro-mega": {
+    "name": "slowbro-mega",
+    "types": ["psychic", "water"],
+    "learnableMoves": []
+  },
+  "steelix-mega": {
+    "name": "steelix-mega",
+    "types": ["ground", "steel"],
+    "learnableMoves": []
+  },
+  "pidgeot-mega": {
+    "name": "pidgeot-mega",
+    "types": ["flying", "normal"],
+    "learnableMoves": []
+  },
+  "glalie-mega": {
+    "name": "glalie-mega",
+    "types": ["ice"],
+    "learnableMoves": []
+  },
+  "diancie-mega": {
+    "name": "diancie-mega",
+    "types": ["fairy", "rock"],
+    "learnableMoves": []
+  },
+  "metagross-mega": {
+    "name": "metagross-mega",
+    "types": ["psychic", "steel"],
+    "learnableMoves": []
+  },
+  "kyogre-primal": {
+    "name": "kyogre-primal",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "groudon-primal": {
+    "name": "groudon-primal",
+    "types": ["fire", "ground"],
+    "learnableMoves": []
+  },
+  "rayquaza-mega": {
+    "name": "rayquaza-mega",
+    "types": ["flying", "dragon"],
+    "learnableMoves": []
+  },
+  "pikachu-rock-star": {
+    "name": "pikachu-rock-star",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "pikachu-belle": {
+    "name": "pikachu-belle",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "pikachu-pop-star": {
+    "name": "pikachu-pop-star",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "pikachu-phd": {
+    "name": "pikachu-phd",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "pikachu-libre": {
+    "name": "pikachu-libre",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "pikachu-cosplay": {
+    "name": "pikachu-cosplay",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "hoopa-unbound": {
+    "name": "hoopa-unbound",
+    "types": ["dark", "psychic"],
+    "learnableMoves": []
+  },
+  "camerupt-mega": {
+    "name": "camerupt-mega",
+    "types": ["ground", "fire"],
+    "learnableMoves": []
+  },
+  "lopunny-mega": {
+    "name": "lopunny-mega",
+    "types": ["fighting", "normal"],
+    "learnableMoves": []
+  },
+  "salamence-mega": {
+    "name": "salamence-mega",
+    "types": ["flying", "dragon"],
+    "learnableMoves": []
+  },
+  "beedrill-mega": {
+    "name": "beedrill-mega",
+    "types": ["poison", "bug"],
+    "learnableMoves": []
+  },
+  "rattata-alola": {
+    "name": "rattata-alola",
+    "types": ["normal", "dark"],
+    "learnableMoves": []
+  },
+  "raticate-alola": {
+    "name": "raticate-alola",
+    "types": ["normal", "dark"],
+    "learnableMoves": []
+  },
+  "raticate-totem-alola": {
+    "name": "raticate-totem-alola",
+    "types": ["normal", "dark"],
+    "learnableMoves": []
+  },
+  "pikachu-original-cap": {
+    "name": "pikachu-original-cap",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "pikachu-hoenn-cap": {
+    "name": "pikachu-hoenn-cap",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "pikachu-sinnoh-cap": {
+    "name": "pikachu-sinnoh-cap",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "pikachu-unova-cap": {
+    "name": "pikachu-unova-cap",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "pikachu-kalos-cap": {
+    "name": "pikachu-kalos-cap",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "pikachu-alola-cap": {
+    "name": "pikachu-alola-cap",
+    "types": ["electric"],
+    "learnableMoves": []
+  },
+  "raichu-alola": {
+    "name": "raichu-alola",
+    "types": ["psychic", "electric"],
+    "learnableMoves": []
+  },
+  "sandshrew-alola": {
+    "name": "sandshrew-alola",
+    "types": ["steel", "ice"],
+    "learnableMoves": []
+  },
+  "sandslash-alola": {
+    "name": "sandslash-alola",
+    "types": ["steel", "ice"],
+    "learnableMoves": []
+  },
+  "vulpix-alola": {
+    "name": "vulpix-alola",
+    "types": ["ice"],
+    "learnableMoves": []
+  },
+  "ninetales-alola": {
+    "name": "ninetales-alola",
+    "types": ["fairy", "ice"],
+    "learnableMoves": []
+  },
+  "diglett-alola": {
+    "name": "diglett-alola",
+    "types": ["steel", "ground"],
+    "learnableMoves": []
+  },
+  "dugtrio-alola": {
+    "name": "dugtrio-alola",
+    "types": ["steel", "ground"],
+    "learnableMoves": []
+  },
+  "meowth-alola": {
+    "name": "meowth-alola",
+    "types": ["dark"],
+    "learnableMoves": []
+  },
+  "persian-alola": {
+    "name": "persian-alola",
+    "types": ["dark"],
+    "learnableMoves": []
+  },
+  "geodude-alola": {
+    "name": "geodude-alola",
+    "types": ["electric", "rock"],
+    "learnableMoves": []
+  },
+  "graveler-alola": {
+    "name": "graveler-alola",
+    "types": ["electric", "rock"],
+    "learnableMoves": []
+  },
+  "golem-alola": {
+    "name": "golem-alola",
+    "types": ["electric", "rock"],
+    "learnableMoves": []
+  },
+  "grimer-alola": {
+    "name": "grimer-alola",
+    "types": ["dark", "poison"],
+    "learnableMoves": []
+  },
+  "muk-alola": {
+    "name": "muk-alola",
+    "types": ["dark", "poison"],
+    "learnableMoves": []
+  },
+  "exeggutor-alola": {
+    "name": "exeggutor-alola",
+    "types": ["dragon", "grass"],
+    "learnableMoves": []
+  },
+  "marowak-alola": {
+    "name": "marowak-alola",
+    "types": ["ghost", "fire"],
+    "learnableMoves": []
+  },
+  "greninja-battle-bond": {
+    "name": "greninja-battle-bond",
+    "types": ["dark", "water"],
+    "learnableMoves": []
+  },
+  "greninja-ash": {
+    "name": "greninja-ash",
+    "types": ["dark", "water"],
+    "learnableMoves": []
+  },
+  "zygarde-10": {
+    "name": "zygarde-10",
+    "types": ["ground", "dragon"],
+    "learnableMoves": []
+  },
+  "zygarde-50": {
+    "name": "zygarde-50",
+    "types": ["ground", "dragon"],
+    "learnableMoves": []
+  },
+  "zygarde-complete": {
+    "name": "zygarde-complete",
+    "types": ["ground", "dragon"],
+    "learnableMoves": []
+  },
+  "gumshoos-totem": {
+    "name": "gumshoos-totem",
+    "types": ["normal"],
+    "learnableMoves": []
+  },
+  "vikavolt-totem": {
+    "name": "vikavolt-totem",
+    "types": ["electric", "bug"],
+    "learnableMoves": []
+  },
+  "oricorio-pom-pom": {
+    "name": "oricorio-pom-pom",
+    "types": ["flying", "electric"],
+    "learnableMoves": []
+  },
+  "oricorio-pau": {
+    "name": "oricorio-pau",
+    "types": ["flying", "psychic"],
+    "learnableMoves": []
+  },
+  "oricorio-sensu": {
+    "name": "oricorio-sensu",
+    "types": ["flying", "ghost"],
+    "learnableMoves": []
+  },
+  "lycanroc-midnight": {
+    "name": "lycanroc-midnight",
+    "types": ["rock"],
+    "learnableMoves": []
+  },
+  "wishiwashi-school": {
+    "name": "wishiwashi-school",
+    "types": ["water"],
+    "learnableMoves": []
+  },
+  "lurantis-totem": {
+    "name": "lurantis-totem",
+    "types": ["grass"],
+    "learnableMoves": []
+  },
+  "salazzle-totem": {
+    "name": "salazzle-totem",
+    "types": ["fire", "poison"],
+    "learnableMoves": []
+  },
+  "minior-orange-meteor": {
+    "name": "minior-orange-meteor",
+    "types": ["flying", "rock"],
+    "learnableMoves": []
+  },
+  "minior-yellow-meteor": {
+    "name": "minior-yellow-meteor",
+    "types": ["flying", "rock"],
+    "learnableMoves": []
+  },
+  "minior-green-meteor": {
+    "name": "minior-green-meteor",
+    "types": ["flying", "rock"],
+    "learnableMoves": []
+  },
+  "minior-blue-meteor": {
+    "name": "minior-blue-meteor",
+    "types": ["flying", "rock"],
+    "learnableMoves": []
+  },
+  "minior-indigo-meteor": {
+    "name": "minior-indigo-meteor",
+    "types": ["flying", "rock"],
+    "learnableMoves": []
+  },
+  "minior-violet-meteor": {
+    "name": "minior-violet-meteor",
+    "types": ["flying", "rock"],
+    "learnableMoves": []
+  },
+  "minior-red": {
+    "name": "minior-red",
+    "types": ["flying", "rock"],
+    "learnableMoves": []
+  },
+  "minior-orange": {
+    "name": "minior-orange",
+    "types": ["flying", "rock"],
+    "learnableMoves": []
+  },
+  "minior-yellow": {
+    "name": "minior-yellow",
+    "types": ["flying", "rock"],
+    "learnableMoves": []
+  },
+  "minior-green": {
+    "name": "minior-green",
+    "types": ["flying", "rock"],
+    "learnableMoves": []
+  },
+  "minior-blue": {
+    "name": "minior-blue",
+    "types": ["flying", "rock"],
+    "learnableMoves": []
+  },
+  "minior-indigo": {
+    "name": "minior-indigo",
+    "types": ["flying", "rock"],
+    "learnableMoves": []
+  },
+  "minior-violet": {
+    "name": "minior-violet",
+    "types": ["flying", "rock"],
+    "learnableMoves": []
+  },
+  "mimikyu-busted": {
+    "name": "mimikyu-busted",
+    "types": ["fairy", "ghost"],
+    "learnableMoves": []
+  },
+  "mimikyu-totem-disguised": {
+    "name": "mimikyu-totem-disguised",
+    "types": ["fairy", "ghost"],
+    "learnableMoves": []
+  },
+  "mimikyu-totem-busted": {
+    "name": "mimikyu-totem-busted",
+    "types": ["fairy", "ghost"],
+    "learnableMoves": []
+  },
+  "kommo-o-totem": {
+    "name": "kommo-o-totem",
+    "types": ["fighting", "dragon"],
+    "learnableMoves": []
+  },
+  "magearna-original": {
+    "name": "magearna-original",
+    "types": ["fairy", "steel"],
+    "learnableMoves": []
+  }
+}

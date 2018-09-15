@@ -20,17 +20,35 @@ let types = [];
         if (illegalTypeNames.indexOf(t.name) > -1) {
             return;
         }
-        let type = { name: t.name, weakness: [] };
+        let type = {
+            name: t.name,
+            noDamageTo: [],
+            halfDamageTo: [],
+            doubleDamageTo: [],
+            noDamageFrom: [],
+            halfDamageFrom: [],
+            doubleDamageFrom: []
+        };
         let tApi = yield node_fetch_1.default(t.url);
         let tJson = yield tApi.json();
-        let tData = tJson.damage_relations.double_damage_from;
-        type.weakness = tData.map(w => w.name);
+        let tData = tJson.damage_relations;
+        type.noDamageTo = tData.no_damage_to.map(w => w.name);
+        type.halfDamageTo = tData.half_damage_to.map(w => w.name);
+        type.doubleDamageTo = tData.double_damage_to.map(w => w.name);
+        type.noDamageFrom = tData.no_damage_from.map(w => w.name);
+        type.halfDamageFrom = tData.half_damage_from.map(w => w.name);
+        type.doubleDamageFrom = tData.double_damage_from.map(w => w.name);
         return type;
     })));
-    console.log(results);
+    results = results.filter(r => r != null);
+    let typeDict = {};
+    results.forEach(t => {
+        typeDict[t.name] = t;
+    });
     console.log("parsing pokemen finished");
     console.log("Writing to file");
     fs_1.writeFileSync("./data/typeList.json", JSON.stringify(results, null, 2));
+    fs_1.writeFileSync("./data/typeDict.json", JSON.stringify(typeDict, null, 2));
     console.log("Wrote successfully to: ./data/typeList.json");
     return null;
 }))().catch(e => console.log(e));

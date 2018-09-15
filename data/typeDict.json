@@ -1,5 +1,5 @@
-[
-  {
+{
+  "normal": {
     "name": "normal",
     "noDamageTo": ["ghost"],
     "halfDamageTo": ["rock", "steel"],
@@ -8,7 +8,7 @@
     "halfDamageFrom": [],
     "doubleDamageFrom": ["fighting"]
   },
-  {
+  "fighting": {
     "name": "fighting",
     "noDamageTo": ["ghost"],
     "halfDamageTo": ["flying", "poison", "bug", "psychic", "fairy"],
@@ -17,7 +17,7 @@
     "halfDamageFrom": ["rock", "bug", "dark"],
     "doubleDamageFrom": ["flying", "psychic", "fairy"]
   },
-  {
+  "flying": {
     "name": "flying",
     "noDamageTo": [],
     "halfDamageTo": ["rock", "steel", "electric"],
@@ -26,7 +26,7 @@
     "halfDamageFrom": ["fighting", "bug", "grass"],
     "doubleDamageFrom": ["rock", "electric", "ice"]
   },
-  {
+  "poison": {
     "name": "poison",
     "noDamageTo": ["steel"],
     "halfDamageTo": ["poison", "ground", "rock", "ghost"],
@@ -35,7 +35,7 @@
     "halfDamageFrom": ["fighting", "poison", "bug", "grass", "fairy"],
     "doubleDamageFrom": ["ground", "psychic"]
   },
-  {
+  "ground": {
     "name": "ground",
     "noDamageTo": ["flying"],
     "halfDamageTo": ["bug", "grass"],
@@ -44,7 +44,7 @@
     "halfDamageFrom": ["poison", "rock"],
     "doubleDamageFrom": ["water", "grass", "ice"]
   },
-  {
+  "rock": {
     "name": "rock",
     "noDamageTo": [],
     "halfDamageTo": ["fighting", "ground", "steel"],
@@ -53,7 +53,7 @@
     "halfDamageFrom": ["normal", "flying", "poison", "fire"],
     "doubleDamageFrom": ["fighting", "ground", "steel", "water", "grass"]
   },
-  {
+  "bug": {
     "name": "bug",
     "noDamageTo": [],
     "halfDamageTo": [
@@ -70,7 +70,7 @@
     "halfDamageFrom": ["fighting", "ground", "grass"],
     "doubleDamageFrom": ["flying", "rock", "fire"]
   },
-  {
+  "ghost": {
     "name": "ghost",
     "noDamageTo": ["normal"],
     "halfDamageTo": ["dark"],
@@ -79,7 +79,7 @@
     "halfDamageFrom": ["poison", "bug"],
     "doubleDamageFrom": ["ghost", "dark"]
   },
-  {
+  "steel": {
     "name": "steel",
     "noDamageTo": [],
     "halfDamageTo": ["steel", "fire", "water", "electric"],
@@ -99,7 +99,7 @@
     ],
     "doubleDamageFrom": ["fighting", "ground", "fire"]
   },
-  {
+  "fire": {
     "name": "fire",
     "noDamageTo": [],
     "halfDamageTo": ["rock", "fire", "water", "dragon"],
@@ -108,7 +108,7 @@
     "halfDamageFrom": ["bug", "steel", "fire", "grass", "ice", "fairy"],
     "doubleDamageFrom": ["ground", "rock", "water"]
   },
-  {
+  "water": {
     "name": "water",
     "noDamageTo": [],
     "halfDamageTo": ["water", "grass", "dragon"],
@@ -117,7 +117,7 @@
     "halfDamageFrom": ["steel", "fire", "water", "ice"],
     "doubleDamageFrom": ["grass", "electric"]
   },
-  {
+  "grass": {
     "name": "grass",
     "noDamageTo": [],
     "halfDamageTo": [
@@ -134,7 +134,7 @@
     "halfDamageFrom": ["ground", "water", "grass", "electric"],
     "doubleDamageFrom": ["flying", "poison", "bug", "fire", "ice"]
   },
-  {
+  "electric": {
     "name": "electric",
     "noDamageTo": ["ground"],
     "halfDamageTo": ["grass", "electric", "dragon"],
@@ -143,7 +143,7 @@
     "halfDamageFrom": ["flying", "steel", "electric"],
     "doubleDamageFrom": ["ground"]
   },
-  {
+  "psychic": {
     "name": "psychic",
     "noDamageTo": ["dark"],
     "halfDamageTo": ["steel", "psychic"],
@@ -152,7 +152,7 @@
     "halfDamageFrom": ["fighting", "psychic"],
     "doubleDamageFrom": ["bug", "ghost", "dark"]
   },
-  {
+  "ice": {
     "name": "ice",
     "noDamageTo": [],
     "halfDamageTo": ["steel", "fire", "water", "ice"],
@@ -161,7 +161,7 @@
     "halfDamageFrom": ["ice"],
     "doubleDamageFrom": ["fighting", "rock", "steel", "fire"]
   },
-  {
+  "dragon": {
     "name": "dragon",
     "noDamageTo": ["fairy"],
     "halfDamageTo": ["steel"],
@@ -170,7 +170,7 @@
     "halfDamageFrom": ["fire", "water", "grass", "electric"],
     "doubleDamageFrom": ["ice", "dragon", "fairy"]
   },
-  {
+  "dark": {
     "name": "dark",
     "noDamageTo": [],
     "halfDamageTo": ["fighting", "dark", "fairy"],
@@ -179,7 +179,7 @@
     "halfDamageFrom": ["ghost", "dark"],
     "doubleDamageFrom": ["fighting", "bug", "fairy"]
   },
-  {
+  "fairy": {
     "name": "fairy",
     "noDamageTo": [],
     "halfDamageTo": ["poison", "steel", "fire"],
@@ -188,4 +188,4 @@
     "halfDamageFrom": ["fighting", "bug", "dark"],
     "doubleDamageFrom": ["poison", "steel"]
   }
-]
+}
