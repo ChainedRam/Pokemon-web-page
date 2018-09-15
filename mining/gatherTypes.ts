@@ -53,10 +53,18 @@ let types: Type[] = [];
   );
 
   results = results.filter(r => r != null);
+
+  let typeDict: { [typeName: string]: Type } = {};
+
+  results.forEach(t => {
+    typeDict[t.name] = t;
+  });
+
   console.log("parsing pokemen finished");
 
   console.log("Writing to file");
   writeFileSync("./data/typeList.json", JSON.stringify(results, null, 2));
+  writeFileSync("./data/typeDict.json", JSON.stringify(typeDict, null, 2));
 
   console.log("Wrote successfully to: ./data/typeList.json");
 

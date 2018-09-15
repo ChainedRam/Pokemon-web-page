@@ -10,13 +10,34 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const node_fetch_1 = require("node-fetch");
 const fs_1 = require("fs");
+const path_1 = require("path");
 let pokeList = [];
 let pageNumber = 1;
 let parsedPokemenCount = 0;
 (() => __awaiter(this, void 0, void 0, function* () {
     let nextUrl = "http://pokeapi.co/api/v2/pokemon";
     while (nextUrl) {
-        let response = yield node_fetch_1.default(nextUrl);
+        let attempts = 5;
+        let response;
+        while (true) {
+            try {
+                response = yield node_fetch_1.default(nextUrl);
+                break;
+            }
+            catch (e) {
+                if (e instanceof node_fetch_1.FetchError && e.code === "ETIMEDOUT") {
+                    if (attempts > 0)
+                        console.log("Connection Time out, reattempting #" + attempts--);
+                    else {
+                        console.log("Out of attempts");
+                        throw e;
+                    }
+                }
+                else {
+                    throw e;
+                }
+            }
+        }
         let json = yield response.json();
         let data = json.results;
         let count = json.count;
@@ -27,7 +48,27 @@ let parsedPokemenCount = 0;
                 types: [],
                 learnableMoves: []
             };
-            let pRes = yield node_fetch_1.default(p.url);
+            let pAttempts = 5;
+            let pRes;
+            while (true) {
+                try {
+                    pRes = yield node_fetch_1.default(p.url);
+                    break;
+                }
+                catch (e) {
+                    if (e instanceof node_fetch_1.FetchError && e.code === "ETIMEDOUT") {
+                        if (pAttempts > 0)
+                            console.log("Connection Time out, reattempting #" + pAttempts--);
+                        else {
+                            console.log("Out of attempts");
+                            throw e;
+                        }
+                    }
+                    else {
+                        throw e;
+                    }
+                }
+            }
             let pJson = yield pRes.json();
             let pData = pJson.types;
             pokemon.types = pData.map(t => t.type.name);
@@ -39,9 +80,21 @@ let parsedPokemenCount = 0;
         nextUrl = json.next;
     }
     console.log("parsing pokemen finished");
-    console.log("Writing to file");
-    fs_1.writeFileSync("./data/pokeList.json", JSON.stringify(pokeList, null, 2));
-    console.log("Wrote successfully to: ./data/pokeList.json");
+    let pokeDict = {};
+    pokeList.forEach(p => {
+        pokeDict[p.name] = p;
+    });
+    let outputDirectory = "./data";
+    console.log("Writing to list to file...");
+    let listFileName = "pokeList.json";
+    let listFilePath = path_1.join(outputDirectory, listFileName);
+    fs_1.writeFileSync(listFilePath, JSON.stringify(pokeList, null, 2));
+    console.log("Wrote successfully to: " + listFilePath);
+    console.log("Writing to dict to file...");
+    let dictFileName = "pokeDict.json";
+    let dictFilePath = path_1.join(outputDirectory, dictFileName);
+    fs_1.writeFileSync(dictFilePath, JSON.stringify(pokeDict, null, 2));
+    console.log("Wrote successfully to: " + dictFilePath);
     return null;
 }))().catch(e => {
     console.log(e);
