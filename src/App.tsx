@@ -13,7 +13,9 @@ class App extends React.Component {
             console.log(i, p);
           }}
         />
-        <TeamWeakness />
+        <TeamWeakness
+          weakness={[{ Type: "Fire", Count: 2 }, { Type: "Water", Count: 4 }]}
+        />
       </div>
     );
   }
