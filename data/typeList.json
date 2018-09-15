@@ -1,74 +1,191 @@
 [
   {
     "name": "normal",
-    "weakness": ["fighting"]
+    "noDamageTo": ["ghost"],
+    "halfDamageTo": ["rock", "steel"],
+    "doubleDamageTo": [],
+    "noDamageFrom": ["ghost"],
+    "halfDamageFrom": [],
+    "doubleDamageFrom": ["fighting"]
   },
   {
     "name": "fighting",
-    "weakness": ["flying", "psychic", "fairy"]
+    "noDamageTo": ["ghost"],
+    "halfDamageTo": ["flying", "poison", "bug", "psychic", "fairy"],
+    "doubleDamageTo": ["normal", "rock", "steel", "ice", "dark"],
+    "noDamageFrom": [],
+    "halfDamageFrom": ["rock", "bug", "dark"],
+    "doubleDamageFrom": ["flying", "psychic", "fairy"]
   },
   {
     "name": "flying",
-    "weakness": ["rock", "electric", "ice"]
+    "noDamageTo": [],
+    "halfDamageTo": ["rock", "steel", "electric"],
+    "doubleDamageTo": ["fighting", "bug", "grass"],
+    "noDamageFrom": ["ground"],
+    "halfDamageFrom": ["fighting", "bug", "grass"],
+    "doubleDamageFrom": ["rock", "electric", "ice"]
   },
   {
     "name": "poison",
-    "weakness": ["ground", "psychic"]
+    "noDamageTo": ["steel"],
+    "halfDamageTo": ["poison", "ground", "rock", "ghost"],
+    "doubleDamageTo": ["grass", "fairy"],
+    "noDamageFrom": [],
+    "halfDamageFrom": ["fighting", "poison", "bug", "grass", "fairy"],
+    "doubleDamageFrom": ["ground", "psychic"]
   },
   {
     "name": "ground",
-    "weakness": ["water", "grass", "ice"]
+    "noDamageTo": ["flying"],
+    "halfDamageTo": ["bug", "grass"],
+    "doubleDamageTo": ["poison", "rock", "steel", "fire", "electric"],
+    "noDamageFrom": ["electric"],
+    "halfDamageFrom": ["poison", "rock"],
+    "doubleDamageFrom": ["water", "grass", "ice"]
   },
   {
     "name": "rock",
-    "weakness": ["fighting", "ground", "steel", "water", "grass"]
+    "noDamageTo": [],
+    "halfDamageTo": ["fighting", "ground", "steel"],
+    "doubleDamageTo": ["flying", "bug", "fire", "ice"],
+    "noDamageFrom": [],
+    "halfDamageFrom": ["normal", "flying", "poison", "fire"],
+    "doubleDamageFrom": ["fighting", "ground", "steel", "water", "grass"]
   },
   {
     "name": "bug",
-    "weakness": ["flying", "rock", "fire"]
+    "noDamageTo": [],
+    "halfDamageTo": [
+      "fighting",
+      "flying",
+      "poison",
+      "ghost",
+      "steel",
+      "fire",
+      "fairy"
+    ],
+    "doubleDamageTo": ["grass", "psychic", "dark"],
+    "noDamageFrom": [],
+    "halfDamageFrom": ["fighting", "ground", "grass"],
+    "doubleDamageFrom": ["flying", "rock", "fire"]
   },
   {
     "name": "ghost",
-    "weakness": ["ghost", "dark"]
+    "noDamageTo": ["normal"],
+    "halfDamageTo": ["dark"],
+    "doubleDamageTo": ["ghost", "psychic"],
+    "noDamageFrom": ["normal", "fighting"],
+    "halfDamageFrom": ["poison", "bug"],
+    "doubleDamageFrom": ["ghost", "dark"]
   },
   {
     "name": "steel",
-    "weakness": ["fighting", "ground", "fire"]
+    "noDamageTo": [],
+    "halfDamageTo": ["steel", "fire", "water", "electric"],
+    "doubleDamageTo": ["rock", "ice", "fairy"],
+    "noDamageFrom": ["poison"],
+    "halfDamageFrom": [
+      "normal",
+      "flying",
+      "rock",
+      "bug",
+      "steel",
+      "grass",
+      "psychic",
+      "ice",
+      "dragon",
+      "fairy"
+    ],
+    "doubleDamageFrom": ["fighting", "ground", "fire"]
   },
   {
     "name": "fire",
-    "weakness": ["ground", "rock", "water"]
+    "noDamageTo": [],
+    "halfDamageTo": ["rock", "fire", "water", "dragon"],
+    "doubleDamageTo": ["bug", "steel", "grass", "ice"],
+    "noDamageFrom": [],
+    "halfDamageFrom": ["bug", "steel", "fire", "grass", "ice", "fairy"],
+    "doubleDamageFrom": ["ground", "rock", "water"]
   },
   {
     "name": "water",
-    "weakness": ["grass", "electric"]
+    "noDamageTo": [],
+    "halfDamageTo": ["water", "grass", "dragon"],
+    "doubleDamageTo": ["ground", "rock", "fire"],
+    "noDamageFrom": [],
+    "halfDamageFrom": ["steel", "fire", "water", "ice"],
+    "doubleDamageFrom": ["grass", "electric"]
   },
   {
     "name": "grass",
-    "weakness": ["flying", "poison", "bug", "fire", "ice"]
+    "noDamageTo": [],
+    "halfDamageTo": [
+      "flying",
+      "poison",
+      "bug",
+      "steel",
+      "fire",
+      "grass",
+      "dragon"
+    ],
+    "doubleDamageTo": ["ground", "rock", "water"],
+    "noDamageFrom": [],
+    "halfDamageFrom": ["ground", "water", "grass", "electric"],
+    "doubleDamageFrom": ["flying", "poison", "bug", "fire", "ice"]
   },
   {
     "name": "electric",
-    "weakness": ["ground"]
+    "noDamageTo": ["ground"],
+    "halfDamageTo": ["grass", "electric", "dragon"],
+    "doubleDamageTo": ["flying", "water"],
+    "noDamageFrom": [],
+    "halfDamageFrom": ["flying", "steel", "electric"],
+    "doubleDamageFrom": ["ground"]
   },
   {
     "name": "psychic",
-    "weakness": ["bug", "ghost", "dark"]
+    "noDamageTo": ["dark"],
+    "halfDamageTo": ["steel", "psychic"],
+    "doubleDamageTo": ["fighting", "poison"],
+    "noDamageFrom": [],
+    "halfDamageFrom": ["fighting", "psychic"],
+    "doubleDamageFrom": ["bug", "ghost", "dark"]
   },
   {
     "name": "ice",
-    "weakness": ["fighting", "rock", "steel", "fire"]
+    "noDamageTo": [],
+    "halfDamageTo": ["steel", "fire", "water", "ice"],
+    "doubleDamageTo": ["flying", "ground", "grass", "dragon"],
+    "noDamageFrom": [],
+    "halfDamageFrom": ["ice"],
+    "doubleDamageFrom": ["fighting", "rock", "steel", "fire"]
   },
   {
     "name": "dragon",
-    "weakness": ["ice", "dragon", "fairy"]
+    "noDamageTo": ["fairy"],
+    "halfDamageTo": ["steel"],
+    "doubleDamageTo": ["dragon"],
+    "noDamageFrom": [],
+    "halfDamageFrom": ["fire", "water", "grass", "electric"],
+    "doubleDamageFrom": ["ice", "dragon", "fairy"]
   },
   {
     "name": "dark",
-    "weakness": ["fighting", "bug", "fairy"]
+    "noDamageTo": [],
+    "halfDamageTo": ["fighting", "dark", "fairy"],
+    "doubleDamageTo": ["ghost", "psychic"],
+    "noDamageFrom": ["psychic"],
+    "halfDamageFrom": ["ghost", "dark"],
+    "doubleDamageFrom": ["fighting", "bug", "fairy"]
   },
   {
     "name": "fairy",
-    "weakness": ["poison", "steel"]
+    "noDamageTo": [],
+    "halfDamageTo": ["poison", "steel", "fire"],
+    "doubleDamageTo": ["fighting", "dragon", "dark"],
+    "noDamageFrom": ["dragon"],
+    "halfDamageFrom": ["fighting", "bug", "dark"],
+    "doubleDamageFrom": ["poison", "steel"]
   }
 ]
