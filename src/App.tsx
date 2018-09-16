@@ -7,8 +7,15 @@ class App extends React.Component {
   public render() {
     return (
       <div>
-        <PokemonTeam />
-        <TeamWeakness />
+        <PokemonTeam
+          list={["Charmander", "Squirtle", "Bulbasaur"]}
+          onPokemonSelected={(i, p) => {
+            console.log(i, p);
+          }}
+        />
+        <TeamWeakness
+          weakness={[{ Type: "Fire", Count: 2 }, { Type: "Water", Count: 4 }]}
+        />
       </div>
     );
   }
