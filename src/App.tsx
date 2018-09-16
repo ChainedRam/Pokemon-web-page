@@ -12,12 +12,11 @@ class App extends React.Component<{}, IFullTeam> {
     fullTeam: ["", "", "", "", "", ""]
   };
   public render() {
-    console.log(this.state.fullTeam);
     return (
       <div>
         <p>{...this.state.fullTeam}</p>
         <PokemonTeam
-          list={["Charmander", "Squirtle", "Bulbasaur"]}
+          list={["none", "Charmander", "Squirtle", "Bulbasaur"]}
           onPokemonSelected={(i, p) => {
             const fullTeamCopy = [...this.state.fullTeam];
             fullTeamCopy[i] = p;
