@@ -17,7 +17,7 @@ export default class PokeTeam extends React.Component<ITeamListProps, {}> {
     ));
     for (let i = 0; i < 6; i++) {
       maxTeam.push(
-        <li>
+        <li key={i}>
           <select
             className="btn btn-secondary"
             onChange={e => this.onSelect(i, e)}

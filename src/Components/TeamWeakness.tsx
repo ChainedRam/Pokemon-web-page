@@ -6,12 +6,13 @@ export interface IWeakness {
 }
 interface IWeaknessProps {
   weakness: IWeakness[];
+  TeamSelection: string[];
 }
 
 export default class TeamWeakness extends React.Component<IWeaknessProps, {}> {
   public render() {
-    const fake = this.props.weakness.map(fakeTeam => (
-      <li>
+    const fake = this.props.weakness.map((fakeTeam, i) => (
+      <li key={i}>
         {fakeTeam.Type}
         {fakeTeam.Count}
       </li>
