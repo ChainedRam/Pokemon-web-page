@@ -3,18 +3,29 @@ import "./App.css";
 import PokemonTeam from "./Components/PokemonTeam";
 import TeamWeakness from "./Components/TeamWeakness";
 
-class App extends React.Component {
+interface IFullTeam {
+  fullTeam: string[];
+}
+
+class App extends React.Component<{}, IFullTeam> {
+  state = {
+    fullTeam: ["", "", "", "", "", ""]
+  };
   public render() {
     return (
       <div>
+        <p>{...this.state.fullTeam}</p>
         <PokemonTeam
-          list={["Charmander", "Squirtle", "Bulbasaur"]}
+          list={["none", "Charmander", "Squirtle", "Bulbasaur"]}
           onPokemonSelected={(i, p) => {
-            console.log(i, p);
+            const fullTeamCopy = [...this.state.fullTeam];
+            fullTeamCopy[i] = p;
+            this.setState({ fullTeam: fullTeamCopy });
           }}
         />
         <TeamWeakness
           weakness={[{ Type: "Fire", Count: 2 }, { Type: "Water", Count: 4 }]}
+          TeamSelection={this.state.fullTeam}
         />
       </div>
     );
