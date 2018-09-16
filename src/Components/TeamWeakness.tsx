@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Pokemon } from "../data/dataType";
 
 export interface IWeakness {
   Type: string;
@@ -6,7 +7,7 @@ export interface IWeakness {
 }
 interface IWeaknessProps {
   weakness: IWeakness[];
-  TeamSelection: string[];
+  TeamSelection: Pokemon[];
 }
 interface IWeaknessState {}
 
