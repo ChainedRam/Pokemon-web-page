@@ -1,6 +1,6 @@
 export interface Pokemon {
   name: string;
-  types: string[];
+  types: Type[];
   learnableMoves: string[];
 }
 
