@@ -1,72 +1,64 @@
 import fetch from "node-fetch";
 import { writeFileSync } from "fs";
+import * as K from "./ApiCrawler";
+import { exportJson } from "./ApiCrawler";
 
 let illegalTypeNames = ["unknown", "shadow"];
 
 interface Type {
   name: string;
-  noDamageTo: string[];
-  halfDamageTo: string[];
-  doubleDamageTo: string[];
+  noDamageTo?: string[];
+  halfDamageTo?: string[];
+  doubleDamageTo?: string[];
 
-  noDamageFrom: string[];
-  halfDamageFrom: string[];
-  doubleDamageFrom: string[];
+  noDamageFrom?: string[];
+  halfDamageFrom?: string[];
+  doubleDamageFrom?: string[];
 }
 
-let types: Type[] = [];
-
 (async () => {
-  let api = await fetch("http://pokeapi.co/api/v2/type");
-  let json = await api.json();
-  let data = json.results as any[];
+  let typeList = await K.startCrawlingAsync<Type[]>(
+    "http://pokeapi.co/api/v2/type",
+    async json => {
+      let data = json.results as any[];
+      let results = await Promise.all(
+        data.map(async t => {
+          if (illegalTypeNames.indexOf(t.name) > -1) {
+            return;
+          }
 
-  let results = await Promise.all(
-    data.map(async t => {
-      if (illegalTypeNames.indexOf(t.name) > -1) {
-        return;
-      }
+          let type: Type = {
+            name: t.name
+          };
 
-      let type: Type = {
-        name: t.name,
-        noDamageTo: [],
-        halfDamageTo: [],
-        doubleDamageTo: [],
-        noDamageFrom: [],
-        halfDamageFrom: [],
-        doubleDamageFrom: []
-      };
-
-      let tApi = await fetch(t.url);
-      let tJson = await tApi.json();
-      let tData = tJson.damage_relations as any;
-
-      type.noDamageTo = tData.no_damage_to.map(w => w.name);
-      type.halfDamageTo = tData.half_damage_to.map(w => w.name);
-      type.doubleDamageTo = tData.double_damage_to.map(w => w.name);
-      type.noDamageFrom = tData.no_damage_from.map(w => w.name);
-      type.halfDamageFrom = tData.half_damage_from.map(w => w.name);
-      type.doubleDamageFrom = tData.double_damage_from.map(w => w.name);
-
-      return type;
-    })
+          return await K.startCrawlingAsync<Type>(t.url, async json => {
+            let dmgRel = json.damage_relations;
+            type.noDamageTo = dmgRel.no_damage_to.map(w => w.name);
+            type.halfDamageTo = dmgRel.half_damage_to.map(w => w.name);
+            type.doubleDamageTo = dmgRel.double_damage_to.map(w => w.name);
+            type.noDamageFrom = dmgRel.no_damage_from.map(w => w.name);
+            type.halfDamageFrom = dmgRel.half_damage_from.map(w => w.name);
+            type.doubleDamageFrom = dmgRel.double_damage_from.map(w => w.name);
+            return type;
+          });
+        })
+      );
+      return results;
+    }
   );
 
-  results = results.filter(r => r != null);
+  typeList = typeList.filter(r => r != null);
 
   let typeDict: { [typeName: string]: Type } = {};
 
-  results.forEach(t => {
+  typeList.forEach(t => {
     typeDict[t.name] = t;
   });
 
   console.log("parsing pokemen finished");
 
-  console.log("Writing to file");
-  writeFileSync("./data/typeList.json", JSON.stringify(results, null, 2));
-  writeFileSync("./data/typeDict.json", JSON.stringify(typeDict, null, 2));
-
-  console.log("Wrote successfully to: ./data/typeList.json");
+  exportJson("./data/typeList.json", typeList);
+  exportJson("./data/typeDict.json", typeDict);
 
   return null;
 })().catch(e => console.log(e));
