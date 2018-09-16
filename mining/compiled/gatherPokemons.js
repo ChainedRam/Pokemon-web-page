@@ -16,7 +16,7 @@ let pageNumber = 1;
 let parsedPokemenCount = 0;
 (() => __awaiter(this, void 0, void 0, function* () {
     let nextUrl = "http://pokeapi.co/api/v2/pokemon";
-    while (nextUrl) {
+    if (nextUrl) {
         let attempts = 5;
         let response;
         while (true) {
@@ -84,15 +84,15 @@ let parsedPokemenCount = 0;
     pokeList.forEach(p => {
         pokeDict[p.name] = p;
     });
-    let outputDirectory = "./data";
+    let dir = "./src/data";
     console.log("Writing to list to file...");
     let listFileName = "pokeList.json";
-    let listFilePath = path_1.join(outputDirectory, listFileName);
+    let listFilePath = path_1.join(dir, listFileName);
     fs_1.writeFileSync(listFilePath, JSON.stringify(pokeList, null, 2));
     console.log("Wrote successfully to: " + listFilePath);
     console.log("Writing to dict to file...");
     let dictFileName = "pokeDict.json";
-    let dictFilePath = path_1.join(outputDirectory, dictFileName);
+    let dictFilePath = path_1.join(dir, dictFileName);
     fs_1.writeFileSync(dictFilePath, JSON.stringify(pokeDict, null, 2));
     console.log("Wrote successfully to: " + dictFilePath);
     return null;

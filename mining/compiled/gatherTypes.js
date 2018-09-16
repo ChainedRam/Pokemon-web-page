@@ -40,8 +40,8 @@ let illegalTypeNames = ["unknown", "shadow"];
         typeDict[t.name] = t;
     });
     console.log("parsing pokemen finished");
-    ApiCrawler_1.exportJson("./data/typeList.json", typeList);
-    ApiCrawler_1.exportJson("./data/typeDict.json", typeDict);
+    ApiCrawler_1.exportJson("./src/data/typeList.json", typeList);
+    ApiCrawler_1.exportJson("./src/data/typeDict.json", typeDict);
     return null;
 }))().catch(e => console.log(e));
 //# sourceMappingURL=gatherTypes.js.map

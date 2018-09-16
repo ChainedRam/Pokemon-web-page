@@ -99,16 +99,16 @@ let parsedPokemenCount = 0;
     pokeDict[p.name] = p;
   });
 
-  let outputDirectory = "./data";
+  let dir = "./src/data";
   console.log("Writing to list to file...");
   let listFileName = "pokeList.json";
-  let listFilePath = join(outputDirectory, listFileName);
+  let listFilePath = join(dir, listFileName);
   writeFileSync(listFilePath, JSON.stringify(pokeList, null, 2));
   console.log("Wrote successfully to: " + listFilePath);
 
   console.log("Writing to dict to file...");
   let dictFileName = "pokeDict.json";
-  let dictFilePath = join(outputDirectory, dictFileName);
+  let dictFilePath = join(dir, dictFileName);
   writeFileSync(dictFilePath, JSON.stringify(pokeDict, null, 2));
   console.log("Wrote successfully to: " + dictFilePath);
 

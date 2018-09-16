@@ -57,8 +57,8 @@ interface Type {
 
   console.log("parsing pokemen finished");
 
-  exportJson("./data/typeList.json", typeList);
-  exportJson("./data/typeDict.json", typeDict);
+  exportJson("./src/data/typeList.json", typeList);
+  exportJson("./src/data/typeDict.json", typeDict);
 
   return null;
 })().catch(e => console.log(e));
