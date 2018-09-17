@@ -22,3 +22,25 @@ export interface Type {
 export interface TypeDictionary {
   [pokeName: string]: Type;
 }
+
+import rawTypeDict from "./typeDict.json";
+
+export function GetTypesDictionary(): TypeDictionary {
+  return rawTypeDict as TypeDictionary;
+}
+
+import rawPokeDict from "./pokeDict.json";
+
+export function GetPokeDictionary(): PokemonDictionary {
+  let pokeDict: PokemonDictionary = {};
+  let typeDict = GetTypesDictionary();
+  for (let key in rawPokeDict) {
+    pokeDict[key] = {
+      name: key,
+      types: rawPokeDict[key].types.map(t => typeDict[t]),
+      learnableMoves: []
+    };
+  }
+
+  return pokeDict;
+}
