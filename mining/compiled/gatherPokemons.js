@@ -16,7 +16,7 @@ let pageNumber = 1;
 let parsedPokemenCount = 0;
 (() => __awaiter(this, void 0, void 0, function* () {
     let nextUrl = "http://pokeapi.co/api/v2/pokemon";
-    if (nextUrl) {
+    while (nextUrl) {
         let attempts = 5;
         let response;
         while (true) {

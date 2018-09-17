@@ -8,10 +8,15 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+const fs_1 = require("fs");
 const K = require("./ApiCrawler");
 const ApiCrawler_1 = require("./ApiCrawler");
 let illegalTypeNames = ["unknown", "shadow"];
 (() => __awaiter(this, void 0, void 0, function* () {
+    console.log(JSON.parse(fs_1.readFileSync("./src/data/pokeDict.json").toString()));
+    let x = 0;
+    if (x == 0)
+        return;
     let typeList = yield K.startCrawlingAsync("http://pokeapi.co/api/v2/type", (json) => __awaiter(this, void 0, void 0, function* () {
         let data = json.results;
         let results = yield Promise.all(data.map((t) => __awaiter(this, void 0, void 0, function* () {
