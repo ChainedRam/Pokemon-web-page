@@ -2,19 +2,18 @@ import * as React from "react";
 import "./App.css";
 import PokemonTeam from "./Components/PokemonTeam";
 import TeamWeakness from "./Components/TeamWeakness";
-import * as pokeDict from "./data/dataType";
+import * as DataType from "./data/dataType";
 
 interface IFullTeam {
-  fullTeam: pokeDict.Pokemon[];
+  fullTeam: DataType.Pokemon[];
 }
 
 class App extends React.Component<{}, IFullTeam> {
-  EmptyPokemon: pokeDict.Pokemon = {
-    name: "fake",
+  EmptyPokemon: DataType.Pokemon = {
+    name: "empty",
     types: [],
     learnableMoves: []
   };
-  pokeDict: pokeDict.Pokemon = JSON.parse("./data/pokeDict.json");
   state = {
     fullTeam: [
       this.EmptyPokemon,
@@ -23,14 +22,15 @@ class App extends React.Component<{}, IFullTeam> {
       this.EmptyPokemon,
       this.EmptyPokemon,
       this.EmptyPokemon
-    ] as pokeDict.Pokemon[]
+    ] as DataType.Pokemon[]
   };
   public render() {
+    let pokeDict = DataType.GetPokeDictionary();
+    let names = DataType.GetPokemonList().map(k => k.name);
     return (
       <div>
-        <p>{...this.state.fullTeam}</p>
         <PokemonTeam
-          list={["none", "Charmander", "Squirtle", "Bulbasaur"]}
+          list={names}
           onPokemonSelected={(i, p) => {
             const fullTeamCopy = [...this.state.fullTeam];
             fullTeamCopy[i] = pokeDict[p];

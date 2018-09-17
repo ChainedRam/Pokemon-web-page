@@ -10,14 +10,16 @@ interface IWeaknessProps {
   TeamSelection: Pokemon[];
 }
 interface IWeaknessState {}
+//private WeakCalculator() {
+//let WeakTo: string[]
+//WeakTo.push()
+//}
 
 export default class TeamWeakness extends React.Component<
   IWeaknessProps,
   IWeaknessState
 > {
   public render() {
-    console.log("your team is now " + this.props.TeamSelection);
-
     const fake = this.props.weakness.map((fakeTeam, i) => (
       <li key={i}>
         {fakeTeam.Type}

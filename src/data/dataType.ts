@@ -44,3 +44,8 @@ export function GetPokeDictionary(): PokemonDictionary {
 
   return pokeDict;
 }
+
+import rawPokeList from "./pokeList.json";
+export function GetPokemonList(): Pokemon[] {
+  return rawPokeList as Pokemon[];
+}
