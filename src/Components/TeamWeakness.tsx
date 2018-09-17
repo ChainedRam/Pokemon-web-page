@@ -9,21 +9,31 @@ interface IWeaknessProps {
   weakness: IWeakness[];
   TeamSelection: Pokemon[];
 }
-interface IWeaknessState {}
-//private WeakCalculator() {
-//let WeakTo: string[]
-//WeakTo.push()
-//}
 
-export default class TeamWeakness extends React.Component<
-  IWeaknessProps,
-  IWeaknessState
-> {
+export default class TeamWeakness extends React.Component<IWeaknessProps, {}> {
+  private weakCalculator(Pokemon: Pokemon[]): IWeakness[] {
+    let dictionary = {};
+    let weak: IWeakness[] = [];
+    Pokemon.forEach(selectedPokemon => {
+      selectedPokemon.types.forEach(selectedType => {
+        selectedType.doubleDamageFrom!.forEach(doubleDamage => {
+          if (!dictionary[doubleDamage]) dictionary[doubleDamage] = 0;
+          dictionary[doubleDamage] += 1;
+        });
+      });
+    });
+    for (let key in dictionary) {
+      let w: IWeakness = { Type: key, Count: dictionary[key] };
+      weak.push(w);
+    }
+    return weak;
+  }
   public render() {
-    const fake = this.props.weakness.map((fakeTeam, i) => (
+    const totalWeakness = this.weakCalculator(this.props.TeamSelection);
+    const fake = totalWeakness.map((team, i) => (
       <li key={i}>
-        {fakeTeam.Type}
-        {fakeTeam.Count}
+        {team.Type}
+        {team.Count}
       </li>
     ));
     return (
