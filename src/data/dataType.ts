@@ -10,6 +10,8 @@ export interface PokemonDictionary {
 
 export interface Type {
   name: string;
+  color: string;
+
   noDamageTo?: string[];
   halfDamageTo?: string[];
   doubleDamageTo?: string[];
@@ -23,15 +25,12 @@ export interface TypeDictionary {
   [pokeName: string]: Type;
 }
 
-import rawTypeDict from "./typeDict.json";
-
 export function GetTypesDictionary(): TypeDictionary {
-  return rawTypeDict as TypeDictionary;
+  return require("./typeDict.json");
 }
 
-import rawPokeDict from "./pokeDict.json";
-
 export function GetPokeDictionary(): PokemonDictionary {
+  let rawPokeDict = require("./pokeDict.json");
   let pokeDict: PokemonDictionary = {};
   let typeDict = GetTypesDictionary();
   for (let key in rawPokeDict) {
@@ -45,11 +44,11 @@ export function GetPokeDictionary(): PokemonDictionary {
   return pokeDict;
 }
 
-import rawPokeList from "./pokeList.json";
-
 export function GetPokemonList(): Pokemon[] {
   let pokeList: Pokemon[] = [];
   let typeDict = GetTypesDictionary();
+
+  let rawPokeList = require("./pokeList.json") as any[];
 
   rawPokeList.forEach(p => {
     pokeList.push({
