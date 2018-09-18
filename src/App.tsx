@@ -10,20 +10,8 @@ interface IFullTeam {
 }
 
 class App extends React.Component<{}, IFullTeam> {
-  EmptyPokemon: DataType.Pokemon = {
-    name: "empty",
-    types: [],
-    learnableMoves: []
-  };
   state = {
-    fullTeam: [
-      this.EmptyPokemon,
-      this.EmptyPokemon,
-      this.EmptyPokemon,
-      this.EmptyPokemon,
-      this.EmptyPokemon,
-      this.EmptyPokemon
-    ] as DataType.Pokemon[]
+    fullTeam: [null, null, null, null, null, null] as DataType.Pokemon[]
   };
   public render() {
     let pokemons = DataType.GetPokemonList();
