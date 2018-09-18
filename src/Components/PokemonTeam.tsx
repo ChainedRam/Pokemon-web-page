@@ -1,19 +1,22 @@
 import * as React from "react";
+import { Pokemon } from "../data/dataType";
 
 interface ITeamListProps {
-  list: string[];
-  onPokemonSelected(index: number, name: string): void;
+  list: Pokemon[];
+  onPokemonSelected(index: number, pokemon: Pokemon): void;
 }
 
-export default class PokeTeam extends React.Component<ITeamListProps, {}> {
+export default class PokemonTeam extends React.Component<ITeamListProps, {}> {
   public onSelect = (i, e) => {
-    this.props.onPokemonSelected(i, e.currentTarget.value);
+    this.props.onPokemonSelected(i, this.props.list[e.currentTarget.value]);
   };
 
   public render() {
     const maxTeam: any = [];
     const pokeItems = this.props.list.map((pokes, i) => (
-      <option key={i}>{pokes}</option>
+      <option key={i} value={i}>
+        {pokes.name}
+      </option>
     ));
     for (let i = 0; i < 6; i++) {
       maxTeam.push(

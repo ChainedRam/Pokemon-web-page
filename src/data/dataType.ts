@@ -46,6 +46,18 @@ export function GetPokeDictionary(): PokemonDictionary {
 }
 
 import rawPokeList from "./pokeList.json";
+
 export function GetPokemonList(): Pokemon[] {
-  return rawPokeList as Pokemon[];
+  let pokeList: Pokemon[] = [];
+  let typeDict = GetTypesDictionary();
+
+  rawPokeList.forEach(p => {
+    pokeList.push({
+      name: p.name,
+      types: p.types.map(t => typeDict[t]),
+      learnableMoves: []
+    });
+  });
+
+  return pokeList;
 }
