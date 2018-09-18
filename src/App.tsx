@@ -30,7 +30,7 @@ class App extends React.Component<{}, IFullTeam> {
     let names = DataType.GetPokemonList().map(k => k.name);
     return (
       <Container className="row">
-        <Card className="col-md-3">
+        <Card className="col-md-4">
           <PokemonTeam
             list={names}
             onPokemonSelected={(i, p) => {
@@ -40,7 +40,7 @@ class App extends React.Component<{}, IFullTeam> {
             }}
           />
         </Card>
-        <Card className="col-md-9">
+        <Card className="col-md-8">
           <TeamWeakness
             weakness={[{ Type: "Fire", Count: 2 }, { Type: "Water", Count: 4 }]}
             TeamSelection={this.state.fullTeam}
