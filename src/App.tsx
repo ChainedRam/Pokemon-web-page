@@ -32,6 +32,7 @@ class App extends React.Component<{}, IFullTeam> {
         <Card className="col-md-4">
           <PokemonTeam
             list={pokemons}
+            selection={this.state.fullTeam}
             onPokemonSelected={(i, p) => {
               const fullTeamCopy = [...this.state.fullTeam];
               fullTeamCopy[i] = p;

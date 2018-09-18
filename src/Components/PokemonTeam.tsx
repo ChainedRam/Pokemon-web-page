@@ -1,8 +1,17 @@
 import * as React from "react";
 import { Pokemon } from "../data/dataType";
+import {
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+  ListGroup
+  //ListGroupItem
+} from "reactstrap";
 
 interface ITeamListProps {
   list: Pokemon[];
+  selection: Pokemon[];
   onPokemonSelected(index: number, pokemon: Pokemon): void;
 }
 
@@ -12,28 +21,21 @@ export default class PokemonTeam extends React.Component<ITeamListProps, {}> {
   };
 
   public render() {
-    const maxTeam: any = [];
-    const pokeItems = this.props.list.map((pokes, i) => (
-      <option key={i} value={i}>
-        {pokes.name}
-      </option>
-    ));
-    for (let i = 0; i < 6; i++) {
-      maxTeam.push(
-        <li key={i}>
-          <select
-            className="btn btn-secondary"
-            onChange={e => this.onSelect(i, e)}
-          >
-            {pokeItems}
-          </select>
-        </li>
-      );
-    }
     return (
-      <div>
-        <ul>{maxTeam}</ul>
-      </div>
+      <ListGroup>
+        {this.props.selection.map((selectedPokemon, si) => (
+          <UncontrolledDropdown>
+            <DropdownToggle caret>{selectedPokemon.name}</DropdownToggle>
+            <DropdownMenu>
+              {this.props.list.map((pokemon, i) => (
+                <DropdownItem value={i} onClick={e => this.onSelect(si, e)}>
+                  {pokemon.name}
+                </DropdownItem>
+              ))}
+            </DropdownMenu>
+          </UncontrolledDropdown>
+        ))}
+      </ListGroup>
     );
   }
 }
