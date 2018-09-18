@@ -3,6 +3,7 @@ import "./App.css";
 import PokemonTeam from "./Components/PokemonTeam";
 import TeamWeakness from "./Components/TeamWeakness";
 import * as DataType from "./data/dataType";
+import { Card, Container } from "reactstrap";
 
 interface IFullTeam {
   fullTeam: DataType.Pokemon[];
@@ -28,20 +29,24 @@ class App extends React.Component<{}, IFullTeam> {
     let pokeDict = DataType.GetPokeDictionary();
     let names = DataType.GetPokemonList().map(k => k.name);
     return (
-      <div>
-        <PokemonTeam
-          list={names}
-          onPokemonSelected={(i, p) => {
-            const fullTeamCopy = [...this.state.fullTeam];
-            fullTeamCopy[i] = pokeDict[p];
-            this.setState({ fullTeam: fullTeamCopy });
-          }}
-        />
-        <TeamWeakness
-          weakness={[{ Type: "Fire", Count: 2 }, { Type: "Water", Count: 4 }]}
-          TeamSelection={this.state.fullTeam}
-        />
-      </div>
+      <Container className="row">
+        <Card className="col-md-3">
+          <PokemonTeam
+            list={names}
+            onPokemonSelected={(i, p) => {
+              const fullTeamCopy = [...this.state.fullTeam];
+              fullTeamCopy[i] = pokeDict[p];
+              this.setState({ fullTeam: fullTeamCopy });
+            }}
+          />
+        </Card>
+        <Card className="col-md-9">
+          <TeamWeakness
+            weakness={[{ Type: "Fire", Count: 2 }, { Type: "Water", Count: 4 }]}
+            TeamSelection={this.state.fullTeam}
+          />
+        </Card>
+      </Container>
     );
   }
 }
