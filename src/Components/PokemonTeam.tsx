@@ -25,7 +25,9 @@ export default class PokemonTeam extends React.Component<ITeamListProps, {}> {
       <ListGroup>
         {this.props.selection.map((selectedPokemon, si) => (
           <UncontrolledDropdown>
-            <DropdownToggle caret>{selectedPokemon.name}</DropdownToggle>
+            <DropdownToggle caret>
+              {selectedPokemon ? selectedPokemon.name : "Select pokemon"}
+            </DropdownToggle>
             <DropdownMenu>
               {this.props.list.map((pokemon, i) => (
                 <DropdownItem value={i} onClick={e => this.onSelect(si, e)}>
