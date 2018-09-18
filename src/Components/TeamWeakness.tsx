@@ -15,6 +15,7 @@ export default class TeamWeakness extends React.Component<IWeaknessProps, {}> {
     let dictionary = {};
     let weak: IWeakness[] = [];
     Pokemon.forEach(selectedPokemon => {
+      if (selectedPokemon == null) return;
       selectedPokemon.types.forEach(selectedType => {
         selectedType.doubleDamageFrom!.forEach(doubleDamage => {
           if (!dictionary[doubleDamage]) dictionary[doubleDamage] = 0;
@@ -29,20 +30,30 @@ export default class TeamWeakness extends React.Component<IWeaknessProps, {}> {
       let w: IWeakness = { Type: typeDict[key], Count: dictionary[key] };
       weak.push(w);
     }
-    return weak;
+
+    return weak.sort(a => -a.Count);
   }
   public render() {
     const totalWeakness = this.weakCalculator(this.props.TeamSelection);
-    const fake = totalWeakness.map((team, i) => (
-      <ListGroupItem key={i}>
-        <Badge
-          style={{ backgroundColor: `#${team.Type.color}`, color: "white" }}
-        >
-          {team.Type.name}
-        </Badge>
-        :{team.Count}
-      </ListGroupItem>
-    ));
-    return <ListGroup>{fake}</ListGroup>;
+
+    return (
+      <div>
+        <ListGroup>
+          {totalWeakness.map((team, i) => (
+            <ListGroupItem key={i}>
+              <Badge
+                style={{
+                  backgroundColor: `#${team.Type.color}`,
+                  color: "white"
+                }}
+              >
+                {team.Type.name}
+              </Badge>
+              <Badge pill>{team.Count}</Badge>
+            </ListGroupItem>
+          ))}
+        </ListGroup>
+      </div>
+    );
   }
 }
