@@ -40,10 +40,7 @@ class App extends React.Component<{}, IFullTeam> {
           />
         </Card>
         <Card className="col-md-8">
-          <TeamWeakness
-            weakness={[{ Type: "Fire", Count: 2 }, { Type: "Water", Count: 4 }]}
-            TeamSelection={this.state.fullTeam}
-          />
+          <TeamWeakness TeamSelection={this.state.fullTeam} />
         </Card>
       </Container>
     );
