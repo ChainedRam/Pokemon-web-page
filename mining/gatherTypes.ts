@@ -3,10 +3,10 @@ import { writeFileSync } from "fs";
 import * as K from "./ApiCrawler";
 import { exportJson } from "./ApiCrawler";
 
-let illegalTypeNames = ["unknown", "shadow"];
-
-interface Type {
+export interface Type {
   name: string;
+  color: string;
+
   noDamageTo?: string[];
   halfDamageTo?: string[];
   doubleDamageTo?: string[];
@@ -15,6 +15,29 @@ interface Type {
   halfDamageFrom?: string[];
   doubleDamageFrom?: string[];
 }
+
+let illegalTypeNames = ["unknown", "shadow"];
+
+let typeColors: { [key: string]: string } = {
+  normal: "A8A77A",
+  fire: "EE8130",
+  water: "6390F0",
+  electric: "F7D02C",
+  grass: "7AC74C",
+  ice: "96D9D6",
+  fighting: "C22E28",
+  poison: "A33EA1",
+  ground: "E2BF65",
+  flying: "A98FF3",
+  psychic: "F95587",
+  bug: "A6B91A",
+  rock: "B6A136",
+  ghost: "735797",
+  dragon: "6F35FC",
+  dark: "705746",
+  steel: "B7B7CE",
+  fairy: "D685AD"
+};
 
 (async () => {
   let typeList = await K.startCrawlingAsync<Type[]>(
@@ -28,7 +51,8 @@ interface Type {
           }
 
           let type: Type = {
-            name: t.name
+            name: t.name,
+            color: typeColors[t.name]
           };
 
           return await K.startCrawlingAsync<Type>(t.url, async json => {
@@ -48,6 +72,7 @@ interface Type {
   );
 
   typeList = typeList.filter(r => r != null);
+  console.log(typeList);
 
   let typeDict: { [typeName: string]: Type } = {};
 
