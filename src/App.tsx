@@ -25,15 +25,14 @@ class App extends React.Component<{}, IFullTeam> {
     ] as DataType.Pokemon[]
   };
   public render() {
-    let pokeDict = DataType.GetPokeDictionary();
-    let names = DataType.GetPokemonList().map(k => k.name);
+    let pokemons = DataType.GetPokemonList();
     return (
       <div>
         <PokemonTeam
-          list={names}
+          list={pokemons}
           onPokemonSelected={(i, p) => {
             const fullTeamCopy = [...this.state.fullTeam];
-            fullTeamCopy[i] = pokeDict[p];
+            fullTeamCopy[i] = p;
             this.setState({ fullTeam: fullTeamCopy });
           }}
         />
