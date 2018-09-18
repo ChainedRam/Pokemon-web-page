@@ -1,6 +1,7 @@
 [
   {
     "name": "normal",
+    "color": "A8A77A",
     "noDamageTo": ["ghost"],
     "halfDamageTo": ["rock", "steel"],
     "doubleDamageTo": [],
@@ -10,6 +11,7 @@
   },
   {
     "name": "fighting",
+    "color": "C22E28",
     "noDamageTo": ["ghost"],
     "halfDamageTo": ["flying", "poison", "bug", "psychic", "fairy"],
     "doubleDamageTo": ["normal", "rock", "steel", "ice", "dark"],
@@ -19,6 +21,7 @@
   },
   {
     "name": "flying",
+    "color": "A98FF3",
     "noDamageTo": [],
     "halfDamageTo": ["rock", "steel", "electric"],
     "doubleDamageTo": ["fighting", "bug", "grass"],
@@ -28,6 +31,7 @@
   },
   {
     "name": "poison",
+    "color": "A33EA1",
     "noDamageTo": ["steel"],
     "halfDamageTo": ["poison", "ground", "rock", "ghost"],
     "doubleDamageTo": ["grass", "fairy"],
@@ -37,6 +41,7 @@
   },
   {
     "name": "ground",
+    "color": "E2BF65",
     "noDamageTo": ["flying"],
     "halfDamageTo": ["bug", "grass"],
     "doubleDamageTo": ["poison", "rock", "steel", "fire", "electric"],
@@ -46,6 +51,7 @@
   },
   {
     "name": "rock",
+    "color": "B6A136",
     "noDamageTo": [],
     "halfDamageTo": ["fighting", "ground", "steel"],
     "doubleDamageTo": ["flying", "bug", "fire", "ice"],
@@ -55,6 +61,7 @@
   },
   {
     "name": "bug",
+    "color": "A6B91A",
     "noDamageTo": [],
     "halfDamageTo": [
       "fighting",
@@ -72,6 +79,7 @@
   },
   {
     "name": "ghost",
+    "color": "735797",
     "noDamageTo": ["normal"],
     "halfDamageTo": ["dark"],
     "doubleDamageTo": ["ghost", "psychic"],
@@ -81,6 +89,7 @@
   },
   {
     "name": "steel",
+    "color": "B7B7CE",
     "noDamageTo": [],
     "halfDamageTo": ["steel", "fire", "water", "electric"],
     "doubleDamageTo": ["rock", "ice", "fairy"],
@@ -101,6 +110,7 @@
   },
   {
     "name": "fire",
+    "color": "EE8130",
     "noDamageTo": [],
     "halfDamageTo": ["rock", "fire", "water", "dragon"],
     "doubleDamageTo": ["bug", "steel", "grass", "ice"],
@@ -110,6 +120,7 @@
   },
   {
     "name": "water",
+    "color": "6390F0",
     "noDamageTo": [],
     "halfDamageTo": ["water", "grass", "dragon"],
     "doubleDamageTo": ["ground", "rock", "fire"],
@@ -119,6 +130,7 @@
   },
   {
     "name": "grass",
+    "color": "7AC74C",
     "noDamageTo": [],
     "halfDamageTo": [
       "flying",
@@ -136,6 +148,7 @@
   },
   {
     "name": "electric",
+    "color": "F7D02C",
     "noDamageTo": ["ground"],
     "halfDamageTo": ["grass", "electric", "dragon"],
     "doubleDamageTo": ["flying", "water"],
@@ -145,6 +158,7 @@
   },
   {
     "name": "psychic",
+    "color": "F95587",
     "noDamageTo": ["dark"],
     "halfDamageTo": ["steel", "psychic"],
     "doubleDamageTo": ["fighting", "poison"],
@@ -154,6 +168,7 @@
   },
   {
     "name": "ice",
+    "color": "96D9D6",
     "noDamageTo": [],
     "halfDamageTo": ["steel", "fire", "water", "ice"],
     "doubleDamageTo": ["flying", "ground", "grass", "dragon"],
@@ -163,6 +178,7 @@
   },
   {
     "name": "dragon",
+    "color": "6F35FC",
     "noDamageTo": ["fairy"],
     "halfDamageTo": ["steel"],
     "doubleDamageTo": ["dragon"],
@@ -172,6 +188,7 @@
   },
   {
     "name": "dark",
+    "color": "705746",
     "noDamageTo": [],
     "halfDamageTo": ["fighting", "dark", "fairy"],
     "doubleDamageTo": ["ghost", "psychic"],
@@ -181,6 +198,7 @@
   },
   {
     "name": "fairy",
+    "color": "D685AD",
     "noDamageTo": [],
     "halfDamageTo": ["poison", "steel", "fire"],
     "doubleDamageTo": ["fighting", "dragon", "dark"],
