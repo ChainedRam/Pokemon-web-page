@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Pokemon } from "../data/dataType";
-import { ListGroup, ListGroupItem } from "reactstrap";
+import { ListGroup, ListGroupItem, Badge } from "reactstrap";
 
 export interface IWeakness {
   Type: string;
@@ -33,8 +33,7 @@ export default class TeamWeakness extends React.Component<IWeaknessProps, {}> {
     const totalWeakness = this.weakCalculator(this.props.TeamSelection);
     const fake = totalWeakness.map((team, i) => (
       <ListGroupItem key={i}>
-        {team.Type}
-        {team.Count}
+        <Badge color="success">{team.Type}</Badge>:{team.Count}
       </ListGroupItem>
     ));
     return <ListGroup>{fake}</ListGroup>;
