@@ -1,12 +1,10 @@
-import fetch, { FetchError } from "node-fetch";
-import { writeFileSync } from "fs";
 import { join } from "path";
 import { startCrawlingAsync, exportJson } from "./ApiCrawler";
 
 interface Pokemon {
   name: string;
   types: string[];
-  learnableMoves: string[];
+  moves: string[];
 }
 
 let pokeList: Pokemon[] = [];
@@ -16,25 +14,25 @@ let pokeList: Pokemon[] = [];
   let maxCount = null;
 
   while (nextUrl) {
-    let r = await startCrawlingAsync<any>(nextUrl, json => json);
-    maxCount = r.count;
+    let response = await startCrawlingAsync<any>(nextUrl, json => json);
+    maxCount = response.count;
 
     let pokemen = await Promise.all(
-      (r.results as any[]).map(
+      (response.results as any[]).map(
         async p =>
           ({
             name: p.name,
             types: await startCrawlingAsync(p.url, json =>
               json.types.map(t => t.type.name as string)
             ),
-            learnableMoves: []
+            moves: []
           } as Pokemon)
       )
     );
     pokeList.push(...pokemen);
 
     console.log("%" + ((100 * pokeList.length) / maxCount).toFixed(2));
-    nextUrl = r.next;
+    nextUrl = response.next;
   }
 
   console.log("parsing pokemen finished");
@@ -45,10 +43,10 @@ let pokeList: Pokemon[] = [];
     pokeDict[p.name] = p;
   });
 
-  let dir = "./src/data";
+  let outDir = "./src/data";
 
-  exportJson(join(dir, "pokeList.json"), pokeList);
-  exportJson(join(dir, "pokeDict.json"), pokeDict);
+  exportJson(join(outDir, "pokeList.json"), pokeList);
+  exportJson(join(outDir, "pokeDict.json"), pokeDict);
 
   return null;
 })().catch(e => {
