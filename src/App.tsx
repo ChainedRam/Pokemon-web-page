@@ -3,34 +3,43 @@ import "./App.css";
 import PokemonTeam from "./Components/PokemonTeam";
 import TeamWeakness from "./Components/TeamWeakness";
 import * as DataType from "./data/dataType";
-import { Card, Container } from "reactstrap";
+import { Card, Container, Row, Col } from "reactstrap";
 
-interface IFullTeam {
-  fullTeam: DataType.Pokemon[];
+interface ITeam {
+  Team: DataType.Pokemon[];
 }
 
-class App extends React.Component<{}, IFullTeam> {
+class App extends React.Component<{}, ITeam> {
   state = {
-    fullTeam: [null, null, null, null, null, null] as DataType.Pokemon[]
+    Team: [null, null, null, null, null, null] as DataType.Pokemon[]
+  };
+  public pokemonSelectedHandler = (i, p) => {
+    {
+      const TeamCopy = [...this.state.Team];
+      TeamCopy[i] = p;
+      this.setState({ Team: TeamCopy });
+    }
   };
   public render() {
-    let pokemons = DataType.GetPokemonList();
+    const pokemons = DataType.GetPokemonList();
     return (
-      <Container className="row">
-        <Card className="col-md-4">
-          <PokemonTeam
-            list={pokemons}
-            selection={this.state.fullTeam}
-            onPokemonSelected={(i, p) => {
-              const fullTeamCopy = [...this.state.fullTeam];
-              fullTeamCopy[i] = p;
-              this.setState({ fullTeam: fullTeamCopy });
-            }}
-          />
-        </Card>
-        <Card className="col-md-8">
-          <TeamWeakness TeamSelection={this.state.fullTeam} />
-        </Card>
+      <Container>
+        <Row>
+          <Card>
+            <Col md="4">
+              <PokemonTeam
+                selectablePokemon={pokemons}
+                pokemonTeam={this.state.Team}
+                onPokemonSelected={this.pokemonSelectedHandler}
+              />
+            </Col>
+          </Card>
+          <Card>
+            <Col xl="auto">
+              <TeamWeakness team={this.state.Team} />
+            </Col>
+          </Card>
+        </Row>
       </Container>
     );
   }

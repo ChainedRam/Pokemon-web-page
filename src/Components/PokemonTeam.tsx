@@ -6,31 +6,40 @@ import {
   DropdownMenu,
   DropdownItem,
   ListGroup
-  //ListGroupItem
 } from "reactstrap";
 
-interface ITeamListProps {
-  list: Pokemon[];
-  selection: Pokemon[];
+interface IPokemonTeamProps {
+  selectablePokemon: Pokemon[];
+  pokemonTeam: Pokemon[];
   onPokemonSelected(index: number, pokemon: Pokemon): void;
 }
 
-export default class PokemonTeam extends React.Component<ITeamListProps, {}> {
-  public onSelect = (i, e) => {
-    this.props.onPokemonSelected(i, this.props.list[e.currentTarget.value]);
+export default class PokemonTeam extends React.Component<
+  IPokemonTeamProps,
+  {}
+> {
+  public dropDownHandler = (index, event) => {
+    this.props.onPokemonSelected(
+      index,
+      this.props.selectablePokemon[event.currentTarget.value]
+    );
   };
 
   public render() {
     return (
       <ListGroup>
-        {this.props.selection.map((selectedPokemon, si) => (
-          <UncontrolledDropdown>
+        {this.props.pokemonTeam.map((selectedPokemon, selectionIndex) => (
+          <UncontrolledDropdown key={selectionIndex}>
             <DropdownToggle caret>
               {selectedPokemon ? selectedPokemon.name : "Select pokemon"}
             </DropdownToggle>
             <DropdownMenu>
-              {this.props.list.map((pokemon, i) => (
-                <DropdownItem value={i} onClick={e => this.onSelect(si, e)}>
+              {this.props.selectablePokemon.map((pokemon, i) => (
+                <DropdownItem
+                  key={i}
+                  value={i}
+                  onClick={e => this.dropDownHandler(selectionIndex, e)}
+                >
                   {pokemon.name}
                 </DropdownItem>
               ))}

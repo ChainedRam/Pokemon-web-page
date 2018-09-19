@@ -2,39 +2,37 @@ import * as React from "react";
 import { Pokemon, Type, GetTypesDictionary } from "../data/dataType";
 import { ListGroup, ListGroupItem, Badge } from "reactstrap";
 
-export interface IWeakness {
-  Type: Type;
-  Count: number;
+interface ITypeCountPair {
+  type: Type;
+  count: number;
 }
 interface IWeaknessProps {
-  TeamSelection: Pokemon[];
+  team: Pokemon[];
 }
 
 export default class TeamWeakness extends React.Component<IWeaknessProps, {}> {
-  private weakCalculator(Pokemon: Pokemon[]): IWeakness[] {
-    let dictionary = {};
-    let weak: IWeakness[] = [];
-    Pokemon.forEach(selectedPokemon => {
-      if (selectedPokemon == null) return;
-      selectedPokemon.types.forEach(selectedType => {
-        selectedType.doubleDamageFrom!.forEach(doubleDamage => {
-          if (!dictionary[doubleDamage]) dictionary[doubleDamage] = 0;
-          dictionary[doubleDamage] += 1;
+  private getWeaknessList(pokemons: Pokemon[]): ITypeCountPair[] {
+    let weaknessDict = {};
+    pokemons.forEach(pokemon => {
+      if (pokemon == null) return;
+      pokemon.types.forEach(type => {
+        type.doubleDamageFrom!.forEach(TypeName => {
+          if (!weaknessDict[TypeName]) weaknessDict[TypeName] = 0;
+          weaknessDict[TypeName] += 1;
         });
       });
     });
 
     let typeDict = GetTypesDictionary();
-
-    for (let key in dictionary) {
-      let w: IWeakness = { Type: typeDict[key], Count: dictionary[key] };
-      weak.push(w);
+    let weak: ITypeCountPair[] = [];
+    for (let key in weaknessDict) {
+      weak.push({ type: typeDict[key], count: weaknessDict[key] });
     }
 
-    return weak.sort(a => -a.Count);
+    return weak.sort(a => -a.count);
   }
   public render() {
-    const totalWeakness = this.weakCalculator(this.props.TeamSelection);
+    const totalWeakness = this.getWeaknessList(this.props.team);
 
     return (
       <div>
@@ -43,13 +41,13 @@ export default class TeamWeakness extends React.Component<IWeaknessProps, {}> {
             <ListGroupItem key={i}>
               <Badge
                 style={{
-                  backgroundColor: `#${team.Type.color}`,
+                  backgroundColor: `#${team.type.color}`,
                   color: "white"
                 }}
               >
-                {team.Type.name}
+                {team.type.name}
               </Badge>
-              <Badge pill>{team.Count}</Badge>
+              <Badge pill>{team.count}</Badge>
             </ListGroupItem>
           ))}
         </ListGroup>
