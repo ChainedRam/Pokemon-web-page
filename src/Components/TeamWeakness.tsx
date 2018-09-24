@@ -47,7 +47,7 @@ export default class TeamWeakness extends React.Component<IWeaknessProps, {}> {
       weak.push({ type: typeDict[key], count: weaknessDict[key] });
     }
 
-    return weak.sort(a => -a.count);
+    return weak.sort((a, b) => b.count - a.count);
   }
   public render() {
     const totalWeakness = this.getWeaknessList(this.props.team);
