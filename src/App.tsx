@@ -2,6 +2,7 @@ import * as React from "react";
 import "./App.css";
 import PokemonTeam from "./Components/PokemonTeam";
 import TeamWeakness from "./Components/TeamWeakness";
+import FilterMode from "./Components/FilterMode";
 import * as DataType from "./data/dataType";
 import { Card, Container, Row, Col } from "reactstrap";
 
@@ -40,6 +41,7 @@ class App extends React.Component<{}, ITeam> {
             </Col>
           </Card>
         </Row>
+        <FilterMode filteredSelection={[]} />
       </Container>
     );
   }

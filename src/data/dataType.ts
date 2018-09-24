@@ -44,6 +44,10 @@ export function GetPokeDictionary(): PokemonDictionary {
   return pokeDict;
 }
 
+export function GetTypesNamesList(): String[] {
+  return require("./typeList.json");
+}
+
 export function GetPokemonList(): Pokemon[] {
   let pokeList: Pokemon[] = [];
   let typeDict = GetTypesDictionary();
