@@ -11,6 +11,8 @@ interface IWeaknessProps {
 }
 
 export default class TeamWeakness extends React.Component<IWeaknessProps, {}> {
+  typeDict = GetTypesDictionary();
+
   private getWeaknessList(pokemons: Pokemon[]): ITypeCountPair[] {
     let weaknessDict: { [n: string]: number } = {};
     pokemons.forEach(pokemon => {
@@ -41,10 +43,9 @@ export default class TeamWeakness extends React.Component<IWeaknessProps, {}> {
       }
     });
 
-    let typeDict = GetTypesDictionary();
     let weak: ITypeCountPair[] = [];
     for (let key in weaknessDict) {
-      weak.push({ type: typeDict[key], count: weaknessDict[key] });
+      weak.push({ type: this.typeDict[key], count: weaknessDict[key] });
     }
 
     return weak.sort((a, b) => b.count - a.count);
