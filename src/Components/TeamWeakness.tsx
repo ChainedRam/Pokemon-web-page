@@ -12,15 +12,33 @@ interface IWeaknessProps {
 
 export default class TeamWeakness extends React.Component<IWeaknessProps, {}> {
   private getWeaknessList(pokemons: Pokemon[]): ITypeCountPair[] {
-    let weaknessDict = {};
+    let weaknessDict: { [n: string]: number } = {};
     pokemons.forEach(pokemon => {
       if (pokemon == null) return;
+      let weaknessMultiplier: { [n: string]: number } = {};
       pokemon.types.forEach(type => {
-        type.doubleDamageFrom!.forEach(TypeName => {
-          if (!weaknessDict[TypeName]) weaknessDict[TypeName] = 0;
-          weaknessDict[TypeName] += 1;
+        type.doubleDamageFrom!.forEach(typeName => {
+          if (weaknessMultiplier[typeName] == null)
+            weaknessMultiplier[typeName] = 1;
+          weaknessMultiplier[typeName] *= 2;
+        });
+        type.halfDamageFrom!.forEach(typeName => {
+          if (weaknessMultiplier[typeName] == null)
+            weaknessMultiplier[typeName] = 1;
+          weaknessMultiplier[typeName] *= 0.5;
+        });
+        type.noDamageFrom!.forEach(typeName => {
+          if (weaknessMultiplier[typeName] == null)
+            weaknessMultiplier[typeName] = 1;
+          weaknessMultiplier[typeName] *= 0.0;
         });
       });
+      for (let type in weaknessMultiplier) {
+        if (weaknessMultiplier[type] > 1) {
+          if (!weaknessDict[type]) weaknessDict[type] = 0;
+          weaknessDict[type] += 1;
+        }
+      }
     });
 
     let typeDict = GetTypesDictionary();
