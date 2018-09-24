@@ -9,6 +9,10 @@
     "react-dom": "^16.5.1",
     "reactstrap": "^6.4.0"
   },
+  "engines": {
+    "npm": "6.1.0",
+    "node": "10.3.0"
+  },
   "scripts": {
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
