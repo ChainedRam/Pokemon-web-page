@@ -24,7 +24,7 @@ class App extends React.Component<{}, ITeam> {
     const pokemons = DataType.GetPokemonList();
     return (
       <Container>
-        <p>Test without build folder</p>
+        <p>Testing auto deployment</p>
         <Row>
           <Card>
             <Col md="4">
