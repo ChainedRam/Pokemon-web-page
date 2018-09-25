@@ -31,7 +31,8 @@
     "serve:b": "npm run build && serve -s build",
     "serve": "serve -s build",
     "predeploy": "npm run build",
-    "deploy": "git push heroku master"
+    "deploy": "git push heroku master",
+    "postdeploy": "heroku open"
   },
   "devDependencies": {
     "@types/node-fetch": "^2.1.2",

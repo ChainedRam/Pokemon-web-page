@@ -24,6 +24,7 @@ class App extends React.Component<{}, ITeam> {
     const pokemons = DataType.GetPokemonList();
     return (
       <Container>
+        <p>Test</p>
         <Row>
           <Card>
             <Col md="4">
