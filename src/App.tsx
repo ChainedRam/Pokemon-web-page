@@ -2,7 +2,7 @@ import * as React from "react";
 import "./App.css";
 import PokemonTeam from "./Components/PokemonTeam";
 import TeamWeakness from "./Components/TeamWeakness";
-import FilterMode from "./Components/FilterMode";
+import FilterMode from "./Components/PokemonListFilter";
 import * as DataType from "./data/dataType";
 import { Card, Container, Row, Col } from "reactstrap";
 
@@ -32,8 +32,8 @@ class App extends React.Component<{}, ITeam> {
       this.setState({ Team: TeamCopy });
     }
   };
+  types = DataType.GetTypeList();
   public render() {
-    const types = DataType.GetTypeList();
     return (
       <Container>
         <Row>
@@ -53,7 +53,7 @@ class App extends React.Component<{}, ITeam> {
           </Card>
         </Row>
         <FilterMode
-          filteredSelection={types}
+          filteredSelection={this.types}
           pokemonList={this.state.pokemonList}
           onFiltered={this.onFilter}
         />
@@ -61,5 +61,4 @@ class App extends React.Component<{}, ITeam> {
     );
   }
 }
-
 export default App;
