@@ -1,8 +1,9 @@
 import * as React from "react";
 import { Button, ButtonGroup } from "reactstrap";
+import { Type } from "../data/dataType";
 
 export interface IFilterProps {
-  filteredSelection: string[];
+  filteredSelection: Type[];
 }
 export interface IFilterModeState {
   checkBox: ICheckBoxTypesState[];
@@ -19,13 +20,9 @@ export default class FilterMode extends React.PureComponent<
   componentDidMount() {
     this.setState({ checkBox: this.checkBoxTypes });
   }
-  checkBoxTypes = [
-    { type: "fire", isChecked: false },
-    { type: "water", isChecked: false },
-    { type: "grass", isChecked: false },
-    { type: "dark", isChecked: false },
-    { type: "normal", isChecked: false }
-  ];
+  checkBoxTypes = this.props.filteredSelection.map(e => {
+    return { type: e.name, isChecked: false };
+  });
 
   onClicked(boxNumber: number) {
     let checkBoxTypesCopy = [...this.checkBoxTypes];
@@ -33,13 +30,11 @@ export default class FilterMode extends React.PureComponent<
       .isChecked;
     let flagChecks = checkBoxTypesCopy.filter(c => c.isChecked);
     let filterCount = flagChecks.length;
-    console.log(filterCount);
     if (filterCount > 2) {
       checkBoxTypesCopy[boxNumber].isChecked = !checkBoxTypesCopy[boxNumber]
         .isChecked;
       return;
     }
-
     this.setState({ checkBox: checkBoxTypesCopy });
   }
   public render() {

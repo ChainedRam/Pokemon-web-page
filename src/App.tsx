@@ -8,11 +8,13 @@ import { Card, Container, Row, Col } from "reactstrap";
 
 interface ITeam {
   Team: DataType.Pokemon[];
+  Types: DataType.Type[];
 }
 
 class App extends React.Component<{}, ITeam> {
   state = {
-    Team: [null, null, null, null, null, null] as DataType.Pokemon[]
+    Team: [null, null, null, null, null, null] as DataType.Pokemon[],
+    Types: DataType.GetTypeList()
   };
   public pokemonSelectedHandler = (i, p) => {
     {
@@ -23,6 +25,7 @@ class App extends React.Component<{}, ITeam> {
   };
   public render() {
     const pokemons = DataType.GetPokemonList();
+    const types = DataType.GetTypeList();
     return (
       <Container>
         <Row>
@@ -41,7 +44,7 @@ class App extends React.Component<{}, ITeam> {
             </Col>
           </Card>
         </Row>
-        <FilterMode filteredSelection={[]} />
+        <FilterMode filteredSelection={types} />
       </Container>
     );
   }

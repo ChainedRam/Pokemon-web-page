@@ -29,6 +29,10 @@ export function GetTypesDictionary(): TypeDictionary {
   return require("./typeDict.json");
 }
 
+export function GetTypeList(): Type[] {
+  return require("./typeList.json");
+}
+
 export function GetPokeDictionary(): PokemonDictionary {
   let rawPokeDict = require("./pokeDict.json");
   let pokeDict: PokemonDictionary = {};
