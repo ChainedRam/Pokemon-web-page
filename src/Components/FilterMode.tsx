@@ -1,9 +1,11 @@
 import * as React from "react";
 import { Button, ButtonGroup } from "reactstrap";
-import { Type } from "../data/dataType";
+import { Type, Pokemon } from "../data/dataType";
 
 export interface IFilterProps {
   filteredSelection: Type[];
+  pokemonList: Pokemon[];
+  onFiltered(pokemonList: Pokemon[]);
 }
 export interface IFilterModeState {
   checkBox: ICheckBoxTypesState[];
@@ -28,14 +30,26 @@ export default class FilterMode extends React.PureComponent<
     let checkBoxTypesCopy = [...this.checkBoxTypes];
     checkBoxTypesCopy[boxNumber].isChecked = !checkBoxTypesCopy[boxNumber]
       .isChecked;
-    let flagChecks = checkBoxTypesCopy.filter(c => c.isChecked);
-    let filterCount = flagChecks.length;
+    let flagCheck = checkBoxTypesCopy.filter(c => c.isChecked);
+    let filterCount = flagCheck.length;
     if (filterCount > 2) {
       checkBoxTypesCopy[boxNumber].isChecked = !checkBoxTypesCopy[boxNumber]
         .isChecked;
       return;
     }
     this.setState({ checkBox: checkBoxTypesCopy });
+    if (filterCount === 0) {
+      this.props.onFiltered(this.props.pokemonList);
+      return;
+    }
+    let targetType = flagCheck.map(nt => nt.type)[0];
+    let filteredList = this.props.pokemonList.filter(p => {
+      let poketypes = p.types.map(typ => typ.name);
+      if (poketypes.indexOf(targetType) >= 0) return true;
+      else return false;
+    });
+
+    this.props.onFiltered(filteredList);
   }
   public render() {
     return (
