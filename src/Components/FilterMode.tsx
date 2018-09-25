@@ -32,7 +32,7 @@ export default class FilterMode extends React.PureComponent<
       .isChecked;
     let flagCheck = checkBoxTypesCopy.filter(c => c.isChecked);
     let filterCount = flagCheck.length;
-    if (filterCount > 2) {
+    if (filterCount > 1) {
       checkBoxTypesCopy[boxNumber].isChecked = !checkBoxTypesCopy[boxNumber]
         .isChecked;
       return;
