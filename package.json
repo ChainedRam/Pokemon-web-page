@@ -29,10 +29,7 @@
     "gather:poke": "npm run compileMining && node .\\mining\\compiled\\gatherPokemons.js",
     "gather:type": "npm run compileMining && node .\\mining\\compiled\\gatherTypes.js",
     "serve:b": "npm run build && serve -s build",
-    "serve": "serve -s build",
-    "predeploy": "npm run build",
-    "deploy": "git push heroku master",
-    "postdeploy": "heroku open"
+    "serve": "serve -s build"
   },
   "devDependencies": {
     "@types/node-fetch": "^2.1.2",
