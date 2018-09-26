@@ -1,5 +1,4 @@
-// import { join } from "path";
-import { getRequest, exportJson } from "./ApiCrawler";
+import { exportJson } from "./ApiCrawler";
 import fetch from "node-fetch";
 import { join } from "path";
 
