@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pokemon Team component renders as snapshot 1`] = `
+<ul
+  className="list-group"
+>
+  <div
+    className="dropdown"
+    onKeyDown={[Function]}
+  >
+    <button
+      aria-expanded={false}
+      aria-haspopup={true}
+      className="dropdown-toggle btn btn-secondary"
+      onClick={[Function]}
+      type="button"
+    >
+      Select pokemon
+    </button>
+    <div
+      aria-hidden={true}
+      className="dropdown-menu"
+      role="menu"
+      tabIndex="-1"
+      x-placement={undefined}
+    >
+      <button
+        className="dropdown-item"
+        onClick={[Function]}
+        tabIndex="0"
+        type="button"
+        value={0}
+      >
+        fakemon 1
+      </button>
+      <button
+        className="dropdown-item"
+        onClick={[Function]}
+        tabIndex="0"
+        type="button"
+        value={1}
+      >
+        fakemon 2
+      </button>
+      <button
+        className="dropdown-item"
+        onClick={[Function]}
+        tabIndex="0"
+        type="button"
+        value={2}
+      >
+        fakemon 3
+      </button>
+    </div>
+  </div>
+</ul>
+`;
