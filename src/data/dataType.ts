@@ -2,6 +2,7 @@ export interface Pokemon {
   name: string;
   types: Type[];
   moves: string[];
+  abilities: Ability[];
 }
 
 export interface PokemonDictionary {
@@ -19,6 +20,11 @@ export interface Type {
   noDamageFrom?: string[];
   halfDamageFrom?: string[];
   doubleDamageFrom?: string[];
+}
+
+export interface Ability {
+  name: string;
+  recieveDamageMultiplier: (type: string) => number;
 }
 
 export interface TypeDictionary {
@@ -41,7 +47,13 @@ export function GetPokeDictionary(): PokemonDictionary {
     pokeDict[key] = {
       name: key,
       types: rawPokeDict[key].types.map(t => typeDict[t]),
-      moves: []
+      moves: [],
+      abilities: rawPokeDict[key].abilities.map(a => {
+        return {
+          name: a.name,
+          recieveDamageMultiplier: GetAbilityLambdaNamed(a.name)
+        };
+      })
     };
   }
 
@@ -62,9 +74,19 @@ export function GetPokemonList(): Pokemon[] {
     pokeList.push({
       name: p.name,
       types: p.types.map(t => typeDict[t]),
-      moves: []
-    });
+      moves: [],
+      abilities: p.abilities.map(a => {
+        return {
+          name: a.name,
+          recieveDamageMultiplier: GetAbilityLambdaNamed(a.name)
+        };
+      })
+    } as Pokemon);
   });
 
   return pokeList;
+}
+
+function GetAbilityLambdaNamed(abilityName: string): (t: string) => number {
+  return t => 1;
 }
