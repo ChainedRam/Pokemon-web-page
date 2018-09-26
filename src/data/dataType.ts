@@ -1,7 +1,7 @@
 export interface Pokemon {
   name: string;
   types: Type[];
-  learnableMoves: string[];
+  moves: string[];
 }
 
 export interface PokemonDictionary {
@@ -41,7 +41,7 @@ export function GetPokeDictionary(): PokemonDictionary {
     pokeDict[key] = {
       name: key,
       types: rawPokeDict[key].types.map(t => typeDict[t]),
-      learnableMoves: []
+      moves: []
     };
   }
 
@@ -62,7 +62,7 @@ export function GetPokemonList(): Pokemon[] {
     pokeList.push({
       name: p.name,
       types: p.types.map(t => typeDict[t]),
-      learnableMoves: []
+      moves: []
     });
   });
 

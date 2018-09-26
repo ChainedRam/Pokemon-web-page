@@ -17,9 +17,9 @@ let pokeList: Pokemon[] = [];
   let json = await response.json();
   let results = json.results as any[];
 
-  for (let i = 0; i < 9 /*results.length*/; i++) {
-    let pokemon = { name: results[i].name, types: [], moves: null };
-    //pokeList.push(pokemon);
+  for (let i = 0; i < results.length; i++) {
+    let pokemon = { name: results[i].name, types: [], moves: [] };
+    pokeList.push(pokemon);
     let url = results[i].url;
     let response = await fetch(url);
     let json = await response.json();
@@ -29,7 +29,7 @@ let pokeList: Pokemon[] = [];
       let type = json.types[j].type.name;
       pokemon.types.push(type);
     }
-    let outDir = "./src";
+    let outDir = "./src/data";
 
     let pokeDict: { [pokemonName: string]: Pokemon } = {};
 
