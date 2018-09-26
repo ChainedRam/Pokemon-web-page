@@ -1,5 +1,7 @@
+// import { join } from "path";
+import { getRequest, exportJson } from "./ApiCrawler";
+import fetch from "node-fetch";
 import { join } from "path";
-import { startCrawlingAsync, exportJson } from "./ApiCrawler";
 
 interface Pokemon {
   name: string;
@@ -10,45 +12,33 @@ interface Pokemon {
 let pokeList: Pokemon[] = [];
 
 (async () => {
-  let nextUrl = "http://pokeapi.co/api/v2/pokemon";
-  let maxCount = null;
+  let url = "https://pokeapi.co/api/v2/pokemon/";
+  let response = await fetch(url);
+  let json = await response.json();
+  let results = json.results as any[];
 
-  while (nextUrl) {
-    let response = await startCrawlingAsync<any>(nextUrl, json => json);
-    maxCount = response.count;
+  for (let i = 0; i < 9 /*results.length*/; i++) {
+    let pokemon = { name: results[i].name, types: [], moves: null };
+    //pokeList.push(pokemon);
+    let url = results[i].url;
+    let response = await fetch(url);
+    let json = await response.json();
+    let types = json.types as any[];
 
-    let pokemen = await Promise.all(
-      (response.results as any[]).map(
-        async p =>
-          ({
-            name: p.name,
-            types: await startCrawlingAsync(p.url, json =>
-              json.types.map(t => t.type.name as string)
-            ),
-            moves: []
-          } as Pokemon)
-      )
-    );
-    pokeList.push(...pokemen);
+    for (let j = 0; j < types.length; j++) {
+      let type = json.types[j].type.name;
+      pokemon.types.push(type);
+    }
+    let outDir = "./src";
 
-    console.log("%" + ((100 * pokeList.length) / maxCount).toFixed(2));
-    nextUrl = response.next;
+    let pokeDict: { [pokemonName: string]: Pokemon } = {};
+
+    pokeList.forEach(p => {
+      pokeDict[p.name] = p;
+    });
+
+    exportJson(join(outDir, "pokeDict.json"), pokeDict);
   }
-
-  console.log("parsing pokemen finished");
-
-  let pokeDict: { [pokemonName: string]: Pokemon } = {};
-
-  pokeList.forEach(p => {
-    pokeDict[p.name] = p;
-  });
-
-  let outDir = "./src/data";
-
-  exportJson(join(outDir, "pokeList.json"), pokeList);
-  exportJson(join(outDir, "pokeDict.json"), pokeDict);
-
-  return null;
 })().catch(e => {
   console.log(e);
 });

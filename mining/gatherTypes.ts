@@ -1,4 +1,4 @@
-import { exportJson, startCrawlingAsync } from "./ApiCrawler";
+import { exportJson, getRequest } from "./ApiCrawler";
 
 export interface Type {
   name: string;
@@ -37,7 +37,7 @@ let typeColors: { [key: string]: string } = {
 };
 
 (async () => {
-  let typeList = await startCrawlingAsync<Type[]>(
+  let typeList = await getRequest<Type[]>(
     "http://pokeapi.co/api/v2/type",
     async json => {
       let data = json.results as any[];
@@ -52,7 +52,7 @@ let typeColors: { [key: string]: string } = {
             color: typeColors[rawType.name]
           };
 
-          return await startCrawlingAsync<Type>(rawType.url, async json => {
+          return await getRequest<Type>(rawType.url, async json => {
             let dmgRel = json.damage_relations;
             type.noDamageTo = dmgRel.no_damage_to.map(w => w.name);
             type.halfDamageTo = dmgRel.half_damage_to.map(w => w.name);
