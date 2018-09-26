@@ -2,16 +2,28 @@ import * as React from "react";
 import "./App.css";
 import PokemonTeam from "./Components/PokemonTeam";
 import TeamWeakness from "./Components/TeamWeakness";
+import FilterMode from "./Components/PokemonListFilter";
 import * as DataType from "./data/dataType";
 import { Card, Container, Row, Col } from "reactstrap";
 
 interface ITeam {
   Team: DataType.Pokemon[];
+  Types: DataType.Type[];
+  pokemonList: DataType.Pokemon[];
+  filteredList: DataType.Pokemon[];
 }
 
 class App extends React.Component<{}, ITeam> {
   state = {
-    Team: [null, null, null, null, null, null] as DataType.Pokemon[]
+    Team: [null, null, null, null, null, null] as DataType.Pokemon[],
+    Types: DataType.GetTypeList(),
+    pokemonList: DataType.GetPokemonList(),
+    filteredList: DataType.GetPokemonList()
+  };
+  public onFilter = (filteredList: DataType.Pokemon[]) => {
+    {
+      this.setState({ filteredList });
+    }
   };
   public pokemonSelectedHandler = (i, p) => {
     {
@@ -20,15 +32,15 @@ class App extends React.Component<{}, ITeam> {
       this.setState({ Team: TeamCopy });
     }
   };
+  types = DataType.GetTypeList();
   public render() {
-    const pokemons = DataType.GetPokemonList();
     return (
       <Container>
         <Row>
           <Card>
             <Col md="4">
               <PokemonTeam
-                selectablePokemon={pokemons}
+                selectablePokemon={this.state.filteredList}
                 pokemonTeam={this.state.Team}
                 onPokemonSelected={this.pokemonSelectedHandler}
               />
@@ -40,9 +52,13 @@ class App extends React.Component<{}, ITeam> {
             </Col>
           </Card>
         </Row>
+        <FilterMode
+          filteredSelection={this.types}
+          pokemonList={this.state.pokemonList}
+          onFiltered={this.onFilter}
+        />
       </Container>
     );
   }
 }
-
 export default App;
