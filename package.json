@@ -16,7 +16,8 @@
     "eject": "react-scripts-ts eject",
     "compileMining": "tsc -p .\\mining\\tsconfig.json",
     "gather:poke": "npm run compileMining && node .\\mining\\compiled\\gatherPokemons.js",
-    "gather:type": "npm run compileMining && node .\\mining\\compiled\\gatherTypes.js"
+    "gather:type": "npm run compileMining && node .\\mining\\compiled\\gatherTypes.js",
+    "gather:move": "npm run compileMining && node .\\mining\\compiled\\gatherMoves.js"
   },
   "devDependencies": {
     "@types/jest": "^23.3.2",
