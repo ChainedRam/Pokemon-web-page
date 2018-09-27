@@ -35,7 +35,7 @@ export interface TypeDictionary {
 }
 
 export function GetTypeList(): Type[] {
-  return require("./typeList.json");
+  return require("./types.json");
 }
 
 export function GetTypesDictionary(): TypeDictionary {
@@ -54,7 +54,7 @@ export function GetPokemonList(): Pokemon[] {
   let pokeList: Pokemon[] = [];
   let typeDict = GetTypesDictionary();
 
-  let rawPokeList = require("./pokeList.json") as any[];
+  let rawPokeList = require("./pokemons.json") as any[];
 
   rawPokeList.forEach(p => {
     pokeList.push({
