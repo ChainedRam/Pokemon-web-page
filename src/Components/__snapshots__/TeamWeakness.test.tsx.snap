@@ -22,7 +22,7 @@ exports[`TeamWeakness component renders as snapshot 1`] = `
       <span
         className="badge badge-secondary badge-pill"
       >
-        4
+        3
       </span>
     </li>
   </ul>

@@ -10,21 +10,24 @@ describe("Pokemon Team component", () => {
       learnSet: ["attack"],
       moves: [],
       types: [{ name: "water", color: "blue" }],
-      abilitySet: []
+      abilitySet: [],
+      ability: { name: "fakebilty", recieveDamageMultiplier: (t, m) => m }
     },
     {
       name: "fakemon 2",
       learnSet: ["attack"],
       moves: [],
       types: [{ name: "fire", color: "red" }],
-      abilitySet: []
+      abilitySet: [],
+      ability: { name: "fakebilty", recieveDamageMultiplier: (t, m) => m }
     },
     {
       name: "fakemon 3",
       learnSet: ["attack"],
       moves: [],
       types: [{ name: "water", color: "blue" }, { name: "fire", color: "red" }],
-      abilitySet: []
+      abilitySet: [],
+      ability: { name: "fakebilty", recieveDamageMultiplier: (t, m) => m }
     }
   ];
 

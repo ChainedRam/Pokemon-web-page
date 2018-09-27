@@ -5,7 +5,7 @@ export interface Pokemon {
   learnSet: string[];
   abilitySet: Ability[];
 
-  ability?: Ability;
+  ability: Ability;
 }
 
 export interface PokemonDictionary {
