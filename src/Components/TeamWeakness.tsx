@@ -15,6 +15,8 @@ export default class TeamWeakness extends React.Component<IWeaknessProps, {}> {
 
   private getWeaknessList(pokemons: Pokemon[]): ITypeCountPair[] {
     let weaknessDict: { [n: string]: number } = {};
+
+    //calculate weakness multiplier
     pokemons.forEach(pokemon => {
       if (pokemon == null) return;
       let weaknessMultiplier: { [n: string]: number } = {};
@@ -35,7 +37,14 @@ export default class TeamWeakness extends React.Component<IWeaknessProps, {}> {
           weaknessMultiplier[typeName] *= 0.0;
         });
       });
+
+      //count weaknesses
       for (let type in weaknessMultiplier) {
+        //include abilities
+        weaknessMultiplier[type] = pokemon.ability!.recieveDamageMultiplier(
+          type,
+          weaknessMultiplier[type]
+        );
         if (weaknessMultiplier[type] > 1) {
           if (!weaknessDict[type]) weaknessDict[type] = 0;
           weaknessDict[type] += 1;

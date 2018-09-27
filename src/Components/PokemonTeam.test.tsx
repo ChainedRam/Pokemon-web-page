@@ -7,18 +7,27 @@ describe("Pokemon Team component", () => {
   let pokemonList: Pokemon[] = [
     {
       name: "fakemon 1",
-      learnableMoves: ["attack"],
-      types: [{ name: "water", color: "blue" }]
+      learnSet: ["attack"],
+      moves: [],
+      types: [{ name: "water", color: "blue" }],
+      abilitySet: [],
+      ability: { name: "fakebilty", recieveDamageMultiplier: (t, m) => m }
     },
     {
       name: "fakemon 2",
-      learnableMoves: ["attack"],
-      types: [{ name: "fire", color: "red" }]
+      learnSet: ["attack"],
+      moves: [],
+      types: [{ name: "fire", color: "red" }],
+      abilitySet: [],
+      ability: { name: "fakebilty", recieveDamageMultiplier: (t, m) => m }
     },
     {
       name: "fakemon 3",
-      learnableMoves: ["attack"],
-      types: [{ name: "water", color: "blue" }, { name: "fire", color: "red" }]
+      learnSet: ["attack"],
+      moves: [],
+      types: [{ name: "water", color: "blue" }, { name: "fire", color: "red" }],
+      abilitySet: [],
+      ability: { name: "fakebilty", recieveDamageMultiplier: (t, m) => m }
     }
   ];
 

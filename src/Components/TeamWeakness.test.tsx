@@ -23,18 +23,27 @@ describe("TeamWeakness component", () => {
   let pokemonTeam: Pokemon[] = [
     {
       name: "fakemon 1",
-      learnableMoves: ["attack"],
-      types: [fakeType1]
+      learnSet: ["attack"],
+      types: [fakeType1],
+      moves: [],
+      abilitySet: [],
+      ability: { name: "fakebilty", recieveDamageMultiplier: (t, m) => m }
     },
     {
       name: "fakemon 2",
-      learnableMoves: ["attack"],
-      types: [fakeType2]
+      learnSet: ["attack"],
+      types: [fakeType2],
+      moves: [],
+      abilitySet: [],
+      ability: { name: "fakebilty", recieveDamageMultiplier: (t, m) => m }
     },
     {
       name: "fakemon 3",
-      learnableMoves: ["attack"],
-      types: [fakeType1, fakeType2]
+      learnSet: ["attack"],
+      types: [fakeType1, fakeType2],
+      moves: [],
+      abilitySet: [],
+      ability: { name: "fakebilty", recieveDamageMultiplier: (t, m) => m }
     }
   ];
 

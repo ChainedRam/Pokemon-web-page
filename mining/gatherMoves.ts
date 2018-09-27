@@ -36,7 +36,7 @@ let moveList: Move[] = [];
 
   let outDir = "./src/data";
 
-  exportJson(join(outDir, "moveList.json"), moveList);
+  exportJson(join(outDir, "moves.json"), moveList);
 })().catch(e => {
   console.log(e);
 });
