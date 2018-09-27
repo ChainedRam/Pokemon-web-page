@@ -1,7 +1,7 @@
 import fetch from "node-fetch";
 import { writeFileSync } from "fs";
 
-export async function startCrawlingAsync<T>(
+export async function getRequest<T>(
   initUrl: string,
   extractJson: (json) => Promise<T>
 ): Promise<T> {

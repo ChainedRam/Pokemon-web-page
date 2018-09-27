@@ -20,6 +20,7 @@
     "compileMining": "tsc -p .\\mining\\tsconfig.json",
     "gather:poke": "npm run compileMining && node .\\mining\\compiled\\gatherPokemons.js",
     "gather:type": "npm run compileMining && node .\\mining\\compiled\\gatherTypes.js",
+    "gather:move": "npm run compileMining && node .\\mining\\compiled\\gatherMoves.js",
     "serve:b": "npm run build && serve -s build",
     "serve": "serve -s build"
   },
