@@ -1,9 +1,11 @@
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
-import App from './App';
+import * as React from "react";
+import * as Renderer from "react-test-renderer";
+import App from "./App";
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+describe("App component", () => {
+  it("renders as snapshot", () => {
+    let app = Renderer.create(<App />).toJSON();
+
+    expect(app).toMatchSnapshot();
+  });
 });
