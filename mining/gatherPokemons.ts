@@ -6,6 +6,7 @@ interface Pokemon {
   name: string;
   types: string[];
   moves: string[];
+  abilities: string[];
 }
 
 let pokeList: Pokemon[] = [];
@@ -17,7 +18,12 @@ let pokeList: Pokemon[] = [];
   let results = json.results as any[];
 
   for (let i = 0; i < results.length; i++) {
-    let pokemon = { name: results[i].name, types: [], moves: [] };
+    let pokemon = {
+      name: results[i].name,
+      types: [],
+      moves: [],
+      abilities: null
+    };
     pokeList.push(pokemon);
     let url = results[i].url;
     let response = await fetch(url);
@@ -30,13 +36,7 @@ let pokeList: Pokemon[] = [];
     }
     let outDir = "./src/data";
 
-    let pokeDict: { [pokemonName: string]: Pokemon } = {};
-
-    pokeList.forEach(p => {
-      pokeDict[p.name] = p;
-    });
-
-    exportJson(join(outDir, "pokeDict.json"), pokeDict);
+    exportJson(join(outDir, "pokeDict.json"), pokeList);
   }
 })().catch(e => {
   console.log(e);

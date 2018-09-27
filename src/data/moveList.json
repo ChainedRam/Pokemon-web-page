@@ -1,0 +1,4424 @@
+[
+  {
+    "name": "pound",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 35
+  },
+  {
+    "name": "karate-chop",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 25
+  },
+  {
+    "name": "double-slap",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "comet-punch",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "mega-punch",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "pay-day",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "fire-punch",
+    "type": "fire",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "ice-punch",
+    "type": "ice",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "thunder-punch",
+    "type": "electric",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "scratch",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 35
+  },
+  {
+    "name": "vice-grip",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 30
+  },
+  {
+    "name": "guillotine",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "razor-wind",
+    "type": "normal",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "swords-dance",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "cut",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 30
+  },
+  {
+    "name": "gust",
+    "type": "flying",
+    "damageClass": "special",
+    "PP": 35
+  },
+  {
+    "name": "wing-attack",
+    "type": "flying",
+    "damageClass": "physical",
+    "PP": 35
+  },
+  {
+    "name": "whirlwind",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "fly",
+    "type": "flying",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "bind",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "slam",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "vine-whip",
+    "type": "grass",
+    "damageClass": "physical",
+    "PP": 25
+  },
+  {
+    "name": "stomp",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "double-kick",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 30
+  },
+  {
+    "name": "mega-kick",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "jump-kick",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "rolling-kick",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "sand-attack",
+    "type": "ground",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "headbutt",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "horn-attack",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 25
+  },
+  {
+    "name": "fury-attack",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "horn-drill",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "tackle",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 35
+  },
+  {
+    "name": "body-slam",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "wrap",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "take-down",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "thrash",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "double-edge",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "tail-whip",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 30
+  },
+  {
+    "name": "poison-sting",
+    "type": "poison",
+    "damageClass": "physical",
+    "PP": 35
+  },
+  {
+    "name": "twineedle",
+    "type": "bug",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "pin-missile",
+    "type": "bug",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "leer",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 30
+  },
+  {
+    "name": "bite",
+    "type": "dark",
+    "damageClass": "physical",
+    "PP": 25
+  },
+  {
+    "name": "growl",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 40
+  },
+  {
+    "name": "roar",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "sing",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "supersonic",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "sonic-boom",
+    "type": "normal",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "disable",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "acid",
+    "type": "poison",
+    "damageClass": "special",
+    "PP": 30
+  },
+  {
+    "name": "ember",
+    "type": "fire",
+    "damageClass": "special",
+    "PP": 25
+  },
+  {
+    "name": "flamethrower",
+    "type": "fire",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "mist",
+    "type": "ice",
+    "damageClass": "status",
+    "PP": 30
+  },
+  {
+    "name": "water-gun",
+    "type": "water",
+    "damageClass": "special",
+    "PP": 25
+  },
+  {
+    "name": "hydro-pump",
+    "type": "water",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "surf",
+    "type": "water",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "ice-beam",
+    "type": "ice",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "blizzard",
+    "type": "ice",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "psybeam",
+    "type": "psychic",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "bubble-beam",
+    "type": "water",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "aurora-beam",
+    "type": "ice",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "hyper-beam",
+    "type": "normal",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "peck",
+    "type": "flying",
+    "damageClass": "physical",
+    "PP": 35
+  },
+  {
+    "name": "drill-peck",
+    "type": "flying",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "submission",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "low-kick",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "counter",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "seismic-toss",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "strength",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "absorb",
+    "type": "grass",
+    "damageClass": "special",
+    "PP": 25
+  },
+  {
+    "name": "mega-drain",
+    "type": "grass",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "leech-seed",
+    "type": "grass",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "growth",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "razor-leaf",
+    "type": "grass",
+    "damageClass": "physical",
+    "PP": 25
+  },
+  {
+    "name": "solar-beam",
+    "type": "grass",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "poison-powder",
+    "type": "poison",
+    "damageClass": "status",
+    "PP": 35
+  },
+  {
+    "name": "stun-spore",
+    "type": "grass",
+    "damageClass": "status",
+    "PP": 30
+  },
+  {
+    "name": "sleep-powder",
+    "type": "grass",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "petal-dance",
+    "type": "grass",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "string-shot",
+    "type": "bug",
+    "damageClass": "status",
+    "PP": 40
+  },
+  {
+    "name": "dragon-rage",
+    "type": "dragon",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "fire-spin",
+    "type": "fire",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "thunder-shock",
+    "type": "electric",
+    "damageClass": "special",
+    "PP": 30
+  },
+  {
+    "name": "thunderbolt",
+    "type": "electric",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "thunder-wave",
+    "type": "electric",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "thunder",
+    "type": "electric",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "rock-throw",
+    "type": "rock",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "earthquake",
+    "type": "ground",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "fissure",
+    "type": "ground",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "dig",
+    "type": "ground",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "toxic",
+    "type": "poison",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "confusion",
+    "type": "psychic",
+    "damageClass": "special",
+    "PP": 25
+  },
+  {
+    "name": "psychic",
+    "type": "psychic",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "hypnosis",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "meditate",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 40
+  },
+  {
+    "name": "agility",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 30
+  },
+  {
+    "name": "quick-attack",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 30
+  },
+  {
+    "name": "rage",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "teleport",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "night-shade",
+    "type": "ghost",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "mimic",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "screech",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 40
+  },
+  {
+    "name": "double-team",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "recover",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "harden",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 30
+  },
+  {
+    "name": "minimize",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "smokescreen",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "confuse-ray",
+    "type": "ghost",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "withdraw",
+    "type": "water",
+    "damageClass": "status",
+    "PP": 40
+  },
+  {
+    "name": "defense-curl",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 40
+  },
+  {
+    "name": "barrier",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "light-screen",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 30
+  },
+  {
+    "name": "haze",
+    "type": "ice",
+    "damageClass": "status",
+    "PP": 30
+  },
+  {
+    "name": "reflect",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "focus-energy",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 30
+  },
+  {
+    "name": "bide",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "metronome",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "mirror-move",
+    "type": "flying",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "self-destruct",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "egg-bomb",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "lick",
+    "type": "ghost",
+    "damageClass": "physical",
+    "PP": 30
+  },
+  {
+    "name": "smog",
+    "type": "poison",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "sludge",
+    "type": "poison",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "bone-club",
+    "type": "ground",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "fire-blast",
+    "type": "fire",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "waterfall",
+    "type": "water",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "clamp",
+    "type": "water",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "swift",
+    "type": "normal",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "skull-bash",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "spike-cannon",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "constrict",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 35
+  },
+  {
+    "name": "amnesia",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "kinesis",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "soft-boiled",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "high-jump-kick",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "glare",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 30
+  },
+  {
+    "name": "dream-eater",
+    "type": "psychic",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "poison-gas",
+    "type": "poison",
+    "damageClass": "status",
+    "PP": 40
+  },
+  {
+    "name": "barrage",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "leech-life",
+    "type": "bug",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "lovely-kiss",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "sky-attack",
+    "type": "flying",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "transform",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "bubble",
+    "type": "water",
+    "damageClass": "special",
+    "PP": 30
+  },
+  {
+    "name": "dizzy-punch",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "spore",
+    "type": "grass",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "flash",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "psywave",
+    "type": "psychic",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "splash",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 40
+  },
+  {
+    "name": "acid-armor",
+    "type": "poison",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "crabhammer",
+    "type": "water",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "explosion",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "fury-swipes",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "bonemerang",
+    "type": "ground",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "rest",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "rock-slide",
+    "type": "rock",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "hyper-fang",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "sharpen",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 30
+  },
+  {
+    "name": "conversion",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 30
+  },
+  {
+    "name": "tri-attack",
+    "type": "normal",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "super-fang",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "slash",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "substitute",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "struggle",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 1
+  },
+  {
+    "name": "sketch",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 1
+  },
+  {
+    "name": "triple-kick",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "thief",
+    "type": "dark",
+    "damageClass": "physical",
+    "PP": 25
+  },
+  {
+    "name": "spider-web",
+    "type": "bug",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "mind-reader",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 5
+  },
+  {
+    "name": "nightmare",
+    "type": "ghost",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "flame-wheel",
+    "type": "fire",
+    "damageClass": "physical",
+    "PP": 25
+  },
+  {
+    "name": "snore",
+    "type": "normal",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "curse",
+    "type": "ghost",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "flail",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "conversion-2",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 30
+  },
+  {
+    "name": "aeroblast",
+    "type": "flying",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "cotton-spore",
+    "type": "grass",
+    "damageClass": "status",
+    "PP": 40
+  },
+  {
+    "name": "reversal",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "spite",
+    "type": "ghost",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "powder-snow",
+    "type": "ice",
+    "damageClass": "special",
+    "PP": 25
+  },
+  {
+    "name": "protect",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "mach-punch",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 30
+  },
+  {
+    "name": "scary-face",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "feint-attack",
+    "type": "dark",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "sweet-kiss",
+    "type": "fairy",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "belly-drum",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "sludge-bomb",
+    "type": "poison",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "mud-slap",
+    "type": "ground",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "octazooka",
+    "type": "water",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "spikes",
+    "type": "ground",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "zap-cannon",
+    "type": "electric",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "foresight",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 40
+  },
+  {
+    "name": "destiny-bond",
+    "type": "ghost",
+    "damageClass": "status",
+    "PP": 5
+  },
+  {
+    "name": "perish-song",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 5
+  },
+  {
+    "name": "icy-wind",
+    "type": "ice",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "detect",
+    "type": "fighting",
+    "damageClass": "status",
+    "PP": 5
+  },
+  {
+    "name": "bone-rush",
+    "type": "ground",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "lock-on",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 5
+  },
+  {
+    "name": "outrage",
+    "type": "dragon",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "sandstorm",
+    "type": "rock",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "giga-drain",
+    "type": "grass",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "endure",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "charm",
+    "type": "fairy",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "rollout",
+    "type": "rock",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "false-swipe",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 40
+  },
+  {
+    "name": "swagger",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "milk-drink",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "spark",
+    "type": "electric",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "fury-cutter",
+    "type": "bug",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "steel-wing",
+    "type": "steel",
+    "damageClass": "physical",
+    "PP": 25
+  },
+  {
+    "name": "mean-look",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 5
+  },
+  {
+    "name": "attract",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "sleep-talk",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "heal-bell",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 5
+  },
+  {
+    "name": "return",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "present",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "frustration",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "safeguard",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 25
+  },
+  {
+    "name": "pain-split",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "sacred-fire",
+    "type": "fire",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "magnitude",
+    "type": "ground",
+    "damageClass": "physical",
+    "PP": 30
+  },
+  {
+    "name": "dynamic-punch",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "megahorn",
+    "type": "bug",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "dragon-breath",
+    "type": "dragon",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "baton-pass",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 40
+  },
+  {
+    "name": "encore",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 5
+  },
+  {
+    "name": "pursuit",
+    "type": "dark",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "rapid-spin",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 40
+  },
+  {
+    "name": "sweet-scent",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "iron-tail",
+    "type": "steel",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "metal-claw",
+    "type": "steel",
+    "damageClass": "physical",
+    "PP": 35
+  },
+  {
+    "name": "vital-throw",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "morning-sun",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 5
+  },
+  {
+    "name": "synthesis",
+    "type": "grass",
+    "damageClass": "status",
+    "PP": 5
+  },
+  {
+    "name": "moonlight",
+    "type": "fairy",
+    "damageClass": "status",
+    "PP": 5
+  },
+  {
+    "name": "hidden-power",
+    "type": "normal",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "cross-chop",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "twister",
+    "type": "dragon",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "rain-dance",
+    "type": "water",
+    "damageClass": "status",
+    "PP": 5
+  },
+  {
+    "name": "sunny-day",
+    "type": "fire",
+    "damageClass": "status",
+    "PP": 5
+  },
+  {
+    "name": "crunch",
+    "type": "dark",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "mirror-coat",
+    "type": "psychic",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "psych-up",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "extreme-speed",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "ancient-power",
+    "type": "rock",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "shadow-ball",
+    "type": "ghost",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "future-sight",
+    "type": "psychic",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "rock-smash",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "whirlpool",
+    "type": "water",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "beat-up",
+    "type": "dark",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "fake-out",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "uproar",
+    "type": "normal",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "stockpile",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "spit-up",
+    "type": "normal",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "swallow",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "heat-wave",
+    "type": "fire",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "hail",
+    "type": "ice",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "torment",
+    "type": "dark",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "flatter",
+    "type": "dark",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "will-o-wisp",
+    "type": "fire",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "memento",
+    "type": "dark",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "facade",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "focus-punch",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "smelling-salts",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "follow-me",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "nature-power",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "charge",
+    "type": "electric",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "taunt",
+    "type": "dark",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "helping-hand",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "trick",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "role-play",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "wish",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "assist",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "ingrain",
+    "type": "grass",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "superpower",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "magic-coat",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "recycle",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "revenge",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "brick-break",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "yawn",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "knock-off",
+    "type": "dark",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "endeavor",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "eruption",
+    "type": "fire",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "skill-swap",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "imprison",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "refresh",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "grudge",
+    "type": "ghost",
+    "damageClass": "status",
+    "PP": 5
+  },
+  {
+    "name": "snatch",
+    "type": "dark",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "secret-power",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "dive",
+    "type": "water",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "arm-thrust",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "camouflage",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "tail-glow",
+    "type": "bug",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "luster-purge",
+    "type": "psychic",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "mist-ball",
+    "type": "psychic",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "feather-dance",
+    "type": "flying",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "teeter-dance",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "blaze-kick",
+    "type": "fire",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "mud-sport",
+    "type": "ground",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "ice-ball",
+    "type": "ice",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "needle-arm",
+    "type": "grass",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "slack-off",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "hyper-voice",
+    "type": "normal",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "poison-fang",
+    "type": "poison",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "crush-claw",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "blast-burn",
+    "type": "fire",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "hydro-cannon",
+    "type": "water",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "meteor-mash",
+    "type": "steel",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "astonish",
+    "type": "ghost",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "weather-ball",
+    "type": "normal",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "aromatherapy",
+    "type": "grass",
+    "damageClass": "status",
+    "PP": 5
+  },
+  {
+    "name": "fake-tears",
+    "type": "dark",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "air-cutter",
+    "type": "flying",
+    "damageClass": "special",
+    "PP": 25
+  },
+  {
+    "name": "overheat",
+    "type": "fire",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "odor-sleuth",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 40
+  },
+  {
+    "name": "rock-tomb",
+    "type": "rock",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "silver-wind",
+    "type": "bug",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "metal-sound",
+    "type": "steel",
+    "damageClass": "status",
+    "PP": 40
+  },
+  {
+    "name": "grass-whistle",
+    "type": "grass",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "tickle",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "cosmic-power",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "water-spout",
+    "type": "water",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "signal-beam",
+    "type": "bug",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "shadow-punch",
+    "type": "ghost",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "extrasensory",
+    "type": "psychic",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "sky-uppercut",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "sand-tomb",
+    "type": "ground",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "sheer-cold",
+    "type": "ice",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "muddy-water",
+    "type": "water",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "bullet-seed",
+    "type": "grass",
+    "damageClass": "physical",
+    "PP": 30
+  },
+  {
+    "name": "aerial-ace",
+    "type": "flying",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "icicle-spear",
+    "type": "ice",
+    "damageClass": "physical",
+    "PP": 30
+  },
+  {
+    "name": "iron-defense",
+    "type": "steel",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "block",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 5
+  },
+  {
+    "name": "howl",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 40
+  },
+  {
+    "name": "dragon-claw",
+    "type": "dragon",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "frenzy-plant",
+    "type": "grass",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "bulk-up",
+    "type": "fighting",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "bounce",
+    "type": "flying",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "mud-shot",
+    "type": "ground",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "poison-tail",
+    "type": "poison",
+    "damageClass": "physical",
+    "PP": 25
+  },
+  {
+    "name": "covet",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 25
+  },
+  {
+    "name": "volt-tackle",
+    "type": "electric",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "magical-leaf",
+    "type": "grass",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "water-sport",
+    "type": "water",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "calm-mind",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "leaf-blade",
+    "type": "grass",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "dragon-dance",
+    "type": "dragon",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "rock-blast",
+    "type": "rock",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "shock-wave",
+    "type": "electric",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "water-pulse",
+    "type": "water",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "doom-desire",
+    "type": "steel",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "psycho-boost",
+    "type": "psychic",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "roost",
+    "type": "flying",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "gravity",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 5
+  },
+  {
+    "name": "miracle-eye",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 40
+  },
+  {
+    "name": "wake-up-slap",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "hammer-arm",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "gyro-ball",
+    "type": "steel",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "healing-wish",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "brine",
+    "type": "water",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "natural-gift",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "feint",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "pluck",
+    "type": "flying",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "tailwind",
+    "type": "flying",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "acupressure",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 30
+  },
+  {
+    "name": "metal-burst",
+    "type": "steel",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "u-turn",
+    "type": "bug",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "close-combat",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "payback",
+    "type": "dark",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "assurance",
+    "type": "dark",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "embargo",
+    "type": "dark",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "fling",
+    "type": "dark",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "psycho-shift",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "trump-card",
+    "type": "normal",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "heal-block",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "wring-out",
+    "type": "normal",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "power-trick",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "gastro-acid",
+    "type": "poison",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "lucky-chant",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 30
+  },
+  {
+    "name": "me-first",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "copycat",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "power-swap",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "guard-swap",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "punishment",
+    "type": "dark",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "last-resort",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "worry-seed",
+    "type": "grass",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "sucker-punch",
+    "type": "dark",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "toxic-spikes",
+    "type": "poison",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "heart-swap",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "aqua-ring",
+    "type": "water",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "magnet-rise",
+    "type": "electric",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "flare-blitz",
+    "type": "fire",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "force-palm",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "aura-sphere",
+    "type": "fighting",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "rock-polish",
+    "type": "rock",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "poison-jab",
+    "type": "poison",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "dark-pulse",
+    "type": "dark",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "night-slash",
+    "type": "dark",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "aqua-tail",
+    "type": "water",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "seed-bomb",
+    "type": "grass",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "air-slash",
+    "type": "flying",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "x-scissor",
+    "type": "bug",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "bug-buzz",
+    "type": "bug",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "dragon-pulse",
+    "type": "dragon",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "dragon-rush",
+    "type": "dragon",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "power-gem",
+    "type": "rock",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "drain-punch",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "vacuum-wave",
+    "type": "fighting",
+    "damageClass": "special",
+    "PP": 30
+  },
+  {
+    "name": "focus-blast",
+    "type": "fighting",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "energy-ball",
+    "type": "grass",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "brave-bird",
+    "type": "flying",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "earth-power",
+    "type": "ground",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "switcheroo",
+    "type": "dark",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "giga-impact",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "nasty-plot",
+    "type": "dark",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "bullet-punch",
+    "type": "steel",
+    "damageClass": "physical",
+    "PP": 30
+  },
+  {
+    "name": "avalanche",
+    "type": "ice",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "ice-shard",
+    "type": "ice",
+    "damageClass": "physical",
+    "PP": 30
+  },
+  {
+    "name": "shadow-claw",
+    "type": "ghost",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "thunder-fang",
+    "type": "electric",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "ice-fang",
+    "type": "ice",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "fire-fang",
+    "type": "fire",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "shadow-sneak",
+    "type": "ghost",
+    "damageClass": "physical",
+    "PP": 30
+  },
+  {
+    "name": "mud-bomb",
+    "type": "ground",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "psycho-cut",
+    "type": "psychic",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "zen-headbutt",
+    "type": "psychic",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "mirror-shot",
+    "type": "steel",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "flash-cannon",
+    "type": "steel",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "rock-climb",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "defog",
+    "type": "flying",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "trick-room",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 5
+  },
+  {
+    "name": "draco-meteor",
+    "type": "dragon",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "discharge",
+    "type": "electric",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "lava-plume",
+    "type": "fire",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "leaf-storm",
+    "type": "grass",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "power-whip",
+    "type": "grass",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "rock-wrecker",
+    "type": "rock",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "cross-poison",
+    "type": "poison",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "gunk-shot",
+    "type": "poison",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "iron-head",
+    "type": "steel",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "magnet-bomb",
+    "type": "steel",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "stone-edge",
+    "type": "rock",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "captivate",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "stealth-rock",
+    "type": "rock",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "grass-knot",
+    "type": "grass",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "chatter",
+    "type": "flying",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "judgment",
+    "type": "normal",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "bug-bite",
+    "type": "bug",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "charge-beam",
+    "type": "electric",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "wood-hammer",
+    "type": "grass",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "aqua-jet",
+    "type": "water",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "attack-order",
+    "type": "bug",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "defend-order",
+    "type": "bug",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "heal-order",
+    "type": "bug",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "head-smash",
+    "type": "rock",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "double-hit",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "roar-of-time",
+    "type": "dragon",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "spacial-rend",
+    "type": "dragon",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "lunar-dance",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "crush-grip",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "magma-storm",
+    "type": "fire",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "dark-void",
+    "type": "dark",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "seed-flare",
+    "type": "grass",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "ominous-wind",
+    "type": "ghost",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "shadow-force",
+    "type": "ghost",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "hone-claws",
+    "type": "dark",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "wide-guard",
+    "type": "rock",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "guard-split",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "power-split",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "wonder-room",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "psyshock",
+    "type": "psychic",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "venoshock",
+    "type": "poison",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "autotomize",
+    "type": "steel",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "rage-powder",
+    "type": "bug",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "telekinesis",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "magic-room",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "smack-down",
+    "type": "rock",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "storm-throw",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "flame-burst",
+    "type": "fire",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "sludge-wave",
+    "type": "poison",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "quiver-dance",
+    "type": "bug",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "heavy-slam",
+    "type": "steel",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "synchronoise",
+    "type": "psychic",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "electro-ball",
+    "type": "electric",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "soak",
+    "type": "water",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "flame-charge",
+    "type": "fire",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "coil",
+    "type": "poison",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "low-sweep",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "acid-spray",
+    "type": "poison",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "foul-play",
+    "type": "dark",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "simple-beam",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "entrainment",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "after-you",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "round",
+    "type": "normal",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "echoed-voice",
+    "type": "normal",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "chip-away",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "clear-smog",
+    "type": "poison",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "stored-power",
+    "type": "psychic",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "quick-guard",
+    "type": "fighting",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "ally-switch",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "scald",
+    "type": "water",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "shell-smash",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "heal-pulse",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "hex",
+    "type": "ghost",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "sky-drop",
+    "type": "flying",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "shift-gear",
+    "type": "steel",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "circle-throw",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "incinerate",
+    "type": "fire",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "quash",
+    "type": "dark",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "acrobatics",
+    "type": "flying",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "reflect-type",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "retaliate",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "final-gambit",
+    "type": "fighting",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "bestow",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "inferno",
+    "type": "fire",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "water-pledge",
+    "type": "water",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "fire-pledge",
+    "type": "fire",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "grass-pledge",
+    "type": "grass",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "volt-switch",
+    "type": "electric",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "struggle-bug",
+    "type": "bug",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "bulldoze",
+    "type": "ground",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "frost-breath",
+    "type": "ice",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "dragon-tail",
+    "type": "dragon",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "work-up",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 30
+  },
+  {
+    "name": "electroweb",
+    "type": "electric",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "wild-charge",
+    "type": "electric",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "drill-run",
+    "type": "ground",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "dual-chop",
+    "type": "dragon",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "heart-stamp",
+    "type": "psychic",
+    "damageClass": "physical",
+    "PP": 25
+  },
+  {
+    "name": "horn-leech",
+    "type": "grass",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "sacred-sword",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "razor-shell",
+    "type": "water",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "heat-crash",
+    "type": "fire",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "leaf-tornado",
+    "type": "grass",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "steamroller",
+    "type": "bug",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "cotton-guard",
+    "type": "grass",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "night-daze",
+    "type": "dark",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "psystrike",
+    "type": "psychic",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "tail-slap",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "hurricane",
+    "type": "flying",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "head-charge",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "gear-grind",
+    "type": "steel",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "searing-shot",
+    "type": "fire",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "techno-blast",
+    "type": "normal",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "relic-song",
+    "type": "normal",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "secret-sword",
+    "type": "fighting",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "glaciate",
+    "type": "ice",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "bolt-strike",
+    "type": "electric",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "blue-flare",
+    "type": "fire",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "fiery-dance",
+    "type": "fire",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "freeze-shock",
+    "type": "ice",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "ice-burn",
+    "type": "ice",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "snarl",
+    "type": "dark",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "icicle-crash",
+    "type": "ice",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "v-create",
+    "type": "fire",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "fusion-flare",
+    "type": "fire",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "fusion-bolt",
+    "type": "electric",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "flying-press",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "mat-block",
+    "type": "fighting",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "belch",
+    "type": "poison",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "rototiller",
+    "type": "ground",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "sticky-web",
+    "type": "bug",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "fell-stinger",
+    "type": "bug",
+    "damageClass": "physical",
+    "PP": 25
+  },
+  {
+    "name": "phantom-force",
+    "type": "ghost",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "trick-or-treat",
+    "type": "ghost",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "noble-roar",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 30
+  },
+  {
+    "name": "ion-deluge",
+    "type": "electric",
+    "damageClass": "status",
+    "PP": 25
+  },
+  {
+    "name": "parabolic-charge",
+    "type": "electric",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "forests-curse",
+    "type": "grass",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "petal-blizzard",
+    "type": "grass",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "freeze-dry",
+    "type": "ice",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "disarming-voice",
+    "type": "fairy",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "parting-shot",
+    "type": "dark",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "topsy-turvy",
+    "type": "dark",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "draining-kiss",
+    "type": "fairy",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "crafty-shield",
+    "type": "fairy",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "flower-shield",
+    "type": "fairy",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "grassy-terrain",
+    "type": "grass",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "misty-terrain",
+    "type": "fairy",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "electrify",
+    "type": "electric",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "play-rough",
+    "type": "fairy",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "fairy-wind",
+    "type": "fairy",
+    "damageClass": "special",
+    "PP": 30
+  },
+  {
+    "name": "moonblast",
+    "type": "fairy",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "boomburst",
+    "type": "normal",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "fairy-lock",
+    "type": "fairy",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "kings-shield",
+    "type": "steel",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "play-nice",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "confide",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "diamond-storm",
+    "type": "rock",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "steam-eruption",
+    "type": "water",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "hyperspace-hole",
+    "type": "psychic",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "water-shuriken",
+    "type": "water",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "mystical-fire",
+    "type": "fire",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "spiky-shield",
+    "type": "grass",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "aromatic-mist",
+    "type": "fairy",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "eerie-impulse",
+    "type": "electric",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "venom-drench",
+    "type": "poison",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "powder",
+    "type": "bug",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "geomancy",
+    "type": "fairy",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "magnetic-flux",
+    "type": "electric",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "happy-hour",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 30
+  },
+  {
+    "name": "electric-terrain",
+    "type": "electric",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "dazzling-gleam",
+    "type": "fairy",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "celebrate",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 40
+  },
+  {
+    "name": "hold-hands",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 40
+  },
+  {
+    "name": "baby-doll-eyes",
+    "type": "fairy",
+    "damageClass": "status",
+    "PP": 30
+  },
+  {
+    "name": "nuzzle",
+    "type": "electric",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "hold-back",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 40
+  },
+  {
+    "name": "infestation",
+    "type": "bug",
+    "damageClass": "special",
+    "PP": 20
+  },
+  {
+    "name": "power-up-punch",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "oblivion-wing",
+    "type": "flying",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "thousand-arrows",
+    "type": "ground",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "thousand-waves",
+    "type": "ground",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "lands-wrath",
+    "type": "ground",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "light-of-ruin",
+    "type": "fairy",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "origin-pulse",
+    "type": "water",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "precipice-blades",
+    "type": "ground",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "dragon-ascent",
+    "type": "flying",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "hyperspace-fury",
+    "type": "dark",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "breakneck-blitz--physical",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 1
+  },
+  {
+    "name": "breakneck-blitz--special",
+    "type": "normal",
+    "damageClass": "special",
+    "PP": 1
+  },
+  {
+    "name": "all-out-pummeling--physical",
+    "type": "fighting",
+    "damageClass": "physical",
+    "PP": 1
+  },
+  {
+    "name": "all-out-pummeling--special",
+    "type": "fighting",
+    "damageClass": "special",
+    "PP": 1
+  },
+  {
+    "name": "supersonic-skystrike--physical",
+    "type": "flying",
+    "damageClass": "physical",
+    "PP": 1
+  },
+  {
+    "name": "supersonic-skystrike--special",
+    "type": "flying",
+    "damageClass": "special",
+    "PP": 1
+  },
+  {
+    "name": "acid-downpour--physical",
+    "type": "poison",
+    "damageClass": "physical",
+    "PP": 1
+  },
+  {
+    "name": "acid-downpour--special",
+    "type": "poison",
+    "damageClass": "special",
+    "PP": 1
+  },
+  {
+    "name": "tectonic-rage--physical",
+    "type": "ground",
+    "damageClass": "physical",
+    "PP": 1
+  },
+  {
+    "name": "tectonic-rage--special",
+    "type": "ground",
+    "damageClass": "special",
+    "PP": 1
+  },
+  {
+    "name": "continental-crush--physical",
+    "type": "rock",
+    "damageClass": "physical",
+    "PP": 1
+  },
+  {
+    "name": "continental-crush--special",
+    "type": "rock",
+    "damageClass": "special",
+    "PP": 1
+  },
+  {
+    "name": "savage-spin-out--physical",
+    "type": "bug",
+    "damageClass": "physical",
+    "PP": 1
+  },
+  {
+    "name": "savage-spin-out--special",
+    "type": "bug",
+    "damageClass": "special",
+    "PP": 1
+  },
+  {
+    "name": "never-ending-nightmare--physical",
+    "type": "ghost",
+    "damageClass": "physical",
+    "PP": 1
+  },
+  {
+    "name": "never-ending-nightmare--special",
+    "type": "ghost",
+    "damageClass": "special",
+    "PP": 1
+  },
+  {
+    "name": "corkscrew-crash--physical",
+    "type": "steel",
+    "damageClass": "physical",
+    "PP": 1
+  },
+  {
+    "name": "corkscrew-crash--special",
+    "type": "steel",
+    "damageClass": "special",
+    "PP": 1
+  },
+  {
+    "name": "inferno-overdrive--physical",
+    "type": "fire",
+    "damageClass": "physical",
+    "PP": 1
+  },
+  {
+    "name": "inferno-overdrive--special",
+    "type": "fire",
+    "damageClass": "special",
+    "PP": 1
+  },
+  {
+    "name": "hydro-vortex--physical",
+    "type": "water",
+    "damageClass": "physical",
+    "PP": 1
+  },
+  {
+    "name": "hydro-vortex--special",
+    "type": "water",
+    "damageClass": "special",
+    "PP": 1
+  },
+  {
+    "name": "bloom-doom--physical",
+    "type": "grass",
+    "damageClass": "physical",
+    "PP": 1
+  },
+  {
+    "name": "bloom-doom--special",
+    "type": "grass",
+    "damageClass": "special",
+    "PP": 1
+  },
+  {
+    "name": "gigavolt-havoc--physical",
+    "type": "electric",
+    "damageClass": "physical",
+    "PP": 1
+  },
+  {
+    "name": "gigavolt-havoc--special",
+    "type": "electric",
+    "damageClass": "special",
+    "PP": 1
+  },
+  {
+    "name": "shattered-psyche--physical",
+    "type": "psychic",
+    "damageClass": "physical",
+    "PP": 1
+  },
+  {
+    "name": "shattered-psyche--special",
+    "type": "psychic",
+    "damageClass": "special",
+    "PP": 1
+  },
+  {
+    "name": "subzero-slammer--physical",
+    "type": "ice",
+    "damageClass": "physical",
+    "PP": 1
+  },
+  {
+    "name": "subzero-slammer--special",
+    "type": "ice",
+    "damageClass": "special",
+    "PP": 1
+  },
+  {
+    "name": "devastating-drake--physical",
+    "type": "dragon",
+    "damageClass": "physical",
+    "PP": 1
+  },
+  {
+    "name": "devastating-drake--special",
+    "type": "dragon",
+    "damageClass": "special",
+    "PP": 1
+  },
+  {
+    "name": "black-hole-eclipse--physical",
+    "type": "dark",
+    "damageClass": "physical",
+    "PP": 1
+  },
+  {
+    "name": "black-hole-eclipse--special",
+    "type": "dark",
+    "damageClass": "special",
+    "PP": 1
+  },
+  {
+    "name": "twinkle-tackle--physical",
+    "type": "fairy",
+    "damageClass": "physical",
+    "PP": 1
+  },
+  {
+    "name": "twinkle-tackle--special",
+    "type": "fairy",
+    "damageClass": "special",
+    "PP": 1
+  },
+  {
+    "name": "catastropika",
+    "type": "electric",
+    "damageClass": "physical",
+    "PP": 1
+  },
+  {
+    "name": "shore-up",
+    "type": "ground",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "first-impression",
+    "type": "bug",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "baneful-bunker",
+    "type": "poison",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "spirit-shackle",
+    "type": "ghost",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "darkest-lariat",
+    "type": "dark",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "sparkling-aria",
+    "type": "water",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "ice-hammer",
+    "type": "ice",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "floral-healing",
+    "type": "fairy",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "high-horsepower",
+    "type": "ground",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "strength-sap",
+    "type": "grass",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "solar-blade",
+    "type": "grass",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "leafage",
+    "type": "grass",
+    "damageClass": "physical",
+    "PP": 40
+  },
+  {
+    "name": "spotlight",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "toxic-thread",
+    "type": "poison",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "laser-focus",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 30
+  },
+  {
+    "name": "gear-up",
+    "type": "steel",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "throat-chop",
+    "type": "dark",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "pollen-puff",
+    "type": "bug",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "anchor-shot",
+    "type": "steel",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "psychic-terrain",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "lunge",
+    "type": "bug",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "fire-lash",
+    "type": "fire",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "power-trip",
+    "type": "dark",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "burn-up",
+    "type": "fire",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "speed-swap",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 10
+  },
+  {
+    "name": "smart-strike",
+    "type": "steel",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "purify",
+    "type": "poison",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "revelation-dance",
+    "type": "normal",
+    "damageClass": "special",
+    "PP": 15
+  },
+  {
+    "name": "core-enforcer",
+    "type": "dragon",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "trop-kick",
+    "type": "grass",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "instruct",
+    "type": "psychic",
+    "damageClass": "status",
+    "PP": 15
+  },
+  {
+    "name": "beak-blast",
+    "type": "flying",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "clanging-scales",
+    "type": "dragon",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "dragon-hammer",
+    "type": "dragon",
+    "damageClass": "physical",
+    "PP": 15
+  },
+  {
+    "name": "brutal-swing",
+    "type": "dark",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "aurora-veil",
+    "type": "ice",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "sinister-arrow-raid",
+    "type": "ghost",
+    "damageClass": "physical",
+    "PP": 1
+  },
+  {
+    "name": "malicious-moonsault",
+    "type": "dark",
+    "damageClass": "physical",
+    "PP": 1
+  },
+  {
+    "name": "oceanic-operetta",
+    "type": "water",
+    "damageClass": "special",
+    "PP": 1
+  },
+  {
+    "name": "guardian-of-alola",
+    "type": "fairy",
+    "damageClass": "special",
+    "PP": 1
+  },
+  {
+    "name": "soul-stealing-7-star-strike",
+    "type": "ghost",
+    "damageClass": "physical",
+    "PP": 1
+  },
+  {
+    "name": "stoked-sparksurfer",
+    "type": "electric",
+    "damageClass": "special",
+    "PP": 1
+  },
+  {
+    "name": "pulverizing-pancake",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 1
+  },
+  {
+    "name": "extreme-evoboost",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 1
+  },
+  {
+    "name": "genesis-supernova",
+    "type": "psychic",
+    "damageClass": "special",
+    "PP": 1
+  },
+  {
+    "name": "shell-trap",
+    "type": "fire",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "fleur-cannon",
+    "type": "fairy",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "psychic-fangs",
+    "type": "psychic",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "stomping-tantrum",
+    "type": "ground",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "shadow-bone",
+    "type": "ghost",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "accelerock",
+    "type": "rock",
+    "damageClass": "physical",
+    "PP": 20
+  },
+  {
+    "name": "liquidation",
+    "type": "water",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "prismatic-laser",
+    "type": "psychic",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "spectral-thief",
+    "type": "ghost",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "sunsteel-strike",
+    "type": "steel",
+    "damageClass": "physical",
+    "PP": 5
+  },
+  {
+    "name": "moongeist-beam",
+    "type": "ghost",
+    "damageClass": "special",
+    "PP": 5
+  },
+  {
+    "name": "tearful-look",
+    "type": "normal",
+    "damageClass": "status",
+    "PP": 20
+  },
+  {
+    "name": "zing-zap",
+    "type": "electric",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "natures-madness",
+    "type": "fairy",
+    "damageClass": "special",
+    "PP": 10
+  },
+  {
+    "name": "multi-attack",
+    "type": "normal",
+    "damageClass": "physical",
+    "PP": 10
+  },
+  {
+    "name": "10-000-000-volt-thunderbolt",
+    "type": "electric",
+    "damageClass": "special",
+    "PP": 1
+  },
+  {
+    "name": "shadow-rush",
+    "type": "shadow",
+    "damageClass": "physical",
+    "PP": null
+  },
+  {
+    "name": "shadow-blast",
+    "type": "shadow",
+    "damageClass": "physical",
+    "PP": null
+  },
+  {
+    "name": "shadow-blitz",
+    "type": "shadow",
+    "damageClass": "physical",
+    "PP": null
+  },
+  {
+    "name": "shadow-bolt",
+    "type": "shadow",
+    "damageClass": "special",
+    "PP": null
+  },
+  {
+    "name": "shadow-break",
+    "type": "shadow",
+    "damageClass": "physical",
+    "PP": null
+  },
+  {
+    "name": "shadow-chill",
+    "type": "shadow",
+    "damageClass": "special",
+    "PP": null
+  },
+  {
+    "name": "shadow-end",
+    "type": "shadow",
+    "damageClass": "physical",
+    "PP": null
+  },
+  {
+    "name": "shadow-fire",
+    "type": "shadow",
+    "damageClass": "special",
+    "PP": null
+  },
+  {
+    "name": "shadow-rave",
+    "type": "shadow",
+    "damageClass": "special",
+    "PP": null
+  },
+  {
+    "name": "shadow-storm",
+    "type": "shadow",
+    "damageClass": "special",
+    "PP": null
+  },
+  {
+    "name": "shadow-wave",
+    "type": "shadow",
+    "damageClass": "special",
+    "PP": null
+  },
+  {
+    "name": "shadow-down",
+    "type": "shadow",
+    "damageClass": "status",
+    "PP": null
+  },
+  {
+    "name": "shadow-half",
+    "type": "shadow",
+    "damageClass": "special",
+    "PP": null
+  },
+  {
+    "name": "shadow-hold",
+    "type": "shadow",
+    "damageClass": "status",
+    "PP": null
+  },
+  {
+    "name": "shadow-mist",
+    "type": "shadow",
+    "damageClass": "status",
+    "PP": null
+  },
+  {
+    "name": "shadow-panic",
+    "type": "shadow",
+    "damageClass": "status",
+    "PP": null
+  },
+  {
+    "name": "shadow-shed",
+    "type": "shadow",
+    "damageClass": "status",
+    "PP": null
+  },
+  {
+    "name": "shadow-sky",
+    "type": "shadow",
+    "damageClass": "status",
+    "PP": null
+  }
+]

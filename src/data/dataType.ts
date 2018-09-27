@@ -34,16 +34,20 @@ export interface TypeDictionary {
   [pokeName: string]: Type;
 }
 
-export function GetTypesDictionary(): TypeDictionary {
-  return require("./typeDict.json");
-}
-
 export function GetTypeList(): Type[] {
   return require("./typeList.json");
 }
 
-export function GetTypesNamesList(): String[] {
-  return require("./typeList.json");
+export function GetTypesDictionary(): TypeDictionary {
+  let typeList = GetTypeList();
+
+  let typeDict = {};
+
+  typeList.forEach(element => {
+    typeDict[element.name] = element;
+  });
+
+  return typeDict;
 }
 
 export function GetPokemonList(): Pokemon[] {
@@ -52,40 +56,21 @@ export function GetPokemonList(): Pokemon[] {
 
   let rawPokeList = require("./pokeList.json") as any[];
 
-  let i = 0;
-  let testAbility = [
-    "volt-absorb",
-    "water-absorb",
-    "levitate",
-    "flash-fire",
-    "lightning-rod",
-    "thick-fat",
-    "motor-drive",
-    "heatproof",
-    "dry-skin",
-    "storm-drain",
-    "sap-sipper",
-    "water-bubble",
-    "fluffy"
-  ];
-
   rawPokeList.forEach(p => {
     pokeList.push({
       name: p.name,
       types: p.types.map(t => typeDict[t]),
       learnSet: p.moves,
       moves: [],
-      abilitySet: [] /*p.abilities.map(a => {
+      abilitySet: p.abilities.map(a => {
         return {
           name: a,
           recieveDamageMultiplier: GetAbilityLambdaNamed(a)
         };
-      })*/,
+      }),
       ability: {
-        name: testAbility[i % testAbility.length],
-        recieveDamageMultiplier: GetAbilityLambdaNamed(
-          testAbility[i++ % testAbility.length]
-        )
+        name: p.abilities[0],
+        recieveDamageMultiplier: GetAbilityLambdaNamed(p.abilities[0])
       }
     } as Pokemon);
   });

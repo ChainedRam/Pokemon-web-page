@@ -70,15 +70,7 @@ let typeColors: { [key: string]: string } = {
 
   typeList = typeList.filter(t => t != null);
 
-  let typeDict: { [typeName: string]: Type } = {};
-
-  typeList.forEach(t => {
-    typeDict[t.name] = t;
-  });
-
-  console.log("parsing pokemen finished");
-  exportJson("./src/data/typeList.json", typeList);
-  exportJson("./src/data/typeDict.json", typeDict);
+  exportJson("./src/data/types.json", typeList);
 
   return null;
 })().catch(e => console.log(e));
