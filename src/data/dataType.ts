@@ -74,6 +74,7 @@ export function GetPokemonList(): Pokemon[] {
       name: p.name,
       types: p.types.map(t => typeDict[t]),
       learnSet: p.moves,
+      moves: [],
       abilitySet: [] /*p.abilities.map(a => {
         return {
           name: a,

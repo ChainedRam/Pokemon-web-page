@@ -8,18 +8,21 @@ describe("Pokemon Team component", () => {
     {
       name: "fakemon 1",
       learnSet: ["attack"],
+      moves: [],
       types: [{ name: "water", color: "blue" }],
       abilitySet: []
     },
     {
       name: "fakemon 2",
       learnSet: ["attack"],
+      moves: [],
       types: [{ name: "fire", color: "red" }],
       abilitySet: []
     },
     {
       name: "fakemon 3",
       learnSet: ["attack"],
+      moves: [],
       types: [{ name: "water", color: "blue" }, { name: "fire", color: "red" }],
       abilitySet: []
     }
